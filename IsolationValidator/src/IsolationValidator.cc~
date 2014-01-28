@@ -1,0 +1,128 @@
+#include "MGeisler/IsolationValidator/interface/IsolationValidator.h"
+
+// system include files
+#include <string>
+
+#include "FWCore/ServiceRegistry/interface/Service.h"
+#include "CommonTools/UtilAlgos/interface/TFileService.h"
+
+#include "DataFormats/VertexReco/interface/Vertex.h"
+#include "DataFormats/VertexReco/interface/VertexFwd.h"
+
+using namespace std;
+using namespace edm;
+using namespace reco;
+
+//
+// constants, enums and typedefs
+//
+
+//
+// static data member definitions
+//
+
+//
+// constructors and destructor
+//
+IsolationValidator::IsolationValidator(const edm::ParameterSet& iConfig)
+{
+  
+  //parameters for Pileup plots
+  minVertcount  = -0.5;
+  maxVertcount  = 59.5;
+  nintVertcount = 60;
+  
+  //parameters for Iso plots
+  minIso  = 0.;
+  maxIso  = 2.;
+  nintIso = 50;
+  
+  
+  //now do what ever initialization is needed
+  sufLabels_ = iConfig.getParameter<vector<InputTag> >("Suffixes");
+  
+  wLabel_ = iConfig.getParameter<InputTag>("Weight");
+  
+  isData_ = iConfig.getParameter<bool>("isData");
+
+  VertexCollectionLabel_ = iConfig.getParameter<InputTag>("VertexCollection");
+
+  Service<TFileService> tfs;
+  vector<TFileDirectory>* subDir(new vector<TFileDirectory>());
+
+  for ( unsigned il_idx=0; il_idx<sufLabels_.size(); il_idx++ ){
+
+    InputTag itag = sufLabels_[il_idx];
+    string dirName = "Isolation";
+    dirName += itag.label();
+
+    subDir->push_back(tfs->mkdir(dirName));
+     
+    //Book histograms
+
+    h_numVtx.push_back(subDir->at(il_idx).make<TH1F>("h_numVtx", "Number of reconstructed vertices per event", nintVertcount, minVertcount, maxVertcount));
+  
+    h_numVtx.back()->Sumw2();
+
+  }
+
+}
+
+
+IsolationValidator::~IsolationValidator()
+{
+ 
+   // do anything here that needs to be done at desctruction time
+   // (e.g. close files, deallocate resources etc.)
+
+}
+
+
+//
+// member functions
+//
+
+// ------------ method called for each event  ------------
+void
+IsolationValidator::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
+{
+  
+  //get the vertex collection
+  Handle< VertexCollection >  vcH ;
+  iEvent.getByLabel(VertexCollectionLabel_, vcH);
+  
+  int npu = vcH->size();
+      
+  float weight = 1.;
+  
+  if ( !isData_ ) {  
+
+    //get reweighting weight from the event
+    Handle<float>  wH;
+    iEvent.getByLabel(wLabel_, wH);
+    
+    weight = *(wH.product());
+  
+  }
+
+  //loop over input reco met
+  for ( unsigned il_idx=0; il_idx<isoLabels_.size(); il_idx++ ){
+
+    h_numVtx.at(il_idx)->Fill(npu, weight);
+    
+  }
+  
+}
+
+// ------------ method fills 'descriptions' with the allowed parameters for the module  ------------
+void
+IsolationValidator::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
+  //The following says we do not know what parameters are allowed so do no validation
+  // Please change this to state exactly what you do use, even if it is no parameters
+  edm::ParameterSetDescription desc;
+  desc.setUnknown();
+  descriptions.addDefault(desc);
+}
+
+//define this as a plug-in
+DEFINE_FWK_MODULE(IsolationValidator);

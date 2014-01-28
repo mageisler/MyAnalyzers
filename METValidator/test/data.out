@@ -1,0 +1,1250 @@
+
+ Is This Data? True
+ Globaltag set to  GR_P_V42_AN4::All
+
+------------------------------------------------------------
+INFO   : cleaning has been removed. Switching output from
+         clean PAT candidates to selected PAT candidates.
+Adapting PF Muons 
+***************** 
+WARNING: particle based isolation must be studied
+
+ muon source: cms.InputTag("pfIsolatedMuonsPFRef")
+ isolation  : cms.PSet(
+    pfNeutralHadrons = cms.InputTag("muPFIsoValueNeutral04PFRef"),
+    pfChargedAll = cms.InputTag("muPFIsoValueChargedAll04PFRef"),
+    pfPUChargedHadrons = cms.InputTag("muPFIsoValuePU04PFRef"),
+    pfPhotons = cms.InputTag("muPFIsoValueGamma04PFRef"),
+    pfChargedHadrons = cms.InputTag("muPFIsoValueCharged04PFRef")
+)
+ isodeposits: 
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("muPFIsoDepositNeutralPFRef"),
+    pfChargedAll = cms.InputTag("muPFIsoDepositChargedAllPFRef"),
+    pfPUChargedHadrons = cms.InputTag("muPFIsoDepositPUPFRef"),
+    pfPhotons = cms.InputTag("muPFIsoDepositGammaPFRef"),
+    pfChargedHadrons = cms.InputTag("muPFIsoDepositChargedPFRef")
+)
+
+Adapting PF Electrons 
+********************* 
+WARNING: particle based isolation must be studied
+
+ PF electron source: cms.InputTag("pfIsolatedElectronsPFRef")
+ isolation  :
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("elPFIsoValueNeutral04PFIdPFRef"),
+    pfChargedAll = cms.InputTag("elPFIsoValueChargedAll04PFIdPFRef"),
+    pfPUChargedHadrons = cms.InputTag("elPFIsoValuePU04PFIdPFRef"),
+    pfPhotons = cms.InputTag("elPFIsoValueGamma04PFIdPFRef"),
+    pfChargedHadrons = cms.InputTag("elPFIsoValueCharged04PFIdPFRef")
+)
+ isodeposits: 
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("elPFIsoDepositNeutralPFRef"),
+    pfChargedAll = cms.InputTag("elPFIsoDepositChargedAllPFRef"),
+    pfPUChargedHadrons = cms.InputTag("elPFIsoDepositPUPFRef"),
+    pfPhotons = cms.InputTag("elPFIsoDepositGammaPFRef"),
+    pfChargedHadrons = cms.InputTag("elPFIsoDepositChargedPFRef")
+)
+
+removing traditional isolation
+Temporarily switching off photons completely
+WARNING: called applyPostfix for module/sequence cleanPatCandidateSummary which is not in patDefaultSequencePFRef!
+---------------------------------------------------------------------
+INFO   : some objects have been removed from the sequence. Switching 
+         off PAT cross collection cleaning, as it might be of limited
+         sense now. If you still want to keep object collection cross
+         cleaning within PAT you need to run and configure it by hand
+WARNING: called applyPostfix for module/sequence countPatCandidates which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatMuons which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatJets which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatPhotons which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatElectrons which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatTaus which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence cleanPatCandidateSummary which is not in patDefaultSequencePFRef!
+------------------------------------------------------------
+INFO   : cleaning has been removed. Switching output from
+         clean PAT candidates to selected PAT candidates.
+Switching to PFJets,   AK5
+************************ 
+input collection:  cms.InputTag("pfNoTauPFRef")
+
+The btaginfo below will be written to the jet collection in the PATtuple (default is all, see PatAlgos/PhysicsTools/python/tools/jetTools.py)
+
+impactParameterTagInfos
+secondaryVertexTagInfos
+softMuonTagInfos
+secondaryVertexNegativeTagInfos
+secondaryVertexNegativeTagInfos
+inclusiveSecondaryVertexFinderTagInfos
+softElectronTagInfos
+
+The bdiscriminators below will be written to the jet collection in the PATtuple (default is all, see PatAlgos/PhysicsTools/python/tools/jetTools.py)
+jetBProbabilityBJetTags
+jetProbabilityBJetTags
+trackCountingHighPurBJetTags
+trackCountingHighEffBJetTags
+simpleSecondaryVertexHighEffBJetTags
+simpleSecondaryVertexHighPurBJetTags
+combinedSecondaryVertexBJetTags
+combinedSecondaryVertexMVABJetTags
+softMuonBJetTags
+softMuonByPtBJetTags
+softMuonByIP3dBJetTags
+simpleSecondaryVertexNegativeHighEffBJetTags
+simpleSecondaryVertexNegativeHighPurBJetTags
+negativeTrackCountingHighEffJetTags
+negativeTrackCountingHighPurJetTags
+combinedInclusiveSecondaryVertexBJetTags
+combinedMVABJetTags
+patTaus will be produced from taus of type: hpsPFTau that pass ['DiscriminationByLooseCombinedIsolationDBSumPtCorr']
+Tau discriminators:  cms.InputTag("hpsPFTauProducer") -> cms.InputTag("hpsPFTauProducerPFRef")
+Tau type:  hpsPFTau
+ Taus:  cms.InputTag("hpsPFTauProducer") -> cms.InputTag("hpsPFTauProducerPFRef")
+WARNING: called applyPostfix for module/sequence makePatTaus which is not in patDefaultSequencePFRef!
+MET: using  cms.InputTag("pfMETPFRef")
+Apply TypeI corrections for MET
+Switching PV collection for PF2PAT: cms.InputTag("goodOfflinePrimaryVertices")
+***********************************
+WARNING: called applyPostfix for module/sequence patCandidates which is not in patDefaultSequencePFRef!
+WARNING: called applyPostfix for module/sequence patCandidates which is not in patDefaultSequencePFRef!
+Done: PF2PAT interfaced to PAT, postfix= PFRef
+20-Sep-2013 11:56:45 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/68124288-D119-E211-9F01-003048678110.root
+20-Sep-2013 11:56:46 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/68124288-D119-E211-9F01-003048678110.root
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:pfCandidateToVertexAssociationPFRef@ctor  20-Sep-2013 11:56:50 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:pfCandidateToVertexAssociationPFNewQ3@ctor  20-Sep-2013 11:56:51 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:pfCandidateToVertexAssociationPFNewQ2@ctor  20-Sep-2013 11:56:51 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:pfCandidateToVertexAssociationPFNewQ1@ctor  20-Sep-2013 11:56:51 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:PFCand2VertexAMJetMET@ctor 20-Sep-2013 11:56:51 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos:   PFCand_AssoMap:pfCandidateToVertexAssociationPFNewJM@ctor  20-Sep-2013 11:56:51 CEST pre-events
+No InputTag for IV's given --> skipping reconstruction of inclusive vertices !!
+%MSG
+Begin processing the 1st record. Run 205236, Event 188576117, LumiSection 125 at 20-Sep-2013 11:56:52.226 CEST
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ3 20-Sep-2013 11:57:00 CEST  Run: 205236 Event: 188777765
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ2 20-Sep-2013 11:57:00 CEST  Run: 205236 Event: 188777765
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ1 20-Sep-2013 11:57:00 CEST  Run: 205236 Event: 188777765
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMJetMET 20-Sep-2013 11:57:00 CEST  Run: 205236 Event: 188777765
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ3 20-Sep-2013 11:57:03 CEST  Run: 205236 Event: 189849021
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ2 20-Sep-2013 11:57:03 CEST  Run: 205236 Event: 189849021
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ1 20-Sep-2013 11:57:03 CEST  Run: 205236 Event: 189849021
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMJetMET 20-Sep-2013 11:57:03 CEST  Run: 205236 Event: 189849021
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ3 20-Sep-2013 11:57:04 CEST  Run: 205236 Event: 188816612
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ2 20-Sep-2013 11:57:04 CEST  Run: 205236 Event: 188816612
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMQ1 20-Sep-2013 11:57:04 CEST  Run: 205236 Event: 188816612
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+%MSG-w PF_PU_AssoMapAlgos::GetInputCollections:   PFCand_AssoMap:PFCand2VertexAMJetMET 20-Sep-2013 11:57:04 CEST  Run: 205236 Event: 188816612
+No Extra objects available in input file --> skipping reconstruction of displaced vertices !!
+%MSG
+Begin processing the 101st record. Run 205236, Event 189335211, LumiSection 125 at 20-Sep-2013 11:57:06.374 CEST
+Begin processing the 201st record. Run 205236, Event 189002862, LumiSection 125 at 20-Sep-2013 11:57:13.415 CEST
+Begin processing the 301st record. Run 205236, Event 189701447, LumiSection 125 at 20-Sep-2013 11:57:20.698 CEST
+Begin processing the 401st record. Run 205236, Event 188646840, LumiSection 125 at 20-Sep-2013 11:57:29.755 CEST
+Begin processing the 501st record. Run 205236, Event 190579629, LumiSection 126 at 20-Sep-2013 11:57:38.786 CEST
+Begin processing the 601st record. Run 205236, Event 190846490, LumiSection 126 at 20-Sep-2013 11:57:47.021 CEST
+Begin processing the 701st record. Run 205236, Event 190121582, LumiSection 126 at 20-Sep-2013 11:57:55.056 CEST
+Begin processing the 801st record. Run 205236, Event 191230774, LumiSection 126 at 20-Sep-2013 11:58:03.510 CEST
+Begin processing the 901st record. Run 205236, Event 190212031, LumiSection 126 at 20-Sep-2013 11:58:10.496 CEST
+Begin processing the 1001st record. Run 205236, Event 191492597, LumiSection 127 at 20-Sep-2013 11:58:15.873 CEST
+Begin processing the 1101st record. Run 205236, Event 191644390, LumiSection 127 at 20-Sep-2013 11:58:22.476 CEST
+Begin processing the 1201st record. Run 205236, Event 191837617, LumiSection 127 at 20-Sep-2013 11:58:31.002 CEST
+Begin processing the 1301st record. Run 205236, Event 191629457, LumiSection 127 at 20-Sep-2013 11:58:38.402 CEST
+Begin processing the 1401st record. Run 205236, Event 310166916, LumiSection 217 at 20-Sep-2013 11:58:44.031 CEST
+Begin processing the 1501st record. Run 205236, Event 310756119, LumiSection 217 at 20-Sep-2013 11:58:48.950 CEST
+Begin processing the 1601st record. Run 205236, Event 310829880, LumiSection 217 at 20-Sep-2013 11:58:56.181 CEST
+Begin processing the 1701st record. Run 205236, Event 348394613, LumiSection 247 at 20-Sep-2013 11:59:04.553 CEST
+Begin processing the 1801st record. Run 205236, Event 347732318, LumiSection 247 at 20-Sep-2013 11:59:10.808 CEST
+Begin processing the 1901st record. Run 205236, Event 348214401, LumiSection 247 at 20-Sep-2013 11:59:15.711 CEST
+Begin processing the 2001st record. Run 205236, Event 347804370, LumiSection 247 at 20-Sep-2013 11:59:22.136 CEST
+Begin processing the 2101st record. Run 205236, Event 349891564, LumiSection 248 at 20-Sep-2013 11:59:28.271 CEST
+Begin processing the 2201st record. Run 205236, Event 349882975, LumiSection 248 at 20-Sep-2013 11:59:34.905 CEST
+Begin processing the 2301st record. Run 205236, Event 349737275, LumiSection 248 at 20-Sep-2013 11:59:43.268 CEST
+Begin processing the 2401st record. Run 205236, Event 349623059, LumiSection 248 at 20-Sep-2013 11:59:48.857 CEST
+Begin processing the 2501st record. Run 205236, Event 351408204, LumiSection 249 at 20-Sep-2013 11:59:55.303 CEST
+Begin processing the 2601st record. Run 205236, Event 350954759, LumiSection 249 at 20-Sep-2013 12:00:00.171 CEST
+Begin processing the 2701st record. Run 205236, Event 350655910, LumiSection 249 at 20-Sep-2013 12:00:06.412 CEST
+Begin processing the 2801st record. Run 205236, Event 350447602, LumiSection 249 at 20-Sep-2013 12:00:12.548 CEST
+Begin processing the 2901st record. Run 205236, Event 350552289, LumiSection 249 at 20-Sep-2013 12:00:22.197 CEST
+Begin processing the 3001st record. Run 205236, Event 352833660, LumiSection 251 at 20-Sep-2013 12:00:26.837 CEST
+Begin processing the 3101st record. Run 205236, Event 353656205, LumiSection 251 at 20-Sep-2013 12:00:31.261 CEST
+Begin processing the 3201st record. Run 205236, Event 353192833, LumiSection 251 at 20-Sep-2013 12:00:35.650 CEST
+Begin processing the 3301st record. Run 205236, Event 353072922, LumiSection 251 at 20-Sep-2013 12:00:41.108 CEST
+Begin processing the 3401st record. Run 205236, Event 354032846, LumiSection 252 at 20-Sep-2013 12:00:47.461 CEST
+Begin processing the 3501st record. Run 205236, Event 354438862, LumiSection 252 at 20-Sep-2013 12:00:53.024 CEST
+Begin processing the 3601st record. Run 205236, Event 354463377, LumiSection 252 at 20-Sep-2013 12:00:57.100 CEST
+Begin processing the 3701st record. Run 205236, Event 354399458, LumiSection 252 at 20-Sep-2013 12:01:03.353 CEST
+Begin processing the 3801st record. Run 205236, Event 355244063, LumiSection 253 at 20-Sep-2013 12:01:10.050 CEST
+Begin processing the 3901st record. Run 205236, Event 355854097, LumiSection 253 at 20-Sep-2013 12:01:16.578 CEST
+Begin processing the 4001st record. Run 205236, Event 356162008, LumiSection 253 at 20-Sep-2013 12:01:23.442 CEST
+Begin processing the 4101st record. Run 205236, Event 356062995, LumiSection 253 at 20-Sep-2013 12:01:33.196 CEST
+Begin processing the 4201st record. Run 205236, Event 357274783, LumiSection 254 at 20-Sep-2013 12:01:44.176 CEST
+Begin processing the 4301st record. Run 205236, Event 356885039, LumiSection 254 at 20-Sep-2013 12:01:50.225 CEST
+Begin processing the 4401st record. Run 205236, Event 357319224, LumiSection 254 at 20-Sep-2013 12:01:59.875 CEST
+Begin processing the 4501st record. Run 205236, Event 356527027, LumiSection 254 at 20-Sep-2013 12:02:05.137 CEST
+Begin processing the 4601st record. Run 205236, Event 360411407, LumiSection 257 at 20-Sep-2013 12:02:11.796 CEST
+Begin processing the 4701st record. Run 205236, Event 360302559, LumiSection 257 at 20-Sep-2013 12:02:18.490 CEST
+Begin processing the 4801st record. Run 205236, Event 360206296, LumiSection 257 at 20-Sep-2013 12:02:26.828 CEST
+Begin processing the 4901st record. Run 205236, Event 360678293, LumiSection 257 at 20-Sep-2013 12:02:31.759 CEST
+Begin processing the 5001st record. Run 205236, Event 361625724, LumiSection 258 at 20-Sep-2013 12:02:38.311 CEST
+Begin processing the 5101st record. Run 205236, Event 362428971, LumiSection 258 at 20-Sep-2013 12:02:47.306 CEST
+Begin processing the 5201st record. Run 205236, Event 361980674, LumiSection 258 at 20-Sep-2013 12:02:53.223 CEST
+Begin processing the 5301st record. Run 205236, Event 362554273, LumiSection 258 at 20-Sep-2013 12:02:58.396 CEST
+Begin processing the 5401st record. Run 205236, Event 364379308, LumiSection 260 at 20-Sep-2013 12:03:03.789 CEST
+Begin processing the 5501st record. Run 205236, Event 363871781, LumiSection 260 at 20-Sep-2013 12:03:10.527 CEST
+Begin processing the 5601st record. Run 205236, Event 364765850, LumiSection 260 at 20-Sep-2013 12:03:18.246 CEST
+Begin processing the 5701st record. Run 205236, Event 364735682, LumiSection 260 at 20-Sep-2013 12:03:26.135 CEST
+Begin processing the 5801st record. Run 205236, Event 368950516, LumiSection 264 at 20-Sep-2013 12:03:32.879 CEST
+Begin processing the 5901st record. Run 205236, Event 368868608, LumiSection 264 at 20-Sep-2013 12:03:37.791 CEST
+Begin processing the 6001st record. Run 205236, Event 369076425, LumiSection 264 at 20-Sep-2013 12:03:42.182 CEST
+Begin processing the 6101st record. Run 205236, Event 369310237, LumiSection 264 at 20-Sep-2013 12:03:43.865 CEST
+Begin processing the 6201st record. Run 205236, Event 371598060, LumiSection 266 at 20-Sep-2013 12:03:53.092 CEST
+Begin processing the 6301st record. Run 205236, Event 371909920, LumiSection 266 at 20-Sep-2013 12:03:59.869 CEST
+Begin processing the 6401st record. Run 205236, Event 372154617, LumiSection 266 at 20-Sep-2013 12:04:06.791 CEST
+Begin processing the 6501st record. Run 205236, Event 371466525, LumiSection 266 at 20-Sep-2013 12:04:10.008 CEST
+Begin processing the 6601st record. Run 205236, Event 380758277, LumiSection 273 at 20-Sep-2013 12:04:15.223 CEST
+Begin processing the 6701st record. Run 205236, Event 380219723, LumiSection 273 at 20-Sep-2013 12:04:19.691 CEST
+Begin processing the 6801st record. Run 205236, Event 380814544, LumiSection 273 at 20-Sep-2013 12:04:26.351 CEST
+Begin processing the 6901st record. Run 205236, Event 379872456, LumiSection 273 at 20-Sep-2013 12:04:31.187 CEST
+Begin processing the 7001st record. Run 205236, Event 386718767, LumiSection 278 at 20-Sep-2013 12:04:37.524 CEST
+Begin processing the 7101st record. Run 205236, Event 386254251, LumiSection 278 at 20-Sep-2013 12:04:43.851 CEST
+Begin processing the 7201st record. Run 205236, Event 385947552, LumiSection 278 at 20-Sep-2013 12:04:54.493 CEST
+Begin processing the 7301st record. Run 205236, Event 386080145, LumiSection 278 at 20-Sep-2013 12:05:04.215 CEST
+Begin processing the 7401st record. Run 205236, Event 387662199, LumiSection 279 at 20-Sep-2013 12:05:08.662 CEST
+Begin processing the 7501st record. Run 205236, Event 387414560, LumiSection 279 at 20-Sep-2013 12:05:15.652 CEST
+Begin processing the 7601st record. Run 205236, Event 387515331, LumiSection 279 at 20-Sep-2013 12:05:25.859 CEST
+Begin processing the 7701st record. Run 205236, Event 388134926, LumiSection 279 at 20-Sep-2013 12:05:32.857 CEST
+Begin processing the 7801st record. Run 205236, Event 388283301, LumiSection 280 at 20-Sep-2013 12:05:43.229 CEST
+Begin processing the 7901st record. Run 205236, Event 388206354, LumiSection 280 at 20-Sep-2013 12:05:46.333 CEST
+Begin processing the 8001st record. Run 205236, Event 388824036, LumiSection 280 at 20-Sep-2013 12:05:51.478 CEST
+Begin processing the 8101st record. Run 205236, Event 389108358, LumiSection 280 at 20-Sep-2013 12:05:58.504 CEST
+Begin processing the 8201st record. Run 205236, Event 397466182, LumiSection 287 at 20-Sep-2013 12:06:07.449 CEST
+Begin processing the 8301st record. Run 205236, Event 397350764, LumiSection 287 at 20-Sep-2013 12:06:15.225 CEST
+Begin processing the 8401st record. Run 205236, Event 397220324, LumiSection 287 at 20-Sep-2013 12:06:22.674 CEST
+Begin processing the 8501st record. Run 205236, Event 397393078, LumiSection 287 at 20-Sep-2013 12:06:28.558 CEST
+Begin processing the 8601st record. Run 205236, Event 402878567, LumiSection 292 at 20-Sep-2013 12:06:34.594 CEST
+Begin processing the 8701st record. Run 205236, Event 403236532, LumiSection 292 at 20-Sep-2013 12:06:42.180 CEST
+Begin processing the 8801st record. Run 205236, Event 403588860, LumiSection 292 at 20-Sep-2013 12:06:49.161 CEST
+Begin processing the 8901st record. Run 205236, Event 402648463, LumiSection 292 at 20-Sep-2013 12:06:54.053 CEST
+Begin processing the 9001st record. Run 205236, Event 404450582, LumiSection 293 at 20-Sep-2013 12:06:59.715 CEST
+Begin processing the 9101st record. Run 205236, Event 404155702, LumiSection 293 at 20-Sep-2013 12:07:04.176 CEST
+Begin processing the 9201st record. Run 205236, Event 404086236, LumiSection 293 at 20-Sep-2013 12:07:11.982 CEST
+Begin processing the 9301st record. Run 205236, Event 404733067, LumiSection 293 at 20-Sep-2013 12:07:20.885 CEST
+Begin processing the 9401st record. Run 205236, Event 406045829, LumiSection 294 at 20-Sep-2013 12:07:24.567 CEST
+Begin processing the 9501st record. Run 205236, Event 405878840, LumiSection 294 at 20-Sep-2013 12:07:27.591 CEST
+Begin processing the 9601st record. Run 205236, Event 405389211, LumiSection 294 at 20-Sep-2013 12:07:32.507 CEST
+Begin processing the 9701st record. Run 205236, Event 405111374, LumiSection 294 at 20-Sep-2013 12:07:40.145 CEST
+Begin processing the 9801st record. Run 205236, Event 408175086, LumiSection 296 at 20-Sep-2013 12:07:44.336 CEST
+Begin processing the 9901st record. Run 205236, Event 408134667, LumiSection 296 at 20-Sep-2013 12:07:50.482 CEST
+Begin processing the 10001st record. Run 205236, Event 408175630, LumiSection 296 at 20-Sep-2013 12:07:58.766 CEST
+Begin processing the 10101st record. Run 205236, Event 407764497, LumiSection 296 at 20-Sep-2013 12:08:04.600 CEST
+20-Sep-2013 12:08:08 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/68124288-D119-E211-9F01-003048678110.root
+20-Sep-2013 12:08:08 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/64C2404E-1A1A-E211-B91B-003048D2BD28.root
+20-Sep-2013 12:08:08 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/64C2404E-1A1A-E211-B91B-003048D2BD28.root
+Begin processing the 10201st record. Run 205236, Event 176604391, LumiSection 116 at 20-Sep-2013 12:08:14.328 CEST
+Begin processing the 10301st record. Run 205236, Event 176351977, LumiSection 116 at 20-Sep-2013 12:08:21.856 CEST
+Begin processing the 10401st record. Run 205236, Event 177147947, LumiSection 116 at 20-Sep-2013 12:08:30.514 CEST
+Begin processing the 10501st record. Run 205236, Event 176465534, LumiSection 116 at 20-Sep-2013 12:08:38.421 CEST
+Begin processing the 10601st record. Run 205236, Event 176693477, LumiSection 116 at 20-Sep-2013 12:08:46.990 CEST
+Begin processing the 10701st record. Run 205236, Event 178547191, LumiSection 117 at 20-Sep-2013 12:08:54.513 CEST
+Begin processing the 10801st record. Run 205236, Event 177841153, LumiSection 117 at 20-Sep-2013 12:09:03.735 CEST
+Begin processing the 10901st record. Run 205236, Event 178350395, LumiSection 117 at 20-Sep-2013 12:09:11.817 CEST
+Begin processing the 11001st record. Run 205236, Event 178048493, LumiSection 117 at 20-Sep-2013 12:09:20.803 CEST
+Begin processing the 11101st record. Run 205236, Event 280721338, LumiSection 194 at 20-Sep-2013 12:09:25.456 CEST
+Begin processing the 11201st record. Run 205236, Event 281742378, LumiSection 194 at 20-Sep-2013 12:09:29.334 CEST
+Begin processing the 11301st record. Run 205236, Event 281761905, LumiSection 194 at 20-Sep-2013 12:09:39.151 CEST
+Begin processing the 11401st record. Run 205236, Event 280797517, LumiSection 194 at 20-Sep-2013 12:09:44.992 CEST
+Begin processing the 11501st record. Run 205236, Event 281799103, LumiSection 194 at 20-Sep-2013 12:09:52.578 CEST
+Begin processing the 11601st record. Run 205236, Event 286286794, LumiSection 198 at 20-Sep-2013 12:09:56.904 CEST
+Begin processing the 11701st record. Run 205236, Event 286928165, LumiSection 198 at 20-Sep-2013 12:10:04.322 CEST
+Begin processing the 11801st record. Run 205236, Event 286498782, LumiSection 198 at 20-Sep-2013 12:10:08.389 CEST
+Begin processing the 11901st record. Run 205236, Event 286050578, LumiSection 198 at 20-Sep-2013 12:10:13.549 CEST
+Begin processing the 12001st record. Run 205236, Event 304728716, LumiSection 212 at 20-Sep-2013 12:10:18.158 CEST
+Begin processing the 12101st record. Run 205236, Event 304391065, LumiSection 212 at 20-Sep-2013 12:10:22.799 CEST
+Begin processing the 12201st record. Run 205236, Event 304089337, LumiSection 212 at 20-Sep-2013 12:10:36.781 CEST
+Begin processing the 12301st record. Run 205236, Event 307607148, LumiSection 215 at 20-Sep-2013 12:10:46.626 CEST
+Begin processing the 12401st record. Run 205236, Event 307451231, LumiSection 215 at 20-Sep-2013 12:10:53.375 CEST
+Begin processing the 12501st record. Run 205236, Event 308399809, LumiSection 215 at 20-Sep-2013 12:10:58.623 CEST
+Begin processing the 12601st record. Run 205236, Event 308840203, LumiSection 216 at 20-Sep-2013 12:11:06.714 CEST
+Begin processing the 12701st record. Run 205236, Event 309560121, LumiSection 216 at 20-Sep-2013 12:11:17.290 CEST
+Begin processing the 12801st record. Run 205236, Event 309762120, LumiSection 216 at 20-Sep-2013 12:11:21.609 CEST
+Begin processing the 12901st record. Run 205236, Event 311433875, LumiSection 218 at 20-Sep-2013 12:11:26.856 CEST
+Begin processing the 13001st record. Run 205236, Event 311279137, LumiSection 218 at 20-Sep-2013 12:11:31.232 CEST
+Begin processing the 13101st record. Run 205236, Event 311914752, LumiSection 218 at 20-Sep-2013 12:11:40.933 CEST
+Begin processing the 13201st record. Run 205236, Event 312291751, LumiSection 218 at 20-Sep-2013 12:11:47.877 CEST
+Begin processing the 13301st record. Run 205236, Event 314080178, LumiSection 220 at 20-Sep-2013 12:11:53.903 CEST
+Begin processing the 13401st record. Run 205236, Event 314418158, LumiSection 220 at 20-Sep-2013 12:11:59.423 CEST
+Begin processing the 13501st record. Run 205236, Event 318577978, LumiSection 223 at 20-Sep-2013 12:12:06.170 CEST
+Begin processing the 13601st record. Run 205236, Event 317871798, LumiSection 223 at 20-Sep-2013 12:12:13.369 CEST
+Begin processing the 13701st record. Run 205236, Event 318026285, LumiSection 223 at 20-Sep-2013 12:12:21.854 CEST
+Begin processing the 13801st record. Run 205236, Event 318549196, LumiSection 223 at 20-Sep-2013 12:12:27.909 CEST
+Begin processing the 13901st record. Run 205236, Event 319904971, LumiSection 224 at 20-Sep-2013 12:12:34.522 CEST
+Begin processing the 14001st record. Run 205236, Event 319309414, LumiSection 224 at 20-Sep-2013 12:12:39.918 CEST
+Begin processing the 14101st record. Run 205236, Event 320206057, LumiSection 225 at 20-Sep-2013 12:12:48.058 CEST
+Begin processing the 14201st record. Run 205236, Event 320275008, LumiSection 225 at 20-Sep-2013 12:12:55.722 CEST
+Begin processing the 14301st record. Run 205236, Event 320822076, LumiSection 225 at 20-Sep-2013 12:13:02.364 CEST
+Begin processing the 14401st record. Run 205236, Event 320176229, LumiSection 225 at 20-Sep-2013 12:13:08.419 CEST
+Begin processing the 14501st record. Run 205236, Event 321022410, LumiSection 225 at 20-Sep-2013 12:13:16.574 CEST
+Begin processing the 14601st record. Run 205236, Event 321956973, LumiSection 226 at 20-Sep-2013 12:13:23.616 CEST
+Begin processing the 14701st record. Run 205236, Event 322025728, LumiSection 226 at 20-Sep-2013 12:13:28.561 CEST
+Begin processing the 14801st record. Run 205236, Event 322191785, LumiSection 226 at 20-Sep-2013 12:13:34.063 CEST
+Begin processing the 14901st record. Run 205236, Event 321473125, LumiSection 226 at 20-Sep-2013 12:13:43.096 CEST
+Begin processing the 15001st record. Run 205236, Event 327436462, LumiSection 230 at 20-Sep-2013 12:13:48.250 CEST
+Begin processing the 15101st record. Run 205236, Event 327464707, LumiSection 230 at 20-Sep-2013 12:13:54.371 CEST
+Begin processing the 15201st record. Run 205236, Event 327230150, LumiSection 230 at 20-Sep-2013 12:14:00.525 CEST
+Begin processing the 15301st record. Run 205236, Event 327226991, LumiSection 230 at 20-Sep-2013 12:14:08.124 CEST
+Begin processing the 15401st record. Run 205236, Event 327066848, LumiSection 230 at 20-Sep-2013 12:14:14.922 CEST
+Begin processing the 15501st record. Run 205236, Event 328052590, LumiSection 231 at 20-Sep-2013 12:14:20.490 CEST
+Begin processing the 15601st record. Run 205236, Event 328696967, LumiSection 231 at 20-Sep-2013 12:14:30.184 CEST
+Begin processing the 15701st record. Run 205236, Event 328325296, LumiSection 231 at 20-Sep-2013 12:14:37.226 CEST
+Begin processing the 15801st record. Run 205236, Event 328591339, LumiSection 231 at 20-Sep-2013 12:14:47.715 CEST
+Begin processing the 15901st record. Run 205236, Event 330590785, LumiSection 233 at 20-Sep-2013 12:14:53.540 CEST
+Begin processing the 16001st record. Run 205236, Event 331020674, LumiSection 233 at 20-Sep-2013 12:15:01.541 CEST
+Begin processing the 16101st record. Run 205236, Event 330745146, LumiSection 233 at 20-Sep-2013 12:15:08.339 CEST
+Begin processing the 16201st record. Run 205236, Event 330427453, LumiSection 233 at 20-Sep-2013 12:15:19.378 CEST
+Begin processing the 16301st record. Run 205236, Event 332411916, LumiSection 234 at 20-Sep-2013 12:15:29.270 CEST
+Begin processing the 16401st record. Run 205236, Event 332503668, LumiSection 234 at 20-Sep-2013 12:15:35.809 CEST
+Begin processing the 16501st record. Run 205236, Event 332076900, LumiSection 234 at 20-Sep-2013 12:15:42.147 CEST
+Begin processing the 16601st record. Run 205236, Event 332308402, LumiSection 234 at 20-Sep-2013 12:15:53.666 CEST
+Begin processing the 16701st record. Run 205236, Event 333200796, LumiSection 235 at 20-Sep-2013 12:16:01.250 CEST
+Begin processing the 16801st record. Run 205236, Event 332706152, LumiSection 235 at 20-Sep-2013 12:16:09.434 CEST
+Begin processing the 16901st record. Run 205236, Event 333530082, LumiSection 235 at 20-Sep-2013 12:16:17.659 CEST
+Begin processing the 17001st record. Run 205236, Event 333825124, LumiSection 235 at 20-Sep-2013 12:16:23.893 CEST
+Begin processing the 17101st record. Run 205236, Event 334845980, LumiSection 236 at 20-Sep-2013 12:16:31.042 CEST
+Begin processing the 17201st record. Run 205236, Event 335131342, LumiSection 236 at 20-Sep-2013 12:16:39.939 CEST
+Begin processing the 17301st record. Run 205236, Event 334886983, LumiSection 236 at 20-Sep-2013 12:16:43.503 CEST
+Begin processing the 17401st record. Run 205236, Event 334694665, LumiSection 236 at 20-Sep-2013 12:16:53.385 CEST
+Begin processing the 17501st record. Run 205236, Event 335312830, LumiSection 237 at 20-Sep-2013 12:16:59.605 CEST
+Begin processing the 17601st record. Run 205236, Event 335159414, LumiSection 237 at 20-Sep-2013 12:17:22.881 CEST
+Begin processing the 17701st record. Run 205236, Event 335179981, LumiSection 237 at 20-Sep-2013 12:17:28.282 CEST
+Begin processing the 17801st record. Run 205236, Event 336004383, LumiSection 237 at 20-Sep-2013 12:17:34.873 CEST
+Begin processing the 17901st record. Run 205236, Event 335801584, LumiSection 237 at 20-Sep-2013 12:17:39.864 CEST
+Begin processing the 18001st record. Run 205236, Event 337522591, LumiSection 238 at 20-Sep-2013 12:17:49.439 CEST
+Begin processing the 18101st record. Run 205236, Event 336924196, LumiSection 238 at 20-Sep-2013 12:17:57.909 CEST
+Begin processing the 18201st record. Run 205236, Event 337400768, LumiSection 238 at 20-Sep-2013 12:18:05.656 CEST
+Begin processing the 18301st record. Run 205236, Event 337452058, LumiSection 238 at 20-Sep-2013 12:18:11.680 CEST
+Begin processing the 18401st record. Run 205236, Event 337707588, LumiSection 239 at 20-Sep-2013 12:18:19.954 CEST
+Begin processing the 18501st record. Run 205236, Event 338234666, LumiSection 239 at 20-Sep-2013 12:18:27.047 CEST
+Begin processing the 18601st record. Run 205236, Event 338124833, LumiSection 239 at 20-Sep-2013 12:18:35.411 CEST
+Begin processing the 18701st record. Run 205236, Event 338921301, LumiSection 239 at 20-Sep-2013 12:18:39.697 CEST
+Begin processing the 18801st record. Run 205236, Event 339280281, LumiSection 240 at 20-Sep-2013 12:18:46.501 CEST
+Begin processing the 18901st record. Run 205236, Event 339833010, LumiSection 240 at 20-Sep-2013 12:18:51.457 CEST
+Begin processing the 19001st record. Run 205236, Event 339701961, LumiSection 240 at 20-Sep-2013 12:18:58.510 CEST
+Begin processing the 19101st record. Run 205236, Event 339603021, LumiSection 240 at 20-Sep-2013 12:19:03.133 CEST
+Begin processing the 19201st record. Run 205236, Event 340777344, LumiSection 241 at 20-Sep-2013 12:19:07.118 CEST
+Begin processing the 19301st record. Run 205236, Event 340725486, LumiSection 241 at 20-Sep-2013 12:19:17.484 CEST
+Begin processing the 19401st record. Run 205236, Event 340464286, LumiSection 241 at 20-Sep-2013 12:19:22.811 CEST
+Begin processing the 19501st record. Run 205236, Event 340874908, LumiSection 241 at 20-Sep-2013 12:19:31.318 CEST
+Begin processing the 19601st record. Run 205236, Event 341457253, LumiSection 242 at 20-Sep-2013 12:19:34.991 CEST
+Begin processing the 19701st record. Run 205236, Event 341848245, LumiSection 242 at 20-Sep-2013 12:19:35.183 CEST
+Begin processing the 19801st record. Run 205236, Event 342619491, LumiSection 242 at 20-Sep-2013 12:19:43.830 CEST
+Begin processing the 19901st record. Run 205236, Event 341748976, LumiSection 242 at 20-Sep-2013 12:19:49.203 CEST
+Begin processing the 20001st record. Run 205236, Event 342616983, LumiSection 242 at 20-Sep-2013 12:19:57.105 CEST
+Begin processing the 20101st record. Run 205236, Event 343622246, LumiSection 243 at 20-Sep-2013 12:20:08.536 CEST
+Begin processing the 20201st record. Run 205236, Event 343009578, LumiSection 243 at 20-Sep-2013 12:20:14.793 CEST
+Begin processing the 20301st record. Run 205236, Event 343006143, LumiSection 243 at 20-Sep-2013 12:20:21.126 CEST
+Begin processing the 20401st record. Run 205236, Event 342885424, LumiSection 243 at 20-Sep-2013 12:20:30.685 CEST
+Begin processing the 20501st record. Run 205236, Event 344587990, LumiSection 244 at 20-Sep-2013 12:20:35.919 CEST
+Begin processing the 20601st record. Run 205236, Event 344115877, LumiSection 244 at 20-Sep-2013 12:20:42.221 CEST
+Begin processing the 20701st record. Run 205236, Event 344814738, LumiSection 244 at 20-Sep-2013 12:20:46.604 CEST
+Begin processing the 20801st record. Run 205236, Event 343954922, LumiSection 244 at 20-Sep-2013 12:20:55.712 CEST
+20-Sep-2013 12:20:58 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/64C2404E-1A1A-E211-B91B-003048D2BD28.root
+20-Sep-2013 12:20:58 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B0C52787-BA19-E211-ABDF-BCAEC518FF63.root
+20-Sep-2013 12:20:59 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B0C52787-BA19-E211-ABDF-BCAEC518FF63.root
+20-Sep-2013 12:21:03 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B0C52787-BA19-E211-ABDF-BCAEC518FF63.root
+20-Sep-2013 12:21:03 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/8E4CBACC-7D19-E211-BD85-003048F024C2.root
+20-Sep-2013 12:21:03 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/8E4CBACC-7D19-E211-BD85-003048F024C2.root
+20-Sep-2013 12:21:08 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/8E4CBACC-7D19-E211-BD85-003048F024C2.root
+20-Sep-2013 12:21:08 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/80DC80DC-7F19-E211-9174-003048D2BC38.root
+20-Sep-2013 12:21:08 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/80DC80DC-7F19-E211-9174-003048D2BC38.root
+20-Sep-2013 12:21:14 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/80DC80DC-7F19-E211-9174-003048D2BC38.root
+20-Sep-2013 12:21:14 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/BECC1F13-081A-E211-BAF0-0030486780B4.root
+20-Sep-2013 12:21:14 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/BECC1F13-081A-E211-BAF0-0030486780B4.root
+Begin processing the 20901st record. Run 205233, Event 52195312, LumiSection 99 at 20-Sep-2013 12:21:28.940 CEST
+Begin processing the 21001st record. Run 205233, Event 52670218, LumiSection 99 at 20-Sep-2013 12:21:34.117 CEST
+Begin processing the 21101st record. Run 205233, Event 52417004, LumiSection 99 at 20-Sep-2013 12:21:43.426 CEST
+Begin processing the 21201st record. Run 205233, Event 53143492, LumiSection 99 at 20-Sep-2013 12:21:51.562 CEST
+Begin processing the 21301st record. Run 205233, Event 52191578, LumiSection 99 at 20-Sep-2013 12:21:58.152 CEST
+Begin processing the 21401st record. Run 205233, Event 52816166, LumiSection 99 at 20-Sep-2013 12:22:03.193 CEST
+Begin processing the 21501st record. Run 205233, Event 60928554, LumiSection 104 at 20-Sep-2013 12:22:12.626 CEST
+Begin processing the 21601st record. Run 205233, Event 62035261, LumiSection 104 at 20-Sep-2013 12:22:22.001 CEST
+Begin processing the 21701st record. Run 205233, Event 61338086, LumiSection 104 at 20-Sep-2013 12:22:29.645 CEST
+Begin processing the 21801st record. Run 205233, Event 61883156, LumiSection 104 at 20-Sep-2013 12:22:39.077 CEST
+Begin processing the 21901st record. Run 205233, Event 62320840, LumiSection 104 at 20-Sep-2013 12:22:43.523 CEST
+Begin processing the 22001st record. Run 205233, Event 62243954, LumiSection 104 at 20-Sep-2013 12:22:52.453 CEST
+Begin processing the 22101st record. Run 205233, Event 69156240, LumiSection 109 at 20-Sep-2013 12:23:01.173 CEST
+Begin processing the 22201st record. Run 205233, Event 69628913, LumiSection 109 at 20-Sep-2013 12:23:11.442 CEST
+Begin processing the 22301st record. Run 205233, Event 70687027, LumiSection 109 at 20-Sep-2013 12:23:20.474 CEST
+Begin processing the 22401st record. Run 205233, Event 70438980, LumiSection 109 at 20-Sep-2013 12:23:29.284 CEST
+Begin processing the 22501st record. Run 205233, Event 69705678, LumiSection 109 at 20-Sep-2013 12:23:40.966 CEST
+Begin processing the 22601st record. Run 205233, Event 69881221, LumiSection 109 at 20-Sep-2013 12:23:54.085 CEST
+Begin processing the 22701st record. Run 205233, Event 71668744, LumiSection 110 at 20-Sep-2013 12:24:01.604 CEST
+Begin processing the 22801st record. Run 205233, Event 72492932, LumiSection 110 at 20-Sep-2013 12:24:13.840 CEST
+Begin processing the 22901st record. Run 205233, Event 71480755, LumiSection 110 at 20-Sep-2013 12:24:24.221 CEST
+Begin processing the 23001st record. Run 205233, Event 71167267, LumiSection 110 at 20-Sep-2013 12:24:32.259 CEST
+Begin processing the 23101st record. Run 205233, Event 71422367, LumiSection 110 at 20-Sep-2013 12:24:36.849 CEST
+Begin processing the 23201st record. Run 205233, Event 72240605, LumiSection 110 at 20-Sep-2013 12:24:48.447 CEST
+Begin processing the 23301st record. Run 205233, Event 71076500, LumiSection 110 at 20-Sep-2013 12:24:56.866 CEST
+Begin processing the 23401st record. Run 205233, Event 72959911, LumiSection 111 at 20-Sep-2013 12:25:03.325 CEST
+Begin processing the 23501st record. Run 205233, Event 73325590, LumiSection 111 at 20-Sep-2013 12:25:13.946 CEST
+Begin processing the 23601st record. Run 205233, Event 73301038, LumiSection 111 at 20-Sep-2013 12:25:24.375 CEST
+Begin processing the 23701st record. Run 205233, Event 73367657, LumiSection 111 at 20-Sep-2013 12:25:30.281 CEST
+Begin processing the 23801st record. Run 205233, Event 72966361, LumiSection 111 at 20-Sep-2013 12:25:40.500 CEST
+Begin processing the 23901st record. Run 205233, Event 74327570, LumiSection 112 at 20-Sep-2013 12:25:44.779 CEST
+Begin processing the 24001st record. Run 205233, Event 74333559, LumiSection 112 at 20-Sep-2013 12:25:51.367 CEST
+Begin processing the 24101st record. Run 205233, Event 75537711, LumiSection 112 at 20-Sep-2013 12:25:59.941 CEST
+Begin processing the 24201st record. Run 205233, Event 75442590, LumiSection 112 at 20-Sep-2013 12:26:10.182 CEST
+Begin processing the 24301st record. Run 205233, Event 74419662, LumiSection 112 at 20-Sep-2013 12:26:17.739 CEST
+Begin processing the 24401st record. Run 205233, Event 75110341, LumiSection 112 at 20-Sep-2013 12:26:24.720 CEST
+Begin processing the 24501st record. Run 205233, Event 75987153, LumiSection 113 at 20-Sep-2013 12:26:36.292 CEST
+Begin processing the 24601st record. Run 205233, Event 76852198, LumiSection 113 at 20-Sep-2013 12:26:39.034 CEST
+Begin processing the 24701st record. Run 205233, Event 75735252, LumiSection 113 at 20-Sep-2013 12:26:43.142 CEST
+Begin processing the 24801st record. Run 205233, Event 76969404, LumiSection 113 at 20-Sep-2013 12:26:56.187 CEST
+Begin processing the 24901st record. Run 205233, Event 76344153, LumiSection 113 at 20-Sep-2013 12:27:03.124 CEST
+Begin processing the 25001st record. Run 205233, Event 77115520, LumiSection 113 at 20-Sep-2013 12:27:07.766 CEST
+Begin processing the 25101st record. Run 205233, Event 78679612, LumiSection 114 at 20-Sep-2013 12:27:16.861 CEST
+Begin processing the 25201st record. Run 205233, Event 78233499, LumiSection 114 at 20-Sep-2013 12:27:22.456 CEST
+Begin processing the 25301st record. Run 205233, Event 77575925, LumiSection 114 at 20-Sep-2013 12:27:28.486 CEST
+Begin processing the 25401st record. Run 205233, Event 77956998, LumiSection 114 at 20-Sep-2013 12:27:35.051 CEST
+Begin processing the 25501st record. Run 205233, Event 78296733, LumiSection 114 at 20-Sep-2013 12:27:42.984 CEST
+Begin processing the 25601st record. Run 205233, Event 78654063, LumiSection 114 at 20-Sep-2013 12:27:48.919 CEST
+Begin processing the 25701st record. Run 205233, Event 78277632, LumiSection 114 at 20-Sep-2013 12:27:55.736 CEST
+Begin processing the 25801st record. Run 205233, Event 79774650, LumiSection 115 at 20-Sep-2013 12:28:02.612 CEST
+Begin processing the 25901st record. Run 205233, Event 80043267, LumiSection 115 at 20-Sep-2013 12:28:10.457 CEST
+Begin processing the 26001st record. Run 205233, Event 79802422, LumiSection 115 at 20-Sep-2013 12:28:17.922 CEST
+Begin processing the 26101st record. Run 205233, Event 79810314, LumiSection 115 at 20-Sep-2013 12:28:28.149 CEST
+Begin processing the 26201st record. Run 205233, Event 80494614, LumiSection 115 at 20-Sep-2013 12:28:34.034 CEST
+Begin processing the 26301st record. Run 205233, Event 80717742, LumiSection 115 at 20-Sep-2013 12:28:46.246 CEST
+Begin processing the 26401st record. Run 205233, Event 83826007, LumiSection 117 at 20-Sep-2013 12:28:54.988 CEST
+Begin processing the 26501st record. Run 205233, Event 83043326, LumiSection 117 at 20-Sep-2013 12:29:03.596 CEST
+Begin processing the 26601st record. Run 205233, Event 83691275, LumiSection 117 at 20-Sep-2013 12:29:14.022 CEST
+Begin processing the 26701st record. Run 205233, Event 82774461, LumiSection 117 at 20-Sep-2013 12:29:21.399 CEST
+Begin processing the 26801st record. Run 205233, Event 83717425, LumiSection 117 at 20-Sep-2013 12:29:34.058 CEST
+Begin processing the 26901st record. Run 205233, Event 82711062, LumiSection 117 at 20-Sep-2013 12:29:38.048 CEST
+Begin processing the 27001st record. Run 205233, Event 84195277, LumiSection 118 at 20-Sep-2013 12:29:50.957 CEST
+Begin processing the 27101st record. Run 205233, Event 85012802, LumiSection 118 at 20-Sep-2013 12:29:59.326 CEST
+Begin processing the 27201st record. Run 205233, Event 84867297, LumiSection 118 at 20-Sep-2013 12:30:06.588 CEST
+Begin processing the 27301st record. Run 205233, Event 85288765, LumiSection 118 at 20-Sep-2013 12:30:15.634 CEST
+Begin processing the 27401st record. Run 205233, Event 84904296, LumiSection 118 at 20-Sep-2013 12:30:21.664 CEST
+Begin processing the 27501st record. Run 205233, Event 85532128, LumiSection 118 at 20-Sep-2013 12:30:31.946 CEST
+Begin processing the 27601st record. Run 205233, Event 86994319, LumiSection 119 at 20-Sep-2013 12:30:36.579 CEST
+Begin processing the 27701st record. Run 205233, Event 86802842, LumiSection 119 at 20-Sep-2013 12:30:44.665 CEST
+Begin processing the 27801st record. Run 205233, Event 86523708, LumiSection 119 at 20-Sep-2013 12:30:52.254 CEST
+Begin processing the 27901st record. Run 205233, Event 87330403, LumiSection 119 at 20-Sep-2013 12:30:58.010 CEST
+Begin processing the 28001st record. Run 205233, Event 87329505, LumiSection 119 at 20-Sep-2013 12:31:02.122 CEST
+Begin processing the 28101st record. Run 205233, Event 86928319, LumiSection 119 at 20-Sep-2013 12:31:11.415 CEST
+Begin processing the 28201st record. Run 205233, Event 88067323, LumiSection 120 at 20-Sep-2013 12:31:17.823 CEST
+Begin processing the 28301st record. Run 205233, Event 87454016, LumiSection 120 at 20-Sep-2013 12:31:29.122 CEST
+Begin processing the 28401st record. Run 205233, Event 88140853, LumiSection 120 at 20-Sep-2013 12:31:38.168 CEST
+Begin processing the 28501st record. Run 205233, Event 88634423, LumiSection 120 at 20-Sep-2013 12:31:46.219 CEST
+Begin processing the 28601st record. Run 205233, Event 88106368, LumiSection 120 at 20-Sep-2013 12:31:54.641 CEST
+Begin processing the 28701st record. Run 205233, Event 87602857, LumiSection 120 at 20-Sep-2013 12:32:05.801 CEST
+Begin processing the 28801st record. Run 205233, Event 89638895, LumiSection 121 at 20-Sep-2013 12:32:14.000 CEST
+Begin processing the 28901st record. Run 205233, Event 89876138, LumiSection 121 at 20-Sep-2013 12:32:22.633 CEST
+Begin processing the 29001st record. Run 205233, Event 90312754, LumiSection 121 at 20-Sep-2013 12:32:32.906 CEST
+Begin processing the 29101st record. Run 205233, Event 89762630, LumiSection 121 at 20-Sep-2013 12:32:34.164 CEST
+Begin processing the 29201st record. Run 205233, Event 89194308, LumiSection 121 at 20-Sep-2013 12:32:48.719 CEST
+20-Sep-2013 12:32:54 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/BECC1F13-081A-E211-BAF0-0030486780B4.root
+20-Sep-2013 12:32:54 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/A4BC760E-081A-E211-B6E5-003048F024FA.root
+20-Sep-2013 12:32:54 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/A4BC760E-081A-E211-B6E5-003048F024FA.root
+Begin processing the 29301st record. Run 205233, Event 45224992, LumiSection 94 at 20-Sep-2013 12:33:07.679 CEST
+Begin processing the 29401st record. Run 205233, Event 44939195, LumiSection 94 at 20-Sep-2013 12:33:13.421 CEST
+Begin processing the 29501st record. Run 205233, Event 44419748, LumiSection 94 at 20-Sep-2013 12:33:24.020 CEST
+Begin processing the 29601st record. Run 205233, Event 45057638, LumiSection 94 at 20-Sep-2013 12:33:30.599 CEST
+Begin processing the 29701st record. Run 205233, Event 45697307, LumiSection 95 at 20-Sep-2013 12:33:36.127 CEST
+Begin processing the 29801st record. Run 205233, Event 46852288, LumiSection 95 at 20-Sep-2013 12:33:42.097 CEST
+Begin processing the 29901st record. Run 205233, Event 46148329, LumiSection 95 at 20-Sep-2013 12:33:51.430 CEST
+Begin processing the 30001st record. Run 205233, Event 46855203, LumiSection 95 at 20-Sep-2013 12:33:58.091 CEST
+Begin processing the 30101st record. Run 205233, Event 46738404, LumiSection 95 at 20-Sep-2013 12:34:09.450 CEST
+Begin processing the 30201st record. Run 205233, Event 46275057, LumiSection 95 at 20-Sep-2013 12:34:16.839 CEST
+Begin processing the 30301st record. Run 205233, Event 47969150, LumiSection 96 at 20-Sep-2013 12:34:30.341 CEST
+Begin processing the 30401st record. Run 205233, Event 47906913, LumiSection 96 at 20-Sep-2013 12:34:37.789 CEST
+Begin processing the 30501st record. Run 205233, Event 47881409, LumiSection 96 at 20-Sep-2013 12:34:47.999 CEST
+Begin processing the 30601st record. Run 205233, Event 48607006, LumiSection 96 at 20-Sep-2013 12:34:54.766 CEST
+Begin processing the 30701st record. Run 205233, Event 47598691, LumiSection 96 at 20-Sep-2013 12:35:00.394 CEST
+Begin processing the 30801st record. Run 205233, Event 48096268, LumiSection 96 at 20-Sep-2013 12:35:08.072 CEST
+Begin processing the 30901st record. Run 205233, Event 49337992, LumiSection 97 at 20-Sep-2013 12:35:16.020 CEST
+Begin processing the 31001st record. Run 205233, Event 49283862, LumiSection 97 at 20-Sep-2013 12:35:25.309 CEST
+Begin processing the 31101st record. Run 205233, Event 48998781, LumiSection 97 at 20-Sep-2013 12:35:30.457 CEST
+Begin processing the 31201st record. Run 205233, Event 50185061, LumiSection 97 at 20-Sep-2013 12:35:37.235 CEST
+Begin processing the 31301st record. Run 205233, Event 49533017, LumiSection 97 at 20-Sep-2013 12:35:41.241 CEST
+Begin processing the 31401st record. Run 205233, Event 49999698, LumiSection 97 at 20-Sep-2013 12:35:50.724 CEST
+Begin processing the 31501st record. Run 205233, Event 50636666, LumiSection 98 at 20-Sep-2013 12:36:00.649 CEST
+Begin processing the 31601st record. Run 205233, Event 50435608, LumiSection 98 at 20-Sep-2013 12:36:12.821 CEST
+Begin processing the 31701st record. Run 205233, Event 51206730, LumiSection 98 at 20-Sep-2013 12:36:22.904 CEST
+Begin processing the 31801st record. Run 205233, Event 51887966, LumiSection 98 at 20-Sep-2013 12:36:29.138 CEST
+Begin processing the 31901st record. Run 205233, Event 50955967, LumiSection 98 at 20-Sep-2013 12:36:39.588 CEST
+Begin processing the 32001st record. Run 205233, Event 50411375, LumiSection 98 at 20-Sep-2013 12:36:49.058 CEST
+Begin processing the 32101st record. Run 205233, Event 53837113, LumiSection 100 at 20-Sep-2013 12:37:00.294 CEST
+Begin processing the 32201st record. Run 205233, Event 54746072, LumiSection 100 at 20-Sep-2013 12:37:05.804 CEST
+Begin processing the 32301st record. Run 205233, Event 54796413, LumiSection 100 at 20-Sep-2013 12:37:15.208 CEST
+Begin processing the 32401st record. Run 205233, Event 53887563, LumiSection 100 at 20-Sep-2013 12:37:21.242 CEST
+Begin processing the 32501st record. Run 205233, Event 55431872, LumiSection 100 at 20-Sep-2013 12:37:31.075 CEST
+Begin processing the 32601st record. Run 205233, Event 54160402, LumiSection 100 at 20-Sep-2013 12:37:36.322 CEST
+Begin processing the 32701st record. Run 205233, Event 56108096, LumiSection 101 at 20-Sep-2013 12:37:41.537 CEST
+Begin processing the 32801st record. Run 205233, Event 57088507, LumiSection 101 at 20-Sep-2013 12:37:48.006 CEST
+Begin processing the 32901st record. Run 205233, Event 56034213, LumiSection 101 at 20-Sep-2013 12:37:55.984 CEST
+Begin processing the 33001st record. Run 205233, Event 56506450, LumiSection 101 at 20-Sep-2013 12:38:02.009 CEST
+Begin processing the 33101st record. Run 205233, Event 56567506, LumiSection 101 at 20-Sep-2013 12:38:07.614 CEST
+Begin processing the 33201st record. Run 205233, Event 56984574, LumiSection 101 at 20-Sep-2013 12:38:18.886 CEST
+Begin processing the 33301st record. Run 205233, Event 55502758, LumiSection 101 at 20-Sep-2013 12:38:26.096 CEST
+Begin processing the 33401st record. Run 205233, Event 58668719, LumiSection 102 at 20-Sep-2013 12:38:35.745 CEST
+Begin processing the 33501st record. Run 205233, Event 58236762, LumiSection 102 at 20-Sep-2013 12:38:44.036 CEST
+Begin processing the 33601st record. Run 205233, Event 58542209, LumiSection 102 at 20-Sep-2013 12:38:54.710 CEST
+Begin processing the 33701st record. Run 205233, Event 58073571, LumiSection 102 at 20-Sep-2013 12:39:02.809 CEST
+Begin processing the 33801st record. Run 205233, Event 58617040, LumiSection 102 at 20-Sep-2013 12:39:11.515 CEST
+Begin processing the 33901st record. Run 205233, Event 58122222, LumiSection 102 at 20-Sep-2013 12:39:17.076 CEST
+Begin processing the 34001st record. Run 205233, Event 59116047, LumiSection 103 at 20-Sep-2013 12:39:24.720 CEST
+Begin processing the 34101st record. Run 205233, Event 60686630, LumiSection 103 at 20-Sep-2013 12:39:32.557 CEST
+Begin processing the 34201st record. Run 205233, Event 59854132, LumiSection 103 at 20-Sep-2013 12:39:38.753 CEST
+Begin processing the 34301st record. Run 205233, Event 59216387, LumiSection 103 at 20-Sep-2013 12:39:50.882 CEST
+Begin processing the 34401st record. Run 205233, Event 60297402, LumiSection 103 at 20-Sep-2013 12:39:57.298 CEST
+Begin processing the 34501st record. Run 205233, Event 59557322, LumiSection 103 at 20-Sep-2013 12:40:04.453 CEST
+Begin processing the 34601st record. Run 205233, Event 60080150, LumiSection 103 at 20-Sep-2013 12:40:15.908 CEST
+Begin processing the 34701st record. Run 205233, Event 62980405, LumiSection 105 at 20-Sep-2013 12:40:20.516 CEST
+Begin processing the 34801st record. Run 205233, Event 63883920, LumiSection 105 at 20-Sep-2013 12:40:31.089 CEST
+Begin processing the 34901st record. Run 205233, Event 63465121, LumiSection 105 at 20-Sep-2013 12:40:40.470 CEST
+Begin processing the 35001st record. Run 205233, Event 63832180, LumiSection 105 at 20-Sep-2013 12:40:47.635 CEST
+Begin processing the 35101st record. Run 205233, Event 63233424, LumiSection 105 at 20-Sep-2013 12:40:54.582 CEST
+Begin processing the 35201st record. Run 205233, Event 63274474, LumiSection 105 at 20-Sep-2013 12:41:01.933 CEST
+Begin processing the 35301st record. Run 205233, Event 64596089, LumiSection 106 at 20-Sep-2013 12:41:11.084 CEST
+Begin processing the 35401st record. Run 205233, Event 64792327, LumiSection 106 at 20-Sep-2013 12:41:19.778 CEST
+Begin processing the 35501st record. Run 205233, Event 64177295, LumiSection 106 at 20-Sep-2013 12:41:25.742 CEST
+Begin processing the 35601st record. Run 205233, Event 65752366, LumiSection 106 at 20-Sep-2013 12:41:32.402 CEST
+Begin processing the 35701st record. Run 205233, Event 64641994, LumiSection 106 at 20-Sep-2013 12:41:40.161 CEST
+Begin processing the 35801st record. Run 205233, Event 64260476, LumiSection 106 at 20-Sep-2013 12:41:44.434 CEST
+Begin processing the 35901st record. Run 205233, Event 66994682, LumiSection 107 at 20-Sep-2013 12:41:54.111 CEST
+Begin processing the 36001st record. Run 205233, Event 66632213, LumiSection 107 at 20-Sep-2013 12:42:03.741 CEST
+Begin processing the 36101st record. Run 205233, Event 67067654, LumiSection 107 at 20-Sep-2013 12:42:10.165 CEST
+Begin processing the 36201st record. Run 205233, Event 66766237, LumiSection 107 at 20-Sep-2013 12:42:16.285 CEST
+Begin processing the 36301st record. Run 205233, Event 66766674, LumiSection 107 at 20-Sep-2013 12:42:23.607 CEST
+Begin processing the 36401st record. Run 205233, Event 66234304, LumiSection 107 at 20-Sep-2013 12:42:36.173 CEST
+Begin processing the 36501st record. Run 205233, Event 68872649, LumiSection 108 at 20-Sep-2013 12:42:42.753 CEST
+Begin processing the 36601st record. Run 205233, Event 68763703, LumiSection 108 at 20-Sep-2013 12:42:47.948 CEST
+Begin processing the 36701st record. Run 205233, Event 68061686, LumiSection 108 at 20-Sep-2013 12:42:54.665 CEST
+Begin processing the 36801st record. Run 205233, Event 67602491, LumiSection 108 at 20-Sep-2013 12:43:05.364 CEST
+Begin processing the 36901st record. Run 205233, Event 67982632, LumiSection 108 at 20-Sep-2013 12:43:11.854 CEST
+Begin processing the 37001st record. Run 205233, Event 68676104, LumiSection 108 at 20-Sep-2013 12:43:15.686 CEST
+20-Sep-2013 12:43:18 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/A4BC760E-081A-E211-B6E5-003048F024FA.root
+20-Sep-2013 12:43:18 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B81C84C4-7B19-E211-926D-0030486780AC.root
+20-Sep-2013 12:43:18 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B81C84C4-7B19-E211-926D-0030486780AC.root
+20-Sep-2013 12:43:22 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/217/B81C84C4-7B19-E211-926D-0030486780AC.root
+20-Sep-2013 12:43:22 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/18878B82-DC19-E211-B819-5404A63886B7.root
+20-Sep-2013 12:43:22 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/18878B82-DC19-E211-B819-5404A63886B7.root
+Begin processing the 37101st record. Run 205236, Event 108126738, LumiSection 69 at 20-Sep-2013 12:43:33.430 CEST
+Begin processing the 37201st record. Run 205236, Event 108594149, LumiSection 69 at 20-Sep-2013 12:43:39.972 CEST
+Begin processing the 37301st record. Run 205236, Event 108211599, LumiSection 69 at 20-Sep-2013 12:43:46.535 CEST
+Begin processing the 37401st record. Run 205236, Event 108756186, LumiSection 69 at 20-Sep-2013 12:43:53.880 CEST
+Begin processing the 37501st record. Run 205236, Event 109018193, LumiSection 69 at 20-Sep-2013 12:43:57.459 CEST
+Begin processing the 37601st record. Run 205236, Event 109374170, LumiSection 70 at 20-Sep-2013 12:44:10.016 CEST
+Begin processing the 37701st record. Run 205236, Event 109240353, LumiSection 70 at 20-Sep-2013 12:44:17.750 CEST
+Begin processing the 37801st record. Run 205236, Event 109110795, LumiSection 70 at 20-Sep-2013 12:44:26.767 CEST
+Begin processing the 37901st record. Run 205236, Event 109136462, LumiSection 70 at 20-Sep-2013 12:44:34.451 CEST
+Begin processing the 38001st record. Run 205236, Event 109604640, LumiSection 70 at 20-Sep-2013 12:44:40.199 CEST
+Begin processing the 38101st record. Run 205236, Event 111658652, LumiSection 71 at 20-Sep-2013 12:44:48.324 CEST
+Begin processing the 38201st record. Run 205236, Event 112029265, LumiSection 71 at 20-Sep-2013 12:44:56.060 CEST
+Begin processing the 38301st record. Run 205236, Event 111889965, LumiSection 71 at 20-Sep-2013 12:45:02.018 CEST
+Begin processing the 38401st record. Run 205236, Event 111769440, LumiSection 71 at 20-Sep-2013 12:45:10.051 CEST
+Begin processing the 38501st record. Run 205236, Event 111225216, LumiSection 71 at 20-Sep-2013 12:45:19.988 CEST
+Begin processing the 38601st record. Run 205236, Event 115792023, LumiSection 74 at 20-Sep-2013 12:45:24.727 CEST
+Begin processing the 38701st record. Run 205236, Event 115621542, LumiSection 74 at 20-Sep-2013 12:45:33.009 CEST
+Begin processing the 38801st record. Run 205236, Event 116105502, LumiSection 74 at 20-Sep-2013 12:45:42.173 CEST
+Begin processing the 38901st record. Run 205236, Event 115410107, LumiSection 74 at 20-Sep-2013 12:45:49.489 CEST
+Begin processing the 39001st record. Run 205236, Event 115476347, LumiSection 74 at 20-Sep-2013 12:45:55.322 CEST
+Begin processing the 39101st record. Run 205236, Event 120380368, LumiSection 77 at 20-Sep-2013 12:46:00.459 CEST
+Begin processing the 39201st record. Run 205236, Event 119922633, LumiSection 77 at 20-Sep-2013 12:46:06.223 CEST
+Begin processing the 39301st record. Run 205236, Event 120839224, LumiSection 77 at 20-Sep-2013 12:46:16.833 CEST
+Begin processing the 39401st record. Run 205236, Event 120725733, LumiSection 77 at 20-Sep-2013 12:46:26.319 CEST
+Begin processing the 39501st record. Run 205236, Event 119977534, LumiSection 77 at 20-Sep-2013 12:46:36.196 CEST
+Begin processing the 39601st record. Run 205236, Event 122026803, LumiSection 78 at 20-Sep-2013 12:46:41.866 CEST
+Begin processing the 39701st record. Run 205236, Event 122411720, LumiSection 78 at 20-Sep-2013 12:46:49.974 CEST
+Begin processing the 39801st record. Run 205236, Event 121249326, LumiSection 78 at 20-Sep-2013 12:46:55.339 CEST
+Begin processing the 39901st record. Run 205236, Event 121481379, LumiSection 78 at 20-Sep-2013 12:47:01.672 CEST
+Begin processing the 40001st record. Run 205236, Event 122293111, LumiSection 78 at 20-Sep-2013 12:47:07.438 CEST
+Begin processing the 40101st record. Run 205236, Event 123732424, LumiSection 79 at 20-Sep-2013 12:47:13.549 CEST
+Begin processing the 40201st record. Run 205236, Event 122924081, LumiSection 79 at 20-Sep-2013 12:47:23.111 CEST
+Begin processing the 40301st record. Run 205236, Event 122833760, LumiSection 79 at 20-Sep-2013 12:47:29.669 CEST
+Begin processing the 40401st record. Run 205236, Event 122785700, LumiSection 79 at 20-Sep-2013 12:47:37.462 CEST
+Begin processing the 40501st record. Run 205236, Event 123495268, LumiSection 79 at 20-Sep-2013 12:47:42.735 CEST
+Begin processing the 40601st record. Run 205236, Event 127578145, LumiSection 82 at 20-Sep-2013 12:47:46.450 CEST
+Begin processing the 40701st record. Run 205236, Event 127982464, LumiSection 82 at 20-Sep-2013 12:47:51.614 CEST
+Begin processing the 40801st record. Run 205236, Event 128381735, LumiSection 82 at 20-Sep-2013 12:47:59.498 CEST
+Begin processing the 40901st record. Run 205236, Event 127888549, LumiSection 82 at 20-Sep-2013 12:48:09.989 CEST
+Begin processing the 41001st record. Run 205236, Event 127694766, LumiSection 82 at 20-Sep-2013 12:48:20.673 CEST
+Begin processing the 41101st record. Run 205236, Event 130189380, LumiSection 84 at 20-Sep-2013 12:48:28.722 CEST
+Begin processing the 41201st record. Run 205236, Event 130035878, LumiSection 84 at 20-Sep-2013 12:48:35.790 CEST
+Begin processing the 41301st record. Run 205236, Event 129989537, LumiSection 84 at 20-Sep-2013 12:48:41.923 CEST
+Begin processing the 41401st record. Run 205236, Event 130216961, LumiSection 84 at 20-Sep-2013 12:48:51.189 CEST
+Begin processing the 41501st record. Run 205236, Event 130430735, LumiSection 84 at 20-Sep-2013 12:48:57.671 CEST
+Begin processing the 41601st record. Run 205236, Event 136155572, LumiSection 88 at 20-Sep-2013 12:49:06.867 CEST
+Begin processing the 41701st record. Run 205236, Event 137089053, LumiSection 88 at 20-Sep-2013 12:49:14.914 CEST
+Begin processing the 41801st record. Run 205236, Event 136054185, LumiSection 88 at 20-Sep-2013 12:49:22.379 CEST
+Begin processing the 41901st record. Run 205236, Event 136513328, LumiSection 88 at 20-Sep-2013 12:49:28.446 CEST
+Begin processing the 42001st record. Run 205236, Event 136647903, LumiSection 88 at 20-Sep-2013 12:49:32.841 CEST
+Begin processing the 42101st record. Run 205236, Event 138078153, LumiSection 89 at 20-Sep-2013 12:49:42.115 CEST
+Begin processing the 42201st record. Run 205236, Event 138404392, LumiSection 89 at 20-Sep-2013 12:49:48.140 CEST
+Begin processing the 42301st record. Run 205236, Event 138259551, LumiSection 89 at 20-Sep-2013 12:49:55.543 CEST
+Begin processing the 42401st record. Run 205236, Event 137693957, LumiSection 89 at 20-Sep-2013 12:50:01.940 CEST
+Begin processing the 42501st record. Run 205236, Event 137420627, LumiSection 89 at 20-Sep-2013 12:50:07.777 CEST
+Begin processing the 42601st record. Run 205236, Event 139395420, LumiSection 90 at 20-Sep-2013 12:50:15.490 CEST
+Begin processing the 42701st record. Run 205236, Event 139783762, LumiSection 90 at 20-Sep-2013 12:50:26.474 CEST
+Begin processing the 42801st record. Run 205236, Event 139648529, LumiSection 90 at 20-Sep-2013 12:50:34.671 CEST
+Begin processing the 42901st record. Run 205236, Event 139396192, LumiSection 90 at 20-Sep-2013 12:50:38.018 CEST
+Begin processing the 43001st record. Run 205236, Event 139592911, LumiSection 90 at 20-Sep-2013 12:50:48.846 CEST
+Begin processing the 43101st record. Run 205236, Event 141431641, LumiSection 91 at 20-Sep-2013 12:50:53.679 CEST
+Begin processing the 43201st record. Run 205236, Event 141597048, LumiSection 91 at 20-Sep-2013 12:50:58.249 CEST
+Begin processing the 43301st record. Run 205236, Event 141615895, LumiSection 91 at 20-Sep-2013 12:51:01.494 CEST
+Begin processing the 43401st record. Run 205236, Event 140398754, LumiSection 91 at 20-Sep-2013 12:51:10.483 CEST
+Begin processing the 43501st record. Run 205236, Event 140977998, LumiSection 91 at 20-Sep-2013 12:51:13.246 CEST
+Begin processing the 43601st record. Run 205236, Event 146487825, LumiSection 95 at 20-Sep-2013 12:51:19.529 CEST
+Begin processing the 43701st record. Run 205236, Event 147295888, LumiSection 95 at 20-Sep-2013 12:51:27.946 CEST
+Begin processing the 43801st record. Run 205236, Event 146779363, LumiSection 95 at 20-Sep-2013 12:51:34.355 CEST
+Begin processing the 43901st record. Run 205236, Event 146963445, LumiSection 95 at 20-Sep-2013 12:51:44.215 CEST
+Begin processing the 44001st record. Run 205236, Event 147279836, LumiSection 95 at 20-Sep-2013 12:51:50.987 CEST
+Begin processing the 44101st record. Run 205236, Event 149142058, LumiSection 97 at 20-Sep-2013 12:51:54.691 CEST
+Begin processing the 44201st record. Run 205236, Event 149070452, LumiSection 97 at 20-Sep-2013 12:52:00.027 CEST
+Begin processing the 44301st record. Run 205236, Event 149258576, LumiSection 97 at 20-Sep-2013 12:52:07.456 CEST
+Begin processing the 44401st record. Run 205236, Event 149424709, LumiSection 97 at 20-Sep-2013 12:52:17.251 CEST
+Begin processing the 44501st record. Run 205236, Event 149656431, LumiSection 97 at 20-Sep-2013 12:52:24.735 CEST
+Begin processing the 44601st record. Run 205236, Event 151195840, LumiSection 98 at 20-Sep-2013 12:52:30.560 CEST
+Begin processing the 44701st record. Run 205236, Event 151448439, LumiSection 98 at 20-Sep-2013 12:52:38.363 CEST
+Begin processing the 44801st record. Run 205236, Event 150690554, LumiSection 98 at 20-Sep-2013 12:52:45.119 CEST
+Begin processing the 44901st record. Run 205236, Event 151358796, LumiSection 98 at 20-Sep-2013 12:52:50.523 CEST
+Begin processing the 45001st record. Run 205236, Event 152371093, LumiSection 99 at 20-Sep-2013 12:52:55.217 CEST
+Begin processing the 45101st record. Run 205236, Event 152360670, LumiSection 99 at 20-Sep-2013 12:53:02.757 CEST
+Begin processing the 45201st record. Run 205236, Event 151919055, LumiSection 99 at 20-Sep-2013 12:53:09.488 CEST
+Begin processing the 45301st record. Run 205236, Event 151987954, LumiSection 99 at 20-Sep-2013 12:53:18.133 CEST
+Begin processing the 45401st record. Run 205236, Event 152889593, LumiSection 99 at 20-Sep-2013 12:53:23.395 CEST
+Begin processing the 45501st record. Run 205236, Event 288591865, LumiSection 200 at 20-Sep-2013 12:53:32.640 CEST
+Begin processing the 45601st record. Run 205236, Event 289246730, LumiSection 200 at 20-Sep-2013 12:53:42.292 CEST
+Begin processing the 45701st record. Run 205236, Event 290222577, LumiSection 201 at 20-Sep-2013 12:53:47.864 CEST
+Begin processing the 45801st record. Run 205236, Event 292252760, LumiSection 203 at 20-Sep-2013 12:53:52.804 CEST
+Begin processing the 45901st record. Run 205236, Event 293442480, LumiSection 204 at 20-Sep-2013 12:53:58.273 CEST
+Begin processing the 46001st record. Run 205236, Event 294226679, LumiSection 204 at 20-Sep-2013 12:54:04.870 CEST
+Begin processing the 46101st record. Run 205236, Event 296291016, LumiSection 206 at 20-Sep-2013 12:54:10.591 CEST
+Begin processing the 46201st record. Run 205236, Event 300228660, LumiSection 209 at 20-Sep-2013 12:54:20.419 CEST
+Begin processing the 46301st record. Run 205236, Event 303280165, LumiSection 211 at 20-Sep-2013 12:54:27.752 CEST
+20-Sep-2013 12:54:31 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/18878B82-DC19-E211-B819-5404A63886B7.root
+20-Sep-2013 12:54:31 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/F4572C2E-D419-E211-9C30-0025B32036E2.root
+20-Sep-2013 12:54:31 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/F4572C2E-D419-E211-9C30-0025B32036E2.root
+Begin processing the 46401st record. Run 205233, Event 96249133, LumiSection 125 at 20-Sep-2013 12:54:37.650 CEST
+Begin processing the 46501st record. Run 205233, Event 95933971, LumiSection 125 at 20-Sep-2013 12:54:47.481 CEST
+Begin processing the 46601st record. Run 205233, Event 96527503, LumiSection 125 at 20-Sep-2013 12:54:58.007 CEST
+Begin processing the 46701st record. Run 205233, Event 96874454, LumiSection 125 at 20-Sep-2013 12:55:04.274 CEST
+Begin processing the 46801st record. Run 205233, Event 96469804, LumiSection 125 at 20-Sep-2013 12:55:10.875 CEST
+Begin processing the 46901st record. Run 205233, Event 95801337, LumiSection 125 at 20-Sep-2013 12:55:17.725 CEST
+Begin processing the 47001st record. Run 205233, Event 97024863, LumiSection 125 at 20-Sep-2013 12:55:23.354 CEST
+Begin processing the 47101st record. Run 205233, Event 98371572, LumiSection 126 at 20-Sep-2013 12:55:29.385 CEST
+Begin processing the 47201st record. Run 205233, Event 98672265, LumiSection 126 at 20-Sep-2013 12:55:37.524 CEST
+Begin processing the 47301st record. Run 205233, Event 98358282, LumiSection 126 at 20-Sep-2013 12:55:47.091 CEST
+Begin processing the 47401st record. Run 205233, Event 98213891, LumiSection 126 at 20-Sep-2013 12:55:59.061 CEST
+Begin processing the 47501st record. Run 205233, Event 97491390, LumiSection 126 at 20-Sep-2013 12:56:10.813 CEST
+Begin processing the 47601st record. Run 205233, Event 99010141, LumiSection 127 at 20-Sep-2013 12:56:18.416 CEST
+Begin processing the 47701st record. Run 205233, Event 99962496, LumiSection 127 at 20-Sep-2013 12:56:27.604 CEST
+Begin processing the 47801st record. Run 205233, Event 100512352, LumiSection 127 at 20-Sep-2013 12:56:38.710 CEST
+Begin processing the 47901st record. Run 205233, Event 100050549, LumiSection 127 at 20-Sep-2013 12:56:42.239 CEST
+Begin processing the 48001st record. Run 205233, Event 99808338, LumiSection 127 at 20-Sep-2013 12:56:51.015 CEST
+Begin processing the 48101st record. Run 205233, Event 100106699, LumiSection 127 at 20-Sep-2013 12:56:59.041 CEST
+Begin processing the 48201st record. Run 205233, Event 100096039, LumiSection 127 at 20-Sep-2013 12:57:06.605 CEST
+Begin processing the 48301st record. Run 205233, Event 137912228, LumiSection 150 at 20-Sep-2013 12:57:13.426 CEST
+Begin processing the 48401st record. Run 205233, Event 137196462, LumiSection 150 at 20-Sep-2013 12:57:19.700 CEST
+Begin processing the 48501st record. Run 205233, Event 137907531, LumiSection 150 at 20-Sep-2013 12:57:26.853 CEST
+Begin processing the 48601st record. Run 205233, Event 138032802, LumiSection 150 at 20-Sep-2013 12:57:33.343 CEST
+Begin processing the 48701st record. Run 205233, Event 137688833, LumiSection 150 at 20-Sep-2013 12:57:39.901 CEST
+Begin processing the 48801st record. Run 205233, Event 142414987, LumiSection 153 at 20-Sep-2013 12:57:46.894 CEST
+Begin processing the 48901st record. Run 205233, Event 142401972, LumiSection 153 at 20-Sep-2013 12:57:54.644 CEST
+Begin processing the 49001st record. Run 205233, Event 142115793, LumiSection 153 at 20-Sep-2013 12:58:00.228 CEST
+Begin processing the 49101st record. Run 205233, Event 101223946, LumiSection 128 at 20-Sep-2013 12:58:10.261 CEST
+Begin processing the 49201st record. Run 205233, Event 100762729, LumiSection 128 at 20-Sep-2013 12:58:13.747 CEST
+Begin processing the 49301st record. Run 205233, Event 102291287, LumiSection 128 at 20-Sep-2013 12:58:16.525 CEST
+Begin processing the 49401st record. Run 205233, Event 100937752, LumiSection 128 at 20-Sep-2013 12:58:30.463 CEST
+Begin processing the 49501st record. Run 205233, Event 101912405, LumiSection 128 at 20-Sep-2013 12:58:38.571 CEST
+Begin processing the 49601st record. Run 205233, Event 102180772, LumiSection 128 at 20-Sep-2013 12:58:49.002 CEST
+Begin processing the 49701st record. Run 205233, Event 103482410, LumiSection 129 at 20-Sep-2013 12:58:55.358 CEST
+Begin processing the 49801st record. Run 205233, Event 102525413, LumiSection 129 at 20-Sep-2013 12:59:01.879 CEST
+Begin processing the 49901st record. Run 205233, Event 103677868, LumiSection 129 at 20-Sep-2013 12:59:06.323 CEST
+Begin processing the 50001st record. Run 205233, Event 102816355, LumiSection 129 at 20-Sep-2013 12:59:18.620 CEST
+Begin processing the 50101st record. Run 205233, Event 102772833, LumiSection 129 at 20-Sep-2013 12:59:25.438 CEST
+Begin processing the 50201st record. Run 205233, Event 103067365, LumiSection 129 at 20-Sep-2013 12:59:35.815 CEST
+Begin processing the 50301st record. Run 205233, Event 104359036, LumiSection 130 at 20-Sep-2013 12:59:45.449 CEST
+Begin processing the 50401st record. Run 205233, Event 105467467, LumiSection 130 at 20-Sep-2013 12:59:51.085 CEST
+Begin processing the 50501st record. Run 205233, Event 105146337, LumiSection 130 at 20-Sep-2013 13:00:00.372 CEST
+Begin processing the 50601st record. Run 205233, Event 104347752, LumiSection 130 at 20-Sep-2013 13:00:06.150 CEST
+Begin processing the 50701st record. Run 205233, Event 104346524, LumiSection 130 at 20-Sep-2013 13:00:12.120 CEST
+Begin processing the 50801st record. Run 205233, Event 105544518, LumiSection 130 at 20-Sep-2013 13:00:17.845 CEST
+Begin processing the 50901st record. Run 205233, Event 105406782, LumiSection 130 at 20-Sep-2013 13:00:24.251 CEST
+Begin processing the 51001st record. Run 205233, Event 108470566, LumiSection 132 at 20-Sep-2013 13:00:30.175 CEST
+Begin processing the 51101st record. Run 205233, Event 108012603, LumiSection 132 at 20-Sep-2013 13:00:39.179 CEST
+Begin processing the 51201st record. Run 205233, Event 108387748, LumiSection 132 at 20-Sep-2013 13:00:49.256 CEST
+Begin processing the 51301st record. Run 205233, Event 107650498, LumiSection 132 at 20-Sep-2013 13:00:52.696 CEST
+Begin processing the 51401st record. Run 205233, Event 107955385, LumiSection 132 at 20-Sep-2013 13:01:00.119 CEST
+Begin processing the 51501st record. Run 205233, Event 108803953, LumiSection 132 at 20-Sep-2013 13:01:06.698 CEST
+Begin processing the 51601st record. Run 205233, Event 110217274, LumiSection 133 at 20-Sep-2013 13:01:14.513 CEST
+Begin processing the 51701st record. Run 205233, Event 109809795, LumiSection 133 at 20-Sep-2013 13:01:24.974 CEST
+Begin processing the 51801st record. Run 205233, Event 110539299, LumiSection 133 at 20-Sep-2013 13:01:37.134 CEST
+Begin processing the 51901st record. Run 205233, Event 110104845, LumiSection 133 at 20-Sep-2013 13:01:43.949 CEST
+Begin processing the 52001st record. Run 205233, Event 110287673, LumiSection 133 at 20-Sep-2013 13:01:50.392 CEST
+Begin processing the 52101st record. Run 205233, Event 111863652, LumiSection 134 at 20-Sep-2013 13:01:57.113 CEST
+Begin processing the 52201st record. Run 205233, Event 110778931, LumiSection 134 at 20-Sep-2013 13:02:09.155 CEST
+Begin processing the 52301st record. Run 205233, Event 111566333, LumiSection 134 at 20-Sep-2013 13:02:17.702 CEST
+Begin processing the 52401st record. Run 205233, Event 111126976, LumiSection 134 at 20-Sep-2013 13:02:28.992 CEST
+Begin processing the 52501st record. Run 205233, Event 110850809, LumiSection 134 at 20-Sep-2013 13:02:42.021 CEST
+Begin processing the 52601st record. Run 205233, Event 112154417, LumiSection 134 at 20-Sep-2013 13:02:46.525 CEST
+Begin processing the 52701st record. Run 205233, Event 113167801, LumiSection 135 at 20-Sep-2013 13:02:53.359 CEST
+Begin processing the 52801st record. Run 205233, Event 112938997, LumiSection 135 at 20-Sep-2013 13:03:01.390 CEST
+Begin processing the 52901st record. Run 205233, Event 113255519, LumiSection 135 at 20-Sep-2013 13:03:05.397 CEST
+Begin processing the 53001st record. Run 205233, Event 113797480, LumiSection 135 at 20-Sep-2013 13:03:09.164 CEST
+Begin processing the 53101st record. Run 205233, Event 112997426, LumiSection 135 at 20-Sep-2013 13:03:18.116 CEST
+Begin processing the 53201st record. Run 205233, Event 112468027, LumiSection 135 at 20-Sep-2013 13:03:22.758 CEST
+Begin processing the 53301st record. Run 205233, Event 113178709, LumiSection 135 at 20-Sep-2013 13:03:33.570 CEST
+Begin processing the 53401st record. Run 205233, Event 115318214, LumiSection 136 at 20-Sep-2013 13:03:44.155 CEST
+Begin processing the 53501st record. Run 205233, Event 115460031, LumiSection 136 at 20-Sep-2013 13:03:51.679 CEST
+Begin processing the 53601st record. Run 205233, Event 114337765, LumiSection 136 at 20-Sep-2013 13:03:55.695 CEST
+Begin processing the 53701st record. Run 205233, Event 114972359, LumiSection 136 at 20-Sep-2013 13:03:59.872 CEST
+Begin processing the 53801st record. Run 205233, Event 114350328, LumiSection 136 at 20-Sep-2013 13:04:07.304 CEST
+Begin processing the 53901st record. Run 205233, Event 115174482, LumiSection 136 at 20-Sep-2013 13:04:11.066 CEST
+Begin processing the 54001st record. Run 205233, Event 116957229, LumiSection 137 at 20-Sep-2013 13:04:20.807 CEST
+Begin processing the 54101st record. Run 205233, Event 115969884, LumiSection 137 at 20-Sep-2013 13:04:28.962 CEST
+Begin processing the 54201st record. Run 205233, Event 115826594, LumiSection 137 at 20-Sep-2013 13:04:34.632 CEST
+Begin processing the 54301st record. Run 205233, Event 117244839, LumiSection 137 at 20-Sep-2013 13:04:42.997 CEST
+Begin processing the 54401st record. Run 205233, Event 115738907, LumiSection 137 at 20-Sep-2013 13:04:51.223 CEST
+Begin processing the 54501st record. Run 205233, Event 118432345, LumiSection 138 at 20-Sep-2013 13:04:57.610 CEST
+Begin processing the 54601st record. Run 205233, Event 118360726, LumiSection 138 at 20-Sep-2013 13:05:01.753 CEST
+Begin processing the 54701st record. Run 205233, Event 117988953, LumiSection 138 at 20-Sep-2013 13:05:10.538 CEST
+Begin processing the 54801st record. Run 205233, Event 118494882, LumiSection 138 at 20-Sep-2013 13:05:15.333 CEST
+Begin processing the 54901st record. Run 205233, Event 117681269, LumiSection 138 at 20-Sep-2013 13:05:19.141 CEST
+Begin processing the 55001st record. Run 205233, Event 118347028, LumiSection 138 at 20-Sep-2013 13:05:28.297 CEST
+Begin processing the 55101st record. Run 205233, Event 118942044, LumiSection 138 at 20-Sep-2013 13:05:35.094 CEST
+Begin processing the 55201st record. Run 205233, Event 119328351, LumiSection 139 at 20-Sep-2013 13:05:44.114 CEST
+Begin processing the 55301st record. Run 205233, Event 119241053, LumiSection 139 at 20-Sep-2013 13:05:50.645 CEST
+Begin processing the 55401st record. Run 205233, Event 119852203, LumiSection 139 at 20-Sep-2013 13:05:58.710 CEST
+Begin processing the 55501st record. Run 205233, Event 120437294, LumiSection 139 at 20-Sep-2013 13:06:04.894 CEST
+Begin processing the 55601st record. Run 205233, Event 119902824, LumiSection 139 at 20-Sep-2013 13:06:14.563 CEST
+Begin processing the 55701st record. Run 205233, Event 119208869, LumiSection 139 at 20-Sep-2013 13:06:19.314 CEST
+Begin processing the 55801st record. Run 205233, Event 122116830, LumiSection 140 at 20-Sep-2013 13:06:27.940 CEST
+Begin processing the 55901st record. Run 205233, Event 121749907, LumiSection 140 at 20-Sep-2013 13:06:30.700 CEST
+Begin processing the 56001st record. Run 205233, Event 122267947, LumiSection 140 at 20-Sep-2013 13:06:42.808 CEST
+Begin processing the 56101st record. Run 205233, Event 121483853, LumiSection 140 at 20-Sep-2013 13:06:55.110 CEST
+Begin processing the 56201st record. Run 205233, Event 120913359, LumiSection 140 at 20-Sep-2013 13:07:05.669 CEST
+Begin processing the 56301st record. Run 205233, Event 122113879, LumiSection 140 at 20-Sep-2013 13:07:16.239 CEST
+Begin processing the 56401st record. Run 205233, Event 123995693, LumiSection 142 at 20-Sep-2013 13:07:23.875 CEST
+Begin processing the 56501st record. Run 205233, Event 124980340, LumiSection 142 at 20-Sep-2013 13:07:30.486 CEST
+Begin processing the 56601st record. Run 205233, Event 124554890, LumiSection 142 at 20-Sep-2013 13:07:40.904 CEST
+Begin processing the 56701st record. Run 205233, Event 124543637, LumiSection 142 at 20-Sep-2013 13:07:51.060 CEST
+Begin processing the 56801st record. Run 205233, Event 124740537, LumiSection 142 at 20-Sep-2013 13:07:56.070 CEST
+Begin processing the 56901st record. Run 205233, Event 125211704, LumiSection 142 at 20-Sep-2013 13:08:05.304 CEST
+Begin processing the 57001st record. Run 205233, Event 127142077, LumiSection 143 at 20-Sep-2013 13:08:12.369 CEST
+Begin processing the 57101st record. Run 205233, Event 126735181, LumiSection 143 at 20-Sep-2013 13:08:19.657 CEST
+Begin processing the 57201st record. Run 205233, Event 126469748, LumiSection 143 at 20-Sep-2013 13:08:27.763 CEST
+Begin processing the 57301st record. Run 205233, Event 126090007, LumiSection 143 at 20-Sep-2013 13:08:39.470 CEST
+Begin processing the 57401st record. Run 205233, Event 125995848, LumiSection 143 at 20-Sep-2013 13:08:47.482 CEST
+Begin processing the 57501st record. Run 205233, Event 125889202, LumiSection 143 at 20-Sep-2013 13:08:55.709 CEST
+20-Sep-2013 13:08:55 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/F4572C2E-D419-E211-9C30-0025B32036E2.root
+20-Sep-2013 13:08:55 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/EAE2AE35-CE19-E211-BBC5-0030486780AC.root
+20-Sep-2013 13:08:55 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/EAE2AE35-CE19-E211-BBC5-0030486780AC.root
+Begin processing the 57601st record. Run 205233, Event 82374430, LumiSection 116 at 20-Sep-2013 13:09:06.787 CEST
+Begin processing the 57701st record. Run 205233, Event 81416562, LumiSection 116 at 20-Sep-2013 13:09:14.280 CEST
+Begin processing the 57801st record. Run 205233, Event 80958284, LumiSection 116 at 20-Sep-2013 13:09:21.838 CEST
+Begin processing the 57901st record. Run 205233, Event 81644775, LumiSection 116 at 20-Sep-2013 13:09:30.273 CEST
+Begin processing the 58001st record. Run 205233, Event 81024576, LumiSection 116 at 20-Sep-2013 13:09:40.326 CEST
+Begin processing the 58101st record. Run 205233, Event 82096763, LumiSection 116 at 20-Sep-2013 13:09:45.293 CEST
+Begin processing the 58201st record. Run 205233, Event 91385201, LumiSection 122 at 20-Sep-2013 13:09:51.750 CEST
+Begin processing the 58301st record. Run 205233, Event 91492726, LumiSection 122 at 20-Sep-2013 13:09:57.793 CEST
+Begin processing the 58401st record. Run 205233, Event 90603306, LumiSection 122 at 20-Sep-2013 13:10:08.075 CEST
+Begin processing the 58501st record. Run 205233, Event 90873110, LumiSection 122 at 20-Sep-2013 13:10:18.525 CEST
+Begin processing the 58601st record. Run 205233, Event 91886514, LumiSection 122 at 20-Sep-2013 13:10:27.462 CEST
+Begin processing the 58701st record. Run 205233, Event 91464217, LumiSection 122 at 20-Sep-2013 13:10:36.601 CEST
+Begin processing the 58801st record. Run 205233, Event 92886885, LumiSection 123 at 20-Sep-2013 13:10:45.433 CEST
+Begin processing the 58901st record. Run 205233, Event 93134942, LumiSection 123 at 20-Sep-2013 13:10:53.855 CEST
+Begin processing the 59001st record. Run 205233, Event 92792844, LumiSection 123 at 20-Sep-2013 13:11:01.346 CEST
+Begin processing the 59101st record. Run 205233, Event 93460745, LumiSection 123 at 20-Sep-2013 13:11:08.058 CEST
+Begin processing the 59201st record. Run 205233, Event 92380867, LumiSection 123 at 20-Sep-2013 13:11:20.096 CEST
+Begin processing the 59301st record. Run 205233, Event 93780432, LumiSection 123 at 20-Sep-2013 13:11:26.941 CEST
+Begin processing the 59401st record. Run 205233, Event 94886579, LumiSection 124 at 20-Sep-2013 13:11:36.809 CEST
+Begin processing the 59501st record. Run 205233, Event 95151176, LumiSection 124 at 20-Sep-2013 13:11:43.527 CEST
+Begin processing the 59601st record. Run 205233, Event 94540055, LumiSection 124 at 20-Sep-2013 13:11:49.425 CEST
+Begin processing the 59701st record. Run 205233, Event 93940606, LumiSection 124 at 20-Sep-2013 13:11:57.542 CEST
+Begin processing the 59801st record. Run 205233, Event 95101035, LumiSection 124 at 20-Sep-2013 13:12:06.587 CEST
+Begin processing the 59901st record. Run 205233, Event 94242233, LumiSection 124 at 20-Sep-2013 13:12:13.475 CEST
+Begin processing the 60001st record. Run 205233, Event 107146093, LumiSection 131 at 20-Sep-2013 13:12:22.244 CEST
+Begin processing the 60101st record. Run 205233, Event 106942788, LumiSection 131 at 20-Sep-2013 13:12:27.108 CEST
+Begin processing the 60201st record. Run 205233, Event 107320398, LumiSection 131 at 20-Sep-2013 13:12:33.579 CEST
+Begin processing the 60301st record. Run 205233, Event 106598290, LumiSection 131 at 20-Sep-2013 13:12:39.613 CEST
+Begin processing the 60401st record. Run 205233, Event 105954176, LumiSection 131 at 20-Sep-2013 13:12:50.955 CEST
+Begin processing the 60501st record. Run 205233, Event 106877200, LumiSection 131 at 20-Sep-2013 13:13:00.497 CEST
+Begin processing the 60601st record. Run 205233, Event 123089167, LumiSection 141 at 20-Sep-2013 13:13:06.052 CEST
+Begin processing the 60701st record. Run 205233, Event 123117419, LumiSection 141 at 20-Sep-2013 13:13:12.980 CEST
+Begin processing the 60801st record. Run 205233, Event 122717189, LumiSection 141 at 20-Sep-2013 13:13:22.047 CEST
+Begin processing the 60901st record. Run 205233, Event 123760609, LumiSection 141 at 20-Sep-2013 13:13:28.163 CEST
+Begin processing the 61001st record. Run 205233, Event 122971831, LumiSection 141 at 20-Sep-2013 13:13:31.788 CEST
+Begin processing the 61101st record. Run 205233, Event 123102305, LumiSection 141 at 20-Sep-2013 13:13:37.510 CEST
+Begin processing the 61201st record. Run 205233, Event 128066939, LumiSection 144 at 20-Sep-2013 13:13:44.397 CEST
+Begin processing the 61301st record. Run 205233, Event 128363703, LumiSection 144 at 20-Sep-2013 13:13:51.741 CEST
+Begin processing the 61401st record. Run 205233, Event 127981606, LumiSection 144 at 20-Sep-2013 13:13:54.886 CEST
+Begin processing the 61501st record. Run 205233, Event 127738154, LumiSection 144 at 20-Sep-2013 13:13:59.645 CEST
+Begin processing the 61601st record. Run 205233, Event 127745144, LumiSection 144 at 20-Sep-2013 13:14:12.984 CEST
+Begin processing the 61701st record. Run 205233, Event 129318703, LumiSection 145 at 20-Sep-2013 13:14:17.279 CEST
+Begin processing the 61801st record. Run 205233, Event 129963380, LumiSection 145 at 20-Sep-2013 13:14:24.364 CEST
+Begin processing the 61901st record. Run 205233, Event 130185820, LumiSection 145 at 20-Sep-2013 13:14:28.539 CEST
+Begin processing the 62001st record. Run 205233, Event 129961790, LumiSection 145 at 20-Sep-2013 13:14:33.822 CEST
+Begin processing the 62101st record. Run 205233, Event 129744618, LumiSection 145 at 20-Sep-2013 13:14:42.379 CEST
+Begin processing the 62201st record. Run 205233, Event 129675777, LumiSection 145 at 20-Sep-2013 13:14:51.291 CEST
+Begin processing the 62301st record. Run 205233, Event 130732771, LumiSection 146 at 20-Sep-2013 13:14:58.587 CEST
+Begin processing the 62401st record. Run 205233, Event 132023688, LumiSection 146 at 20-Sep-2013 13:15:03.838 CEST
+Begin processing the 62501st record. Run 205233, Event 130726704, LumiSection 146 at 20-Sep-2013 13:15:08.212 CEST
+Begin processing the 62601st record. Run 205233, Event 131013060, LumiSection 146 at 20-Sep-2013 13:15:14.150 CEST
+Begin processing the 62701st record. Run 205233, Event 131361935, LumiSection 146 at 20-Sep-2013 13:15:25.424 CEST
+Begin processing the 62801st record. Run 205233, Event 131914204, LumiSection 146 at 20-Sep-2013 13:15:32.182 CEST
+Begin processing the 62901st record. Run 205233, Event 132866395, LumiSection 147 at 20-Sep-2013 13:15:40.825 CEST
+Begin processing the 63001st record. Run 205233, Event 132068348, LumiSection 147 at 20-Sep-2013 13:15:44.171 CEST
+Begin processing the 63101st record. Run 205233, Event 132210726, LumiSection 147 at 20-Sep-2013 13:15:51.548 CEST
+Begin processing the 63201st record. Run 205233, Event 133291198, LumiSection 147 at 20-Sep-2013 13:15:59.441 CEST
+Begin processing the 63301st record. Run 205233, Event 133218361, LumiSection 147 at 20-Sep-2013 13:16:09.929 CEST
+Begin processing the 63401st record. Run 205233, Event 134792578, LumiSection 148 at 20-Sep-2013 13:16:13.625 CEST
+Begin processing the 63501st record. Run 205233, Event 134667590, LumiSection 148 at 20-Sep-2013 13:16:23.006 CEST
+Begin processing the 63601st record. Run 205233, Event 134185047, LumiSection 148 at 20-Sep-2013 13:16:26.393 CEST
+Begin processing the 63701st record. Run 205233, Event 135029289, LumiSection 148 at 20-Sep-2013 13:16:31.091 CEST
+Begin processing the 63801st record. Run 205233, Event 134559340, LumiSection 148 at 20-Sep-2013 13:16:39.056 CEST
+Begin processing the 63901st record. Run 205233, Event 133797726, LumiSection 148 at 20-Sep-2013 13:16:47.401 CEST
+Begin processing the 64001st record. Run 205233, Event 135995003, LumiSection 149 at 20-Sep-2013 13:16:59.962 CEST
+Begin processing the 64101st record. Run 205233, Event 136790999, LumiSection 149 at 20-Sep-2013 13:17:05.480 CEST
+Begin processing the 64201st record. Run 205233, Event 136350086, LumiSection 149 at 20-Sep-2013 13:17:12.581 CEST
+Begin processing the 64301st record. Run 205233, Event 135968398, LumiSection 149 at 20-Sep-2013 13:17:17.933 CEST
+Begin processing the 64401st record. Run 205233, Event 135520175, LumiSection 149 at 20-Sep-2013 13:17:26.758 CEST
+Begin processing the 64501st record. Run 205233, Event 136515169, LumiSection 149 at 20-Sep-2013 13:17:31.037 CEST
+Begin processing the 64601st record. Run 205233, Event 139981983, LumiSection 151 at 20-Sep-2013 13:17:35.109 CEST
+Begin processing the 64701st record. Run 205233, Event 138594533, LumiSection 151 at 20-Sep-2013 13:17:42.641 CEST
+Begin processing the 64801st record. Run 205233, Event 139861262, LumiSection 151 at 20-Sep-2013 13:17:51.040 CEST
+Begin processing the 64901st record. Run 205233, Event 139082825, LumiSection 151 at 20-Sep-2013 13:18:03.576 CEST
+Begin processing the 65001st record. Run 205233, Event 140197254, LumiSection 151 at 20-Sep-2013 13:18:12.729 CEST
+Begin processing the 65101st record. Run 205233, Event 140164143, LumiSection 151 at 20-Sep-2013 13:18:20.116 CEST
+Begin processing the 65201st record. Run 205233, Event 141095107, LumiSection 152 at 20-Sep-2013 13:18:27.865 CEST
+Begin processing the 65301st record. Run 205233, Event 141551906, LumiSection 152 at 20-Sep-2013 13:18:39.724 CEST
+Begin processing the 65401st record. Run 205233, Event 141013840, LumiSection 152 at 20-Sep-2013 13:18:45.089 CEST
+Begin processing the 65501st record. Run 205233, Event 140579356, LumiSection 152 at 20-Sep-2013 13:18:52.502 CEST
+Begin processing the 65601st record. Run 205233, Event 141305244, LumiSection 152 at 20-Sep-2013 13:19:00.370 CEST
+Begin processing the 65701st record. Run 205233, Event 140776069, LumiSection 152 at 20-Sep-2013 13:19:09.001 CEST
+20-Sep-2013 13:19:14 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/233/EAE2AE35-CE19-E211-BBC5-0030486780AC.root
+20-Sep-2013 13:19:14 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/4C272F98-121A-E211-81BB-0025901D5DF4.root
+20-Sep-2013 13:19:14 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/4C272F98-121A-E211-81BB-0025901D5DF4.root
+Begin processing the 65801st record. Run 205236, Event 39992, LumiSection 1 at 20-Sep-2013 13:19:21.347 CEST
+Begin processing the 65901st record. Run 205236, Event 571484, LumiSection 1 at 20-Sep-2013 13:19:29.643 CEST
+Begin processing the 66001st record. Run 205236, Event 417122, LumiSection 1 at 20-Sep-2013 13:19:35.496 CEST
+Begin processing the 66101st record. Run 205236, Event 472649, LumiSection 1 at 20-Sep-2013 13:19:44.940 CEST
+Begin processing the 66201st record. Run 205236, Event 1043054, LumiSection 1 at 20-Sep-2013 13:19:51.607 CEST
+Begin processing the 66301st record. Run 205236, Event 484069, LumiSection 1 at 20-Sep-2013 13:20:04.675 CEST
+Begin processing the 66401st record. Run 205236, Event 26541906, LumiSection 17 at 20-Sep-2013 13:20:09.864 CEST
+Begin processing the 66501st record. Run 205236, Event 26533839, LumiSection 17 at 20-Sep-2013 13:20:15.339 CEST
+Begin processing the 66601st record. Run 205236, Event 27681035, LumiSection 17 at 20-Sep-2013 13:20:21.370 CEST
+Begin processing the 66701st record. Run 205236, Event 27091865, LumiSection 17 at 20-Sep-2013 13:20:26.947 CEST
+Begin processing the 66801st record. Run 205236, Event 27039619, LumiSection 17 at 20-Sep-2013 13:20:32.955 CEST
+Begin processing the 66901st record. Run 205236, Event 27147053, LumiSection 17 at 20-Sep-2013 13:20:40.254 CEST
+Begin processing the 67001st record. Run 205236, Event 62295012, LumiSection 39 at 20-Sep-2013 13:20:47.938 CEST
+Begin processing the 67101st record. Run 205236, Event 62093941, LumiSection 39 at 20-Sep-2013 13:20:51.645 CEST
+Begin processing the 67201st record. Run 205236, Event 62263381, LumiSection 39 at 20-Sep-2013 13:20:57.423 CEST
+Begin processing the 67301st record. Run 205236, Event 62872600, LumiSection 39 at 20-Sep-2013 13:21:05.991 CEST
+Begin processing the 67401st record. Run 205236, Event 62960066, LumiSection 39 at 20-Sep-2013 13:21:12.157 CEST
+Begin processing the 67501st record. Run 205236, Event 75144466, LumiSection 47 at 20-Sep-2013 13:21:16.446 CEST
+Begin processing the 67601st record. Run 205236, Event 75054381, LumiSection 47 at 20-Sep-2013 13:21:23.565 CEST
+Begin processing the 67701st record. Run 205236, Event 74127142, LumiSection 47 at 20-Sep-2013 13:21:29.064 CEST
+Begin processing the 67801st record. Run 205236, Event 74475249, LumiSection 47 at 20-Sep-2013 13:21:35.639 CEST
+Begin processing the 67901st record. Run 205236, Event 74702509, LumiSection 47 at 20-Sep-2013 13:21:45.240 CEST
+Begin processing the 68001st record. Run 205236, Event 83377061, LumiSection 53 at 20-Sep-2013 13:21:49.644 CEST
+Begin processing the 68101st record. Run 205236, Event 84704035, LumiSection 53 at 20-Sep-2013 13:21:57.680 CEST
+Begin processing the 68201st record. Run 205236, Event 83352274, LumiSection 53 at 20-Sep-2013 13:22:06.484 CEST
+Begin processing the 68301st record. Run 205236, Event 84685665, LumiSection 53 at 20-Sep-2013 13:22:13.403 CEST
+Begin processing the 68401st record. Run 205236, Event 84045455, LumiSection 53 at 20-Sep-2013 13:22:23.708 CEST
+Begin processing the 68501st record. Run 205236, Event 84291512, LumiSection 53 at 20-Sep-2013 13:22:30.920 CEST
+Begin processing the 68601st record. Run 205236, Event 89561677, LumiSection 57 at 20-Sep-2013 13:22:34.324 CEST
+Begin processing the 68701st record. Run 205236, Event 90294617, LumiSection 57 at 20-Sep-2013 13:22:43.810 CEST
+Begin processing the 68801st record. Run 205236, Event 89973348, LumiSection 57 at 20-Sep-2013 13:22:50.399 CEST
+Begin processing the 68901st record. Run 205236, Event 90642662, LumiSection 57 at 20-Sep-2013 13:22:55.435 CEST
+Begin processing the 69001st record. Run 205236, Event 90016697, LumiSection 57 at 20-Sep-2013 13:23:03.814 CEST
+Begin processing the 69101st record. Run 205236, Event 91201813, LumiSection 58 at 20-Sep-2013 13:23:10.873 CEST
+Begin processing the 69201st record. Run 205236, Event 92470307, LumiSection 58 at 20-Sep-2013 13:23:17.425 CEST
+Begin processing the 69301st record. Run 205236, Event 92067765, LumiSection 58 at 20-Sep-2013 13:23:21.168 CEST
+Begin processing the 69401st record. Run 205236, Event 91299743, LumiSection 58 at 20-Sep-2013 13:23:25.201 CEST
+Begin processing the 69501st record. Run 205236, Event 91421718, LumiSection 58 at 20-Sep-2013 13:23:31.695 CEST
+Begin processing the 69601st record. Run 205236, Event 91318488, LumiSection 58 at 20-Sep-2013 13:23:37.537 CEST
+Begin processing the 69701st record. Run 205236, Event 92704691, LumiSection 59 at 20-Sep-2013 13:23:44.763 CEST
+Begin processing the 69801st record. Run 205236, Event 92692069, LumiSection 59 at 20-Sep-2013 13:23:51.947 CEST
+Begin processing the 69901st record. Run 205236, Event 92925913, LumiSection 59 at 20-Sep-2013 13:23:57.859 CEST
+Begin processing the 70001st record. Run 205236, Event 92938625, LumiSection 59 at 20-Sep-2013 13:24:04.903 CEST
+Begin processing the 70101st record. Run 205236, Event 93548526, LumiSection 59 at 20-Sep-2013 13:24:10.107 CEST
+Begin processing the 70201st record. Run 205236, Event 94610209, LumiSection 60 at 20-Sep-2013 13:24:22.727 CEST
+Begin processing the 70301st record. Run 205236, Event 94635662, LumiSection 60 at 20-Sep-2013 13:24:28.218 CEST
+Begin processing the 70401st record. Run 205236, Event 94465066, LumiSection 60 at 20-Sep-2013 13:24:30.358 CEST
+Begin processing the 70501st record. Run 205236, Event 94235963, LumiSection 60 at 20-Sep-2013 13:24:35.184 CEST
+Begin processing the 70601st record. Run 205236, Event 95481068, LumiSection 60 at 20-Sep-2013 13:24:42.517 CEST
+Begin processing the 70701st record. Run 205236, Event 96396855, LumiSection 61 at 20-Sep-2013 13:24:47.277 CEST
+Begin processing the 70801st record. Run 205236, Event 96210698, LumiSection 61 at 20-Sep-2013 13:24:57.128 CEST
+Begin processing the 70901st record. Run 205236, Event 96838556, LumiSection 61 at 20-Sep-2013 13:25:03.576 CEST
+Begin processing the 71001st record. Run 205236, Event 95957574, LumiSection 61 at 20-Sep-2013 13:25:10.972 CEST
+Begin processing the 71101st record. Run 205236, Event 96059774, LumiSection 61 at 20-Sep-2013 13:25:18.342 CEST
+Begin processing the 71201st record. Run 205236, Event 97100657, LumiSection 62 at 20-Sep-2013 13:25:26.088 CEST
+Begin processing the 71301st record. Run 205236, Event 98519110, LumiSection 62 at 20-Sep-2013 13:25:29.129 CEST
+Begin processing the 71401st record. Run 205236, Event 97622488, LumiSection 62 at 20-Sep-2013 13:25:35.248 CEST
+Begin processing the 71501st record. Run 205236, Event 97594779, LumiSection 62 at 20-Sep-2013 13:25:38.612 CEST
+Begin processing the 71601st record. Run 205236, Event 97711845, LumiSection 62 at 20-Sep-2013 13:25:48.534 CEST
+Begin processing the 71701st record. Run 205236, Event 98560464, LumiSection 63 at 20-Sep-2013 13:25:54.823 CEST
+Begin processing the 71801st record. Run 205236, Event 99057470, LumiSection 63 at 20-Sep-2013 13:26:02.946 CEST
+Begin processing the 71901st record. Run 205236, Event 99431672, LumiSection 63 at 20-Sep-2013 13:26:08.679 CEST
+Begin processing the 72001st record. Run 205236, Event 99277130, LumiSection 63 at 20-Sep-2013 13:26:13.117 CEST
+Begin processing the 72101st record. Run 205236, Event 99136932, LumiSection 63 at 20-Sep-2013 13:26:22.434 CEST
+Begin processing the 72201st record. Run 205236, Event 100744911, LumiSection 64 at 20-Sep-2013 13:26:31.576 CEST
+Begin processing the 72301st record. Run 205236, Event 100272154, LumiSection 64 at 20-Sep-2013 13:26:35.723 CEST
+Begin processing the 72401st record. Run 205236, Event 100748955, LumiSection 64 at 20-Sep-2013 13:26:44.273 CEST
+Begin processing the 72501st record. Run 205236, Event 101510287, LumiSection 64 at 20-Sep-2013 13:26:49.270 CEST
+Begin processing the 72601st record. Run 205236, Event 101213030, LumiSection 64 at 20-Sep-2013 13:26:53.937 CEST
+Begin processing the 72701st record. Run 205236, Event 102799807, LumiSection 65 at 20-Sep-2013 13:27:00.400 CEST
+Begin processing the 72801st record. Run 205236, Event 102111932, LumiSection 65 at 20-Sep-2013 13:27:06.460 CEST
+Begin processing the 72901st record. Run 205236, Event 101828135, LumiSection 65 at 20-Sep-2013 13:27:17.068 CEST
+Begin processing the 73001st record. Run 205236, Event 101982190, LumiSection 65 at 20-Sep-2013 13:27:24.977 CEST
+Begin processing the 73101st record. Run 205236, Event 102665650, LumiSection 65 at 20-Sep-2013 13:27:28.769 CEST
+Begin processing the 73201st record. Run 205236, Event 104486225, LumiSection 66 at 20-Sep-2013 13:27:36.888 CEST
+Begin processing the 73301st record. Run 205236, Event 103801717, LumiSection 66 at 20-Sep-2013 13:27:44.362 CEST
+Begin processing the 73401st record. Run 205236, Event 103328842, LumiSection 66 at 20-Sep-2013 13:27:51.055 CEST
+Begin processing the 73501st record. Run 205236, Event 103885549, LumiSection 66 at 20-Sep-2013 13:27:56.451 CEST
+Begin processing the 73601st record. Run 205236, Event 104488607, LumiSection 66 at 20-Sep-2013 13:28:07.422 CEST
+Begin processing the 73701st record. Run 205236, Event 104983834, LumiSection 67 at 20-Sep-2013 13:28:15.346 CEST
+Begin processing the 73801st record. Run 205236, Event 105192697, LumiSection 67 at 20-Sep-2013 13:28:22.732 CEST
+Begin processing the 73901st record. Run 205236, Event 104946872, LumiSection 67 at 20-Sep-2013 13:28:27.635 CEST
+Begin processing the 74001st record. Run 205236, Event 105119463, LumiSection 67 at 20-Sep-2013 13:28:34.329 CEST
+Begin processing the 74101st record. Run 205236, Event 105522798, LumiSection 67 at 20-Sep-2013 13:28:40.423 CEST
+Begin processing the 74201st record. Run 205236, Event 117980672, LumiSection 75 at 20-Sep-2013 13:28:44.190 CEST
+Begin processing the 74301st record. Run 205236, Event 117920192, LumiSection 75 at 20-Sep-2013 13:28:53.291 CEST
+Begin processing the 74401st record. Run 205236, Event 116991614, LumiSection 75 at 20-Sep-2013 13:28:57.615 CEST
+Begin processing the 74501st record. Run 205236, Event 117861301, LumiSection 75 at 20-Sep-2013 13:29:03.901 CEST
+Begin processing the 74601st record. Run 205236, Event 117726636, LumiSection 75 at 20-Sep-2013 13:29:14.238 CEST
+Begin processing the 74701st record. Run 205236, Event 126093139, LumiSection 81 at 20-Sep-2013 13:29:19.519 CEST
+Begin processing the 74801st record. Run 205236, Event 126394713, LumiSection 81 at 20-Sep-2013 13:29:26.982 CEST
+Begin processing the 74901st record. Run 205236, Event 125675497, LumiSection 81 at 20-Sep-2013 13:29:33.666 CEST
+Begin processing the 75001st record. Run 205236, Event 126170591, LumiSection 81 at 20-Sep-2013 13:29:39.177 CEST
+Begin processing the 75101st record. Run 205236, Event 295117928, LumiSection 205 at 20-Sep-2013 13:29:43.626 CEST
+Begin processing the 75201st record. Run 205236, Event 295726958, LumiSection 205 at 20-Sep-2013 13:29:50.123 CEST
+Begin processing the 75301st record. Run 205236, Event 297298138, LumiSection 207 at 20-Sep-2013 13:29:55.305 CEST
+Begin processing the 75401st record. Run 205236, Event 301501060, LumiSection 210 at 20-Sep-2013 13:30:03.661 CEST
+20-Sep-2013 13:30:10 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/4C272F98-121A-E211-81BB-0025901D5DF4.root
+20-Sep-2013 13:30:10 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/387A661A-151A-E211-AE29-BCAEC5329702.root
+20-Sep-2013 13:30:10 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/387A661A-151A-E211-AE29-BCAEC5329702.root
+Begin processing the 75501st record. Run 205236, Event 374199422, LumiSection 268 at 20-Sep-2013 13:30:16.071 CEST
+Begin processing the 75601st record. Run 205236, Event 374038676, LumiSection 268 at 20-Sep-2013 13:30:23.087 CEST
+Begin processing the 75701st record. Run 205236, Event 373781199, LumiSection 268 at 20-Sep-2013 13:30:29.269 CEST
+Begin processing the 75801st record. Run 205236, Event 374270511, LumiSection 268 at 20-Sep-2013 13:30:34.777 CEST
+Begin processing the 75901st record. Run 205236, Event 374249936, LumiSection 268 at 20-Sep-2013 13:30:43.941 CEST
+Begin processing the 76001st record. Run 205236, Event 375592091, LumiSection 269 at 20-Sep-2013 13:30:47.705 CEST
+Begin processing the 76101st record. Run 205236, Event 375521233, LumiSection 269 at 20-Sep-2013 13:30:53.652 CEST
+Begin processing the 76201st record. Run 205236, Event 374917073, LumiSection 269 at 20-Sep-2013 13:30:58.447 CEST
+Begin processing the 76301st record. Run 205236, Event 375668389, LumiSection 269 at 20-Sep-2013 13:31:06.140 CEST
+Begin processing the 76401st record. Run 205236, Event 376976468, LumiSection 270 at 20-Sep-2013 13:31:11.579 CEST
+Begin processing the 76501st record. Run 205236, Event 376913111, LumiSection 270 at 20-Sep-2013 13:31:17.029 CEST
+Begin processing the 76601st record. Run 205236, Event 377001841, LumiSection 270 at 20-Sep-2013 13:31:23.345 CEST
+Begin processing the 76701st record. Run 205236, Event 376575975, LumiSection 270 at 20-Sep-2013 13:31:29.750 CEST
+Begin processing the 76801st record. Run 205236, Event 377720917, LumiSection 271 at 20-Sep-2013 13:31:35.083 CEST
+Begin processing the 76901st record. Run 205236, Event 378156344, LumiSection 271 at 20-Sep-2013 13:31:41.343 CEST
+Begin processing the 77001st record. Run 205236, Event 378192081, LumiSection 271 at 20-Sep-2013 13:31:48.657 CEST
+Begin processing the 77101st record. Run 205236, Event 378325212, LumiSection 271 at 20-Sep-2013 13:31:55.982 CEST
+Begin processing the 77201st record. Run 205236, Event 378658028, LumiSection 272 at 20-Sep-2013 13:32:02.850 CEST
+Begin processing the 77301st record. Run 205236, Event 379020082, LumiSection 272 at 20-Sep-2013 13:32:06.785 CEST
+Begin processing the 77401st record. Run 205236, Event 378916130, LumiSection 272 at 20-Sep-2013 13:32:14.343 CEST
+Begin processing the 77501st record. Run 205236, Event 379141269, LumiSection 272 at 20-Sep-2013 13:32:18.461 CEST
+Begin processing the 77601st record. Run 205236, Event 381383021, LumiSection 274 at 20-Sep-2013 13:32:24.692 CEST
+Begin processing the 77701st record. Run 205236, Event 381634668, LumiSection 274 at 20-Sep-2013 13:32:33.026 CEST
+Begin processing the 77801st record. Run 205236, Event 381874634, LumiSection 274 at 20-Sep-2013 13:32:38.025 CEST
+Begin processing the 77901st record. Run 205236, Event 381495913, LumiSection 274 at 20-Sep-2013 13:32:48.017 CEST
+Begin processing the 78001st record. Run 205236, Event 382351655, LumiSection 275 at 20-Sep-2013 13:32:52.956 CEST
+Begin processing the 78101st record. Run 205236, Event 382253733, LumiSection 275 at 20-Sep-2013 13:32:57.458 CEST
+Begin processing the 78201st record. Run 205236, Event 382784914, LumiSection 275 at 20-Sep-2013 13:33:00.884 CEST
+Begin processing the 78301st record. Run 205236, Event 382903210, LumiSection 275 at 20-Sep-2013 13:33:07.069 CEST
+Begin processing the 78401st record. Run 205236, Event 383860405, LumiSection 276 at 20-Sep-2013 13:33:11.941 CEST
+Begin processing the 78501st record. Run 205236, Event 384311549, LumiSection 276 at 20-Sep-2013 13:33:17.000 CEST
+Begin processing the 78601st record. Run 205236, Event 384143146, LumiSection 276 at 20-Sep-2013 13:33:21.140 CEST
+Begin processing the 78701st record. Run 205236, Event 383507450, LumiSection 276 at 20-Sep-2013 13:33:30.235 CEST
+Begin processing the 78801st record. Run 205236, Event 384745134, LumiSection 277 at 20-Sep-2013 13:33:35.748 CEST
+Begin processing the 78901st record. Run 205236, Event 385318907, LumiSection 277 at 20-Sep-2013 13:33:39.966 CEST
+Begin processing the 79001st record. Run 205236, Event 385104361, LumiSection 277 at 20-Sep-2013 13:33:47.518 CEST
+Begin processing the 79101st record. Run 205236, Event 384760645, LumiSection 277 at 20-Sep-2013 13:33:55.395 CEST
+Begin processing the 79201st record. Run 205236, Event 389602455, LumiSection 281 at 20-Sep-2013 13:34:01.567 CEST
+Begin processing the 79301st record. Run 205236, Event 389666126, LumiSection 281 at 20-Sep-2013 13:34:04.946 CEST
+Begin processing the 79401st record. Run 205236, Event 389908300, LumiSection 281 at 20-Sep-2013 13:34:09.675 CEST
+Begin processing the 79501st record. Run 205236, Event 390399475, LumiSection 281 at 20-Sep-2013 13:34:15.422 CEST
+Begin processing the 79601st record. Run 205236, Event 391235511, LumiSection 282 at 20-Sep-2013 13:34:24.021 CEST
+Begin processing the 79701st record. Run 205236, Event 390988142, LumiSection 282 at 20-Sep-2013 13:34:29.304 CEST
+Begin processing the 79801st record. Run 205236, Event 391698128, LumiSection 282 at 20-Sep-2013 13:34:37.552 CEST
+Begin processing the 79901st record. Run 205236, Event 390846740, LumiSection 282 at 20-Sep-2013 13:34:47.011 CEST
+Begin processing the 80001st record. Run 205236, Event 391912822, LumiSection 283 at 20-Sep-2013 13:34:56.534 CEST
+Begin processing the 80101st record. Run 205236, Event 392495380, LumiSection 283 at 20-Sep-2013 13:35:04.157 CEST
+Begin processing the 80201st record. Run 205236, Event 392849332, LumiSection 283 at 20-Sep-2013 13:35:11.522 CEST
+Begin processing the 80301st record. Run 205236, Event 392067821, LumiSection 283 at 20-Sep-2013 13:35:16.945 CEST
+Begin processing the 80401st record. Run 205236, Event 394195846, LumiSection 284 at 20-Sep-2013 13:35:26.850 CEST
+Begin processing the 80501st record. Run 205236, Event 393497946, LumiSection 284 at 20-Sep-2013 13:35:30.211 CEST
+Begin processing the 80601st record. Run 205236, Event 393106275, LumiSection 284 at 20-Sep-2013 13:35:39.002 CEST
+Begin processing the 80701st record. Run 205236, Event 393824005, LumiSection 284 at 20-Sep-2013 13:35:45.744 CEST
+Begin processing the 80801st record. Run 205236, Event 395047077, LumiSection 285 at 20-Sep-2013 13:35:54.553 CEST
+Begin processing the 80901st record. Run 205236, Event 394590753, LumiSection 285 at 20-Sep-2013 13:36:00.834 CEST
+Begin processing the 81001st record. Run 205236, Event 394527921, LumiSection 285 at 20-Sep-2013 13:36:09.511 CEST
+Begin processing the 81101st record. Run 205236, Event 395631472, LumiSection 286 at 20-Sep-2013 13:36:16.339 CEST
+Begin processing the 81201st record. Run 205236, Event 395598941, LumiSection 286 at 20-Sep-2013 13:36:22.155 CEST
+Begin processing the 81301st record. Run 205236, Event 396212001, LumiSection 286 at 20-Sep-2013 13:36:28.352 CEST
+Begin processing the 81401st record. Run 205236, Event 395554113, LumiSection 286 at 20-Sep-2013 13:36:31.247 CEST
+Begin processing the 81501st record. Run 205236, Event 395551746, LumiSection 286 at 20-Sep-2013 13:36:36.544 CEST
+Begin processing the 81601st record. Run 205236, Event 398199141, LumiSection 288 at 20-Sep-2013 13:36:44.853 CEST
+Begin processing the 81701st record. Run 205236, Event 397937697, LumiSection 288 at 20-Sep-2013 13:36:48.169 CEST
+Begin processing the 81801st record. Run 205236, Event 398967434, LumiSection 288 at 20-Sep-2013 13:36:54.325 CEST
+Begin processing the 81901st record. Run 205236, Event 398634651, LumiSection 288 at 20-Sep-2013 13:37:05.039 CEST
+Begin processing the 82001st record. Run 205236, Event 399120935, LumiSection 289 at 20-Sep-2013 13:37:12.786 CEST
+Begin processing the 82101st record. Run 205236, Event 400145228, LumiSection 289 at 20-Sep-2013 13:37:16.792 CEST
+Begin processing the 82201st record. Run 205236, Event 399612180, LumiSection 289 at 20-Sep-2013 13:37:21.575 CEST
+Begin processing the 82301st record. Run 205236, Event 399198471, LumiSection 289 at 20-Sep-2013 13:37:28.147 CEST
+Begin processing the 82401st record. Run 205236, Event 400569895, LumiSection 290 at 20-Sep-2013 13:37:36.649 CEST
+Begin processing the 82501st record. Run 205236, Event 401340694, LumiSection 290 at 20-Sep-2013 13:37:43.023 CEST
+Begin processing the 82601st record. Run 205236, Event 400341234, LumiSection 290 at 20-Sep-2013 13:37:50.001 CEST
+Begin processing the 82701st record. Run 205236, Event 400601867, LumiSection 290 at 20-Sep-2013 13:37:55.038 CEST
+Begin processing the 82801st record. Run 205236, Event 402537981, LumiSection 291 at 20-Sep-2013 13:38:01.086 CEST
+Begin processing the 82901st record. Run 205236, Event 402477223, LumiSection 291 at 20-Sep-2013 13:38:09.642 CEST
+Begin processing the 83001st record. Run 205236, Event 402472154, LumiSection 291 at 20-Sep-2013 13:38:18.041 CEST
+Begin processing the 83101st record. Run 205236, Event 402282427, LumiSection 291 at 20-Sep-2013 13:38:24.778 CEST
+Begin processing the 83201st record. Run 205236, Event 406505869, LumiSection 295 at 20-Sep-2013 13:38:32.586 CEST
+Begin processing the 83301st record. Run 205236, Event 407233055, LumiSection 295 at 20-Sep-2013 13:38:36.142 CEST
+Begin processing the 83401st record. Run 205236, Event 407284050, LumiSection 295 at 20-Sep-2013 13:38:42.911 CEST
+Begin processing the 83501st record. Run 205236, Event 407182891, LumiSection 295 at 20-Sep-2013 13:38:49.982 CEST
+Begin processing the 83601st record. Run 205236, Event 409586060, LumiSection 297 at 20-Sep-2013 13:38:57.505 CEST
+Begin processing the 83701st record. Run 205236, Event 409377191, LumiSection 297 at 20-Sep-2013 13:39:06.390 CEST
+Begin processing the 83801st record. Run 205236, Event 409695016, LumiSection 297 at 20-Sep-2013 13:39:08.841 CEST
+Begin processing the 83901st record. Run 205236, Event 409266372, LumiSection 297 at 20-Sep-2013 13:39:15.488 CEST
+Begin processing the 84001st record. Run 205236, Event 410298772, LumiSection 298 at 20-Sep-2013 13:39:22.075 CEST
+Begin processing the 84101st record. Run 205236, Event 410695547, LumiSection 298 at 20-Sep-2013 13:39:29.847 CEST
+Begin processing the 84201st record. Run 205236, Event 410123983, LumiSection 298 at 20-Sep-2013 13:39:39.238 CEST
+Begin processing the 84301st record. Run 205236, Event 410275968, LumiSection 298 at 20-Sep-2013 13:39:44.003 CEST
+Begin processing the 84401st record. Run 205236, Event 411737052, LumiSection 299 at 20-Sep-2013 13:39:48.436 CEST
+Begin processing the 84501st record. Run 205236, Event 411932599, LumiSection 299 at 20-Sep-2013 13:39:54.343 CEST
+Begin processing the 84601st record. Run 205236, Event 411005768, LumiSection 299 at 20-Sep-2013 13:40:02.121 CEST
+Begin processing the 84701st record. Run 205236, Event 412092387, LumiSection 299 at 20-Sep-2013 13:40:08.233 CEST
+Begin processing the 84801st record. Run 205236, Event 412701900, LumiSection 300 at 20-Sep-2013 13:40:11.099 CEST
+Begin processing the 84901st record. Run 205236, Event 412650889, LumiSection 300 at 20-Sep-2013 13:40:16.848 CEST
+Begin processing the 85001st record. Run 205236, Event 413343113, LumiSection 300 at 20-Sep-2013 13:40:23.431 CEST
+Begin processing the 85101st record. Run 205236, Event 412385522, LumiSection 300 at 20-Sep-2013 13:40:30.251 CEST
+Begin processing the 85201st record. Run 205236, Event 414901090, LumiSection 302 at 20-Sep-2013 13:40:36.073 CEST
+Begin processing the 85301st record. Run 205236, Event 415128557, LumiSection 302 at 20-Sep-2013 13:40:43.248 CEST
+Begin processing the 85401st record. Run 205236, Event 415579126, LumiSection 302 at 20-Sep-2013 13:40:47.740 CEST
+Begin processing the 85501st record. Run 205236, Event 414735776, LumiSection 302 at 20-Sep-2013 13:40:54.309 CEST
+Begin processing the 85601st record. Run 205236, Event 418080112, LumiSection 304 at 20-Sep-2013 13:40:58.831 CEST
+Begin processing the 85701st record. Run 205236, Event 417784946, LumiSection 304 at 20-Sep-2013 13:41:02.501 CEST
+Begin processing the 85801st record. Run 205236, Event 417199500, LumiSection 304 at 20-Sep-2013 13:41:07.075 CEST
+Begin processing the 85901st record. Run 205236, Event 417767461, LumiSection 304 at 20-Sep-2013 13:41:13.456 CEST
+Begin processing the 86001st record. Run 205236, Event 419293368, LumiSection 306 at 20-Sep-2013 13:41:19.563 CEST
+Begin processing the 86101st record. Run 205236, Event 419306515, LumiSection 306 at 20-Sep-2013 13:41:26.053 CEST
+Begin processing the 86201st record. Run 205236, Event 420344724, LumiSection 306 at 20-Sep-2013 13:41:31.613 CEST
+20-Sep-2013 13:41:35 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/387A661A-151A-E211-AE29-BCAEC5329702.root
+20-Sep-2013 13:41:35 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/2C5F5FEE-FB19-E211-AD52-003048D2BEA8.root
+20-Sep-2013 13:41:35 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/2C5F5FEE-FB19-E211-AD52-003048D2BEA8.root
+Begin processing the 86301st record. Run 205236, Event 20381919, LumiSection 13 at 20-Sep-2013 13:41:41.357 CEST
+Begin processing the 86401st record. Run 205236, Event 20716446, LumiSection 13 at 20-Sep-2013 13:41:49.664 CEST
+Begin processing the 86501st record. Run 205236, Event 20038742, LumiSection 13 at 20-Sep-2013 13:41:56.320 CEST
+Begin processing the 86601st record. Run 205236, Event 19709043, LumiSection 13 at 20-Sep-2013 13:42:01.752 CEST
+Begin processing the 86701st record. Run 205236, Event 19964434, LumiSection 13 at 20-Sep-2013 13:42:10.192 CEST
+Begin processing the 86801st record. Run 205236, Event 21208878, LumiSection 13 at 20-Sep-2013 13:42:20.767 CEST
+Begin processing the 86901st record. Run 205236, Event 28850406, LumiSection 18 at 20-Sep-2013 13:42:28.069 CEST
+Begin processing the 87001st record. Run 205236, Event 28752557, LumiSection 18 at 20-Sep-2013 13:42:36.062 CEST
+Begin processing the 87101st record. Run 205236, Event 28830693, LumiSection 18 at 20-Sep-2013 13:42:39.893 CEST
+Begin processing the 87201st record. Run 205236, Event 28594983, LumiSection 18 at 20-Sep-2013 13:42:50.174 CEST
+Begin processing the 87301st record. Run 205236, Event 28234767, LumiSection 18 at 20-Sep-2013 13:42:58.613 CEST
+Begin processing the 87401st record. Run 205236, Event 29646041, LumiSection 19 at 20-Sep-2013 13:43:09.465 CEST
+Begin processing the 87501st record. Run 205236, Event 31096800, LumiSection 19 at 20-Sep-2013 13:43:16.894 CEST
+Begin processing the 87601st record. Run 205236, Event 30568175, LumiSection 19 at 20-Sep-2013 13:43:21.981 CEST
+Begin processing the 87701st record. Run 205236, Event 30548769, LumiSection 19 at 20-Sep-2013 13:43:27.134 CEST
+Begin processing the 87801st record. Run 205236, Event 30641947, LumiSection 19 at 20-Sep-2013 13:43:34.914 CEST
+Begin processing the 87901st record. Run 205236, Event 29678788, LumiSection 19 at 20-Sep-2013 13:43:46.089 CEST
+Begin processing the 88001st record. Run 205236, Event 34532978, LumiSection 22 at 20-Sep-2013 13:43:54.975 CEST
+Begin processing the 88101st record. Run 205236, Event 34525058, LumiSection 22 at 20-Sep-2013 13:44:03.575 CEST
+Begin processing the 88201st record. Run 205236, Event 35661584, LumiSection 22 at 20-Sep-2013 13:44:08.738 CEST
+Begin processing the 88301st record. Run 205236, Event 35516342, LumiSection 22 at 20-Sep-2013 13:44:15.421 CEST
+Begin processing the 88401st record. Run 205236, Event 34448589, LumiSection 22 at 20-Sep-2013 13:44:23.792 CEST
+Begin processing the 88501st record. Run 205236, Event 35008501, LumiSection 22 at 20-Sep-2013 13:44:31.111 CEST
+Begin processing the 88601st record. Run 205236, Event 37278100, LumiSection 23 at 20-Sep-2013 13:44:42.417 CEST
+Begin processing the 88701st record. Run 205236, Event 36663622, LumiSection 23 at 20-Sep-2013 13:44:53.532 CEST
+Begin processing the 88801st record. Run 205236, Event 37338818, LumiSection 23 at 20-Sep-2013 13:45:04.483 CEST
+Begin processing the 88901st record. Run 205236, Event 36863223, LumiSection 23 at 20-Sep-2013 13:45:10.145 CEST
+Begin processing the 89001st record. Run 205236, Event 36504755, LumiSection 23 at 20-Sep-2013 13:45:22.651 CEST
+Begin processing the 89101st record. Run 205236, Event 38090322, LumiSection 24 at 20-Sep-2013 13:45:32.304 CEST
+Begin processing the 89201st record. Run 205236, Event 39124832, LumiSection 24 at 20-Sep-2013 13:45:36.861 CEST
+Begin processing the 89301st record. Run 205236, Event 39019995, LumiSection 24 at 20-Sep-2013 13:45:47.065 CEST
+Begin processing the 89401st record. Run 205236, Event 38554310, LumiSection 24 at 20-Sep-2013 13:45:55.555 CEST
+Begin processing the 89501st record. Run 205236, Event 38889829, LumiSection 24 at 20-Sep-2013 13:46:03.995 CEST
+Begin processing the 89601st record. Run 205236, Event 40133291, LumiSection 25 at 20-Sep-2013 13:46:09.948 CEST
+Begin processing the 89701st record. Run 205236, Event 39690921, LumiSection 25 at 20-Sep-2013 13:46:16.354 CEST
+Begin processing the 89801st record. Run 205236, Event 40553433, LumiSection 25 at 20-Sep-2013 13:46:20.141 CEST
+Begin processing the 89901st record. Run 205236, Event 40023346, LumiSection 25 at 20-Sep-2013 13:46:30.037 CEST
+Begin processing the 90001st record. Run 205236, Event 39542459, LumiSection 25 at 20-Sep-2013 13:46:36.987 CEST
+Begin processing the 90101st record. Run 205236, Event 39443181, LumiSection 25 at 20-Sep-2013 13:46:42.622 CEST
+Begin processing the 90201st record. Run 205236, Event 41461951, LumiSection 26 at 20-Sep-2013 13:46:51.473 CEST
+Begin processing the 90301st record. Run 205236, Event 41266750, LumiSection 26 at 20-Sep-2013 13:47:00.962 CEST
+Begin processing the 90401st record. Run 205236, Event 41499982, LumiSection 26 at 20-Sep-2013 13:47:05.228 CEST
+Begin processing the 90501st record. Run 205236, Event 41197843, LumiSection 26 at 20-Sep-2013 13:47:15.780 CEST
+Begin processing the 90601st record. Run 205236, Event 41451873, LumiSection 26 at 20-Sep-2013 13:47:31.361 CEST
+Begin processing the 90701st record. Run 205236, Event 41302794, LumiSection 26 at 20-Sep-2013 13:47:39.747 CEST
+Begin processing the 90801st record. Run 205236, Event 43555109, LumiSection 27 at 20-Sep-2013 13:47:44.178 CEST
+Begin processing the 90901st record. Run 205236, Event 42926951, LumiSection 27 at 20-Sep-2013 13:47:54.528 CEST
+Begin processing the 91001st record. Run 205236, Event 43492235, LumiSection 27 at 20-Sep-2013 13:48:04.270 CEST
+Begin processing the 91101st record. Run 205236, Event 43530818, LumiSection 27 at 20-Sep-2013 13:48:08.991 CEST
+Begin processing the 91201st record. Run 205236, Event 43893732, LumiSection 27 at 20-Sep-2013 13:48:17.855 CEST
+Begin processing the 91301st record. Run 205236, Event 45262560, LumiSection 28 at 20-Sep-2013 13:48:23.688 CEST
+Begin processing the 91401st record. Run 205236, Event 45366497, LumiSection 28 at 20-Sep-2013 13:48:36.028 CEST
+Begin processing the 91501st record. Run 205236, Event 45610937, LumiSection 28 at 20-Sep-2013 13:48:42.285 CEST
+Begin processing the 91601st record. Run 205236, Event 44443972, LumiSection 28 at 20-Sep-2013 13:48:51.603 CEST
+Begin processing the 91701st record. Run 205236, Event 45232374, LumiSection 28 at 20-Sep-2013 13:49:01.631 CEST
+Begin processing the 91801st record. Run 205236, Event 46252160, LumiSection 29 at 20-Sep-2013 13:49:13.494 CEST
+Begin processing the 91901st record. Run 205236, Event 46589616, LumiSection 29 at 20-Sep-2013 13:49:19.666 CEST
+Begin processing the 92001st record. Run 205236, Event 46793634, LumiSection 29 at 20-Sep-2013 13:49:29.306 CEST
+Begin processing the 92101st record. Run 205236, Event 46803941, LumiSection 29 at 20-Sep-2013 13:49:33.585 CEST
+Begin processing the 92201st record. Run 205236, Event 46334071, LumiSection 29 at 20-Sep-2013 13:49:42.261 CEST
+Begin processing the 92301st record. Run 205236, Event 48008522, LumiSection 30 at 20-Sep-2013 13:49:50.256 CEST
+Begin processing the 92401st record. Run 205236, Event 47725075, LumiSection 30 at 20-Sep-2013 13:49:57.979 CEST
+Begin processing the 92501st record. Run 205236, Event 48334860, LumiSection 30 at 20-Sep-2013 13:50:09.960 CEST
+Begin processing the 92601st record. Run 205236, Event 47928095, LumiSection 30 at 20-Sep-2013 13:50:17.602 CEST
+Begin processing the 92701st record. Run 205236, Event 48138510, LumiSection 30 at 20-Sep-2013 13:50:28.579 CEST
+Begin processing the 92801st record. Run 205236, Event 47994917, LumiSection 30 at 20-Sep-2013 13:50:38.015 CEST
+Begin processing the 92901st record. Run 205236, Event 50274643, LumiSection 31 at 20-Sep-2013 13:50:44.996 CEST
+Begin processing the 93001st record. Run 205236, Event 50376396, LumiSection 31 at 20-Sep-2013 13:50:51.111 CEST
+Begin processing the 93101st record. Run 205236, Event 49967583, LumiSection 31 at 20-Sep-2013 13:50:58.594 CEST
+Begin processing the 93201st record. Run 205236, Event 49398881, LumiSection 31 at 20-Sep-2013 13:51:02.987 CEST
+Begin processing the 93301st record. Run 205236, Event 48940986, LumiSection 31 at 20-Sep-2013 13:51:10.831 CEST
+Begin processing the 93401st record. Run 205236, Event 51936295, LumiSection 32 at 20-Sep-2013 13:51:17.204 CEST
+Begin processing the 93501st record. Run 205236, Event 50775460, LumiSection 32 at 20-Sep-2013 13:51:25.757 CEST
+Begin processing the 93601st record. Run 205236, Event 51782228, LumiSection 32 at 20-Sep-2013 13:51:35.919 CEST
+Begin processing the 93701st record. Run 205236, Event 51701800, LumiSection 32 at 20-Sep-2013 13:51:41.816 CEST
+Begin processing the 93801st record. Run 205236, Event 51001479, LumiSection 32 at 20-Sep-2013 13:51:51.179 CEST
+Begin processing the 93901st record. Run 205236, Event 50937504, LumiSection 32 at 20-Sep-2013 13:51:57.808 CEST
+Begin processing the 94001st record. Run 205236, Event 52555307, LumiSection 33 at 20-Sep-2013 13:52:04.326 CEST
+Begin processing the 94101st record. Run 205236, Event 52735749, LumiSection 33 at 20-Sep-2013 13:52:11.404 CEST
+Begin processing the 94201st record. Run 205236, Event 52695817, LumiSection 33 at 20-Sep-2013 13:52:18.178 CEST
+Begin processing the 94301st record. Run 205236, Event 53138592, LumiSection 33 at 20-Sep-2013 13:52:28.317 CEST
+Begin processing the 94401st record. Run 205236, Event 52918090, LumiSection 33 at 20-Sep-2013 13:52:36.604 CEST
+Begin processing the 94501st record. Run 205236, Event 54383841, LumiSection 34 at 20-Sep-2013 13:52:44.869 CEST
+Begin processing the 94601st record. Run 205236, Event 54536673, LumiSection 34 at 20-Sep-2013 13:52:51.396 CEST
+Begin processing the 94701st record. Run 205236, Event 54531991, LumiSection 34 at 20-Sep-2013 13:53:01.824 CEST
+Begin processing the 94801st record. Run 205236, Event 54460827, LumiSection 34 at 20-Sep-2013 13:53:06.423 CEST
+Begin processing the 94901st record. Run 205236, Event 54244989, LumiSection 34 at 20-Sep-2013 13:53:15.866 CEST
+Begin processing the 95001st record. Run 205236, Event 56113352, LumiSection 35 at 20-Sep-2013 13:53:23.365 CEST
+Begin processing the 95101st record. Run 205236, Event 56325962, LumiSection 35 at 20-Sep-2013 13:53:27.457 CEST
+Begin processing the 95201st record. Run 205236, Event 55991164, LumiSection 35 at 20-Sep-2013 13:53:33.658 CEST
+Begin processing the 95301st record. Run 205236, Event 55403753, LumiSection 35 at 20-Sep-2013 13:53:44.369 CEST
+Begin processing the 95401st record. Run 205236, Event 56207406, LumiSection 35 at 20-Sep-2013 13:53:50.239 CEST
+Begin processing the 95501st record. Run 205236, Event 56178079, LumiSection 35 at 20-Sep-2013 13:53:57.523 CEST
+20-Sep-2013 13:53:58 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/2C5F5FEE-FB19-E211-AD52-003048D2BEA8.root
+20-Sep-2013 13:53:58 CEST  Initiating request to open file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/B83F980D-DD19-E211-A3A4-001D09F24FEC.root
+20-Sep-2013 13:53:59 CEST  Successfully opened file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/B83F980D-DD19-E211-A3A4-001D09F24FEC.root
+Begin processing the 95601st record. Run 205236, Event 132398076, LumiSection 85 at 20-Sep-2013 13:54:13.362 CEST
+Begin processing the 95701st record. Run 205236, Event 131944994, LumiSection 85 at 20-Sep-2013 13:54:19.218 CEST
+Begin processing the 95801st record. Run 205236, Event 132116812, LumiSection 85 at 20-Sep-2013 13:54:24.325 CEST
+Begin processing the 95901st record. Run 205236, Event 132713214, LumiSection 85 at 20-Sep-2013 13:54:28.859 CEST
+Begin processing the 96001st record. Run 205236, Event 131938223, LumiSection 85 at 20-Sep-2013 13:54:38.951 CEST
+Begin processing the 96101st record. Run 205236, Event 133748580, LumiSection 86 at 20-Sep-2013 13:54:42.720 CEST
+Begin processing the 96201st record. Run 205236, Event 133529780, LumiSection 86 at 20-Sep-2013 13:54:54.924 CEST
+Begin processing the 96301st record. Run 205236, Event 134054065, LumiSection 86 at 20-Sep-2013 13:55:00.574 CEST
+Begin processing the 96401st record. Run 205236, Event 133425249, LumiSection 86 at 20-Sep-2013 13:55:09.215 CEST
+Begin processing the 96501st record. Run 205236, Event 143652948, LumiSection 93 at 20-Sep-2013 13:55:16.043 CEST
+Begin processing the 96601st record. Run 205236, Event 144027855, LumiSection 93 at 20-Sep-2013 13:55:23.782 CEST
+Begin processing the 96701st record. Run 205236, Event 144562952, LumiSection 93 at 20-Sep-2013 13:55:28.124 CEST
+Begin processing the 96801st record. Run 205236, Event 143637821, LumiSection 93 at 20-Sep-2013 13:55:35.146 CEST
+Begin processing the 96901st record. Run 205236, Event 143455538, LumiSection 93 at 20-Sep-2013 13:55:45.293 CEST
+Begin processing the 97001st record. Run 205236, Event 153294116, LumiSection 100 at 20-Sep-2013 13:55:51.398 CEST
+Begin processing the 97101st record. Run 205236, Event 153494859, LumiSection 100 at 20-Sep-2013 13:55:59.246 CEST
+Begin processing the 97201st record. Run 205236, Event 154428741, LumiSection 100 at 20-Sep-2013 13:56:07.380 CEST
+Begin processing the 97301st record. Run 205236, Event 154526728, LumiSection 100 at 20-Sep-2013 13:56:16.885 CEST
+Begin processing the 97401st record. Run 205236, Event 154174624, LumiSection 100 at 20-Sep-2013 13:56:24.841 CEST
+Begin processing the 97501st record. Run 205236, Event 158939816, LumiSection 103 at 20-Sep-2013 13:56:33.476 CEST
+Begin processing the 97601st record. Run 205236, Event 158851487, LumiSection 103 at 20-Sep-2013 13:56:43.581 CEST
+Begin processing the 97701st record. Run 205236, Event 158073750, LumiSection 103 at 20-Sep-2013 13:56:54.283 CEST
+Begin processing the 97801st record. Run 205236, Event 157874202, LumiSection 103 at 20-Sep-2013 13:57:00.771 CEST
+Begin processing the 97901st record. Run 205236, Event 157944987, LumiSection 103 at 20-Sep-2013 13:57:05.854 CEST
+Begin processing the 98001st record. Run 205236, Event 159699601, LumiSection 104 at 20-Sep-2013 13:57:15.921 CEST
+Begin processing the 98101st record. Run 205236, Event 159587362, LumiSection 104 at 20-Sep-2013 13:57:19.160 CEST
+Begin processing the 98201st record. Run 205236, Event 159952532, LumiSection 104 at 20-Sep-2013 13:57:27.747 CEST
+Begin processing the 98301st record. Run 205236, Event 159112592, LumiSection 104 at 20-Sep-2013 13:57:34.967 CEST
+Begin processing the 98401st record. Run 205236, Event 159842653, LumiSection 104 at 20-Sep-2013 13:57:40.463 CEST
+Begin processing the 98501st record. Run 205236, Event 161407518, LumiSection 105 at 20-Sep-2013 13:57:52.113 CEST
+Begin processing the 98601st record. Run 205236, Event 160525316, LumiSection 105 at 20-Sep-2013 13:58:00.464 CEST
+Begin processing the 98701st record. Run 205236, Event 160970391, LumiSection 105 at 20-Sep-2013 13:58:07.382 CEST
+Begin processing the 98801st record. Run 205236, Event 161024859, LumiSection 105 at 20-Sep-2013 13:58:18.046 CEST
+Begin processing the 98901st record. Run 205236, Event 161595455, LumiSection 105 at 20-Sep-2013 13:58:25.271 CEST
+Begin processing the 99001st record. Run 205236, Event 162861007, LumiSection 106 at 20-Sep-2013 13:58:29.144 CEST
+Begin processing the 99101st record. Run 205236, Event 162143375, LumiSection 106 at 20-Sep-2013 13:58:36.658 CEST
+Begin processing the 99201st record. Run 205236, Event 162571227, LumiSection 106 at 20-Sep-2013 13:58:43.554 CEST
+Begin processing the 99301st record. Run 205236, Event 162942594, LumiSection 106 at 20-Sep-2013 13:58:50.058 CEST
+Begin processing the 99401st record. Run 205236, Event 162074236, LumiSection 106 at 20-Sep-2013 13:58:58.395 CEST
+Begin processing the 99501st record. Run 205236, Event 164256909, LumiSection 107 at 20-Sep-2013 13:59:04.218 CEST
+Begin processing the 99601st record. Run 205236, Event 163469701, LumiSection 107 at 20-Sep-2013 13:59:11.013 CEST
+Begin processing the 99701st record. Run 205236, Event 164032087, LumiSection 107 at 20-Sep-2013 13:59:17.286 CEST
+Begin processing the 99801st record. Run 205236, Event 164620046, LumiSection 107 at 20-Sep-2013 13:59:23.678 CEST
+Begin processing the 99901st record. Run 205236, Event 164994223, LumiSection 108 at 20-Sep-2013 13:59:30.830 CEST
+20-Sep-2013 13:59:38 CEST  Closed file dcap://grid-dcap.physik.rwth-aachen.de/pnfs/physik.rwth-aachen.de/cms/store/data/Run2012D/DoubleMu/AOD/PromptReco-v1/000/205/236/B83F980D-DD19-E211-A3A4-001D09F24FEC.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:P                       3        3
+    2 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:P                       3        3
+    3 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:P                       3        3
+    4 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:P                       3        3
+    5 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:P                       1        1
+    6 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:p                       1        1
+    7 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:p                       1        1
+    8 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:p                       1        1
+    9 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:p                       1        1
+   10 PF_PU_AssoMapAlgos:: -w PFCand_AssoMap:p                       1        1
+   11 fileAction           -s file_close                            15       15
+   12 fileAction           -s file_open                             30       30
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 PF_PU_AssoMapAlgos::GetInputCollections 205236/188777765 205236/189849021 205236/188816612
+    2 PF_PU_AssoMapAlgos::GetInputCollections 205236/188777765 205236/189849021 205236/188816612
+    3 PF_PU_AssoMapAlgos::GetInputCollections 205236/188777765 205236/189849021 205236/188816612
+    4 PF_PU_AssoMapAlgos::GetInputCollections 205236/188777765 205236/189849021 205236/188816612
+    5 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+    6 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+    7 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+    8 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+    9 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+   10 PF_PU_AssoMapAlgos::PF_PU_AssoMapAlgos pre-events                        
+   11 fileAction           PostBeginLumi    PostProcessEvent PostEndRun
+   12 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                18                  18
+System                 45                  45

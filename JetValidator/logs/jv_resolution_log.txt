@@ -1,0 +1,61 @@
+Info in <TCanvas::Print>: file ../pictures/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_Pt0to1000.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_Pt0to1000.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_Pt0to1000.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/eta/resolution/JetValidator_resolutionVsEta_Npu0to59_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/eta/resolution/JetValidator_resolutionVsEta_NpucR_Pt0to1000.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/eta/resolution/JetValidator_resolutionVsEta_NpucR_Pt0to1000.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/eta/resolution/JetValidator_resolutionVsEta_NpucR_Pt0to1000.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/eta/resolution/JetValidator_resolutionVsEta_NpucR_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/eta/resolution/JetValidator_resolutionVsEta_NpucR_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/eta/resolution/JetValidator_resolutionVsEta_NpucR_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_Eta0to5.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_Eta0to5.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_Eta0to5.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/pt/resolution/JetValidator_resolutionVsPt_Npu0to59_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/pt/resolution/JetValidator_resolutionVsPt_NpucR_Eta0to5.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/pt/resolution/JetValidator_resolutionVsPt_NpucR_Eta0to5.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/pt/resolution/JetValidator_resolutionVsPt_NpucR_Eta0to5.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/pt/resolution/JetValidator_resolutionVsPt_NpucR_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/pt/resolution/JetValidator_resolutionVsPt_NpucR_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/pt/resolution/JetValidator_resolutionVsPt_NpucR_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_Pt0to1000.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_Pt0to1000.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_Pt0to1000.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/npu/resolution/JetValidator_resolutionVsNpu_Eta0to5_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/npu/resolution/JetValidator_resolutionVsNpu_EtacR_Pt0to1000.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/npu/resolution/JetValidator_resolutionVsNpu_EtacR_Pt0to1000.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/npu/resolution/JetValidator_resolutionVsNpu_EtacR_Pt0to1000.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/npu/resolution/JetValidator_resolutionVsNpu_EtacR_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/npu/resolution/JetValidator_resolutionVsNpu_EtacR_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/npu/resolution/JetValidator_resolutionVsNpu_EtacR_PtcR.pdf has been created
+Read input file
+
+1 files were found
+
+1 subdirectories were found:
+ jetvalidator/
+
+
+2 subdirectories were found:
+ jetvalidator/pfJetsPFRef/
+ jetvalidator/pfJetsPFNew/
+
+
+File 1: /user/geisler/JetValidator/08012013/jetvalidator.root ...  done
+
+Change order ...  done
+
+Merge files ...  done
+
+Create seperated plots ...  done
+
+Change order again...  done
+
+Plot them all ...
+resolution -0.345957311364 0.192985525656

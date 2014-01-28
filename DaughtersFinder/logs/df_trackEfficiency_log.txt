@@ -1,0 +1,208 @@
+Read input file
+
+18 files were found
+
+1 subdirectories were found:
+ bdf/
+
+
+File 1: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_10_1_QN0.root ...  done
+File 2: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_11_1_AMc.root ...  done
+File 3: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_12_1_OYb.root ...  done
+File 4: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_13_1_zBS.root ...  done
+File 5: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_14_1_B1A.root ...  done
+File 6: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_15_1_Brl.root ...  done
+File 7: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_16_1_0F7.root ...  done
+File 8: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_17_1_AvF.root ...  done
+File 9: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_18_1_JGu.root ...  done
+File 10: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_1_1_7mo.root ...  done
+File 11: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_2_1_Eq6.root ...  done
+File 12: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_3_1_zmZ.root ...  done
+File 13: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_4_1_d56.root ...  done
+File 14: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_5_1_0AV.root ...  done
+File 15: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_6_1_ytp.root ...  done
+File 16: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_7_1_KRT.root ...  done
+File 17: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_8_1_lCB.root ...  done
+File 18: /user/geisler/DaughtersFinder/B/20130717/Bdaughterfinder_9_1_3Zt.root ...  done
+
+Change order ...  done
+
+Merge files ...  done
+
+Create additional fraction profs ...   done
+
+Create separated plots ...  done
+
+Change order again...  done
+
+Plot them all ... 
+
+Q1FVTracksWithIVF is drawn in Black
+Q2FVTracksWithIVF is drawn in Red
+Q3FVTracksWithIVF is drawn in Blue
+
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu0to15_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu15to30_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu30to45_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_Npu45to59_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/eta/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsEta_NpucR_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaENDCAP.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaENDCAP.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaENDCAP.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaBARREL.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaBARREL.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtaBARREL.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu0to15_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaENDCAP.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaENDCAP.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaENDCAP.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaBARREL.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaBARREL.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtaBARREL.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu15to30_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaENDCAP.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaENDCAP.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaENDCAP.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaBARREL.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaBARREL.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtaBARREL.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu30to45_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaENDCAP.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaENDCAP.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaENDCAP.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaBARREL.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaBARREL.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtaBARREL.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_Npu45to59_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaENDCAP.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaENDCAP.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaENDCAP.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaBARREL.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaBARREL.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtaBARREL.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtacR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtacR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/pt/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsPt_NpucR_EtacR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaENDCAP_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtaBARREL_PtcR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt0to3.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt0to3.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt0to3.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt3to10.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt3to10.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt3to10.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt10to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt10to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt10to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt30to100.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt30to100.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_Pt30to100.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_PtcR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_PtcR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/B/npu/WithIVF/trackEfficiency/DaughtersFinder_trackEfficiencyVsNpu_EtacR_PtcR.pdf has been created

@@ -1,0 +1,2009 @@
+%MSG-i Geometry:  (NoModuleName) CSCGeometryESModule()  09-Oct-2012 10:09:50 CEST pre-events
+Label '' looking for alignment labels ''.
+%MSG
+%MSG-i Geometry:  (NoModuleName) CSCGeometryESModule()  09-Oct-2012 10:09:50 CEST pre-events
+Label 'idealForDigi' IGNORING alignment labels 'fakeForIdeal'.
+%MSG
+%MSG-i ClusterShapeHitFilterESProducer:  (NoModuleName)  09-Oct-2012 10:09:50 CEST pre-events
+ with name: ClusterShapeHitFilter
+%MSG
+%MSG-i ParameterSet:  (NoModuleName) 09-Oct-2012 10:09:51 CEST pre-events
+Warning: You have added a new tracked parameter
+'jetDeltaRMax' to a previously registered parameter set.
+This is a bad idea because the new parameter(s) will not be recorded.
+Use the forthcoming ParameterSetDescription facility instead.
+A warning is given only for the first such parameter in a pset.
+
+%MSG
+%MSG-i ParameterSet:  (NoModuleName) 09-Oct-2012 10:09:51 CEST pre-events
+Warning: You have added a new tracked parameter
+'jetDeltaRMax' to a previously registered parameter set.
+This is a bad idea because the new parameter(s) will not be recorded.
+Use the forthcoming ParameterSetDescription facility instead.
+A warning is given only for the first such parameter in a pset.
+
+%MSG
+%MSG-i CompositeTrajectoryFilterESProducer:  (NoModuleName)  09-Oct-2012 10:09:51 CEST pre-events
+configured to produce: CompositeTrajectoryFilterESProducer with name: compositeTrajectoryFilter
+%MSG
+%MSG-i Geometry:  (NoModuleName) DTGeometryESModule() 09-Oct-2012 10:09:51 CEST  pre-events
+Label '' looking for alignment labels ''.
+%MSG
+%MSG-i Geometry:  (NoModuleName) DTGeometryESModule() 09-Oct-2012 10:09:51 CEST  pre-events
+Label 'idealForDigi' IGNORING alignment labels 'fakeForIdeal'.
+%MSG
+%MSG-i Alignments:  (NoModuleName) FakeAlignmentProducer()  09-Oct-2012 10:09:52 CEST pre-events
+Providing data with label 'fakeForIdeal'.
+%MSG
+%MSG-i ParameterSet:  (NoModuleName) 09-Oct-2012 10:09:52 CEST pre-events
+Warning: You have added a new tracked parameter
+'jetDeltaRMax' to a previously registered parameter set.
+This is a bad idea because the new parameter(s) will not be recorded.
+Use the forthcoming ParameterSetDescription facility instead.
+A warning is given only for the first such parameter in a pset.
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+HcalSeverityLevelComputer - Summary of Severity Levels:
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 0
+  channel status mask = 0
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 1
+  channel status mask = 0x80000
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 5
+  channel status mask = 0
+  HBHEFlagMask        = 0x8083c
+  HOFlagMask          = 0x80000
+  HFFlagMask          = 0x80000
+  ZDCFlagMask         = 0x80000
+  CalibFlagMask       = 0x80000
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 8
+  channel status mask = 0
+  HBHEFlagMask        = 0x4f003
+  HOFlagMask          = 0x40001
+  HFFlagMask          = 0x40006
+  ZDCFlagMask         = 0x40001
+  CalibFlagMask       = 0x40001
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 11
+  channel status mask = 0
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0x19
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 12
+  channel status mask = 0x40000
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 15
+  channel status mask = 0x40
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+Hcal Severity Level Definition, Level = 20
+  channel status mask = 0x21
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i HcalSeverityLevelComputer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+HcalSeverityLevelComputer - Summary for Recovered RecHit bits: 
+Hcal Severity Level Definition, Level = 0
+  channel status mask = 0
+  HBHEFlagMask        = 0x30000
+  HOFlagMask          = 0x30000
+  HFFlagMask          = 0x30000
+  ZDCFlagMask         = 0x30000
+  CalibFlagMask       = 0x30000
+HcalSeverityLevelComputer - Summary for Drop the Channel bits: 
+Hcal Severity Level Definition, Level = 0
+  channel status mask = 0x23
+  HBHEFlagMask        = 0
+  HOFlagMask          = 0
+  HFFlagMask          = 0
+  ZDCFlagMask         = 0
+  CalibFlagMask       = 0
+
+%MSG
+%MSG-i SiPixelQualityESProducer::SiPixelQualityESProducer:  (NoModuleName)  09-Oct-2012 10:09:53 CEST pre-events
+
+%MSG
+%MSG-i SiStripLorentzAngleDepESProducer:  (NoModuleName)  09-Oct-2012 10:09:53 CEST pre-events
+ctor
+%MSG
+%MSG-i SiStripQualityESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+ctor
+%MSG
+%MSG-i SiStripDetInfoFileReader:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+filePath /net/software_cms/slc5_amd64_gcc462/cms/cmssw-patch/CMSSW_5_3_2_patch3/src/CalibTracker/SiStripCommon/data/SiStripDetInfo.dat
+%MSG
+%MSG-i SiStripDetInfoFileReader::SiStripDetInfoFileReader - END of file reached:  (NoModuleName) 09-Oct-2012 10:09:53 CEST pre-events
+
+%MSG
+%MSG-i Geometry:  (NoModuleName) TrackerDigiGeometryESModule()  09-Oct-2012 10:09:53 CEST pre-events
+Label '' looking for alignment labels ''.
+%MSG
+%MSG-i Geometry:  (NoModuleName) TrackerDigiGeometryESModule()  09-Oct-2012 10:09:53 CEST pre-events
+Label 'idealForDigi' IGNORING alignment labels 'fakeForIdeal'.
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: TrajectoryFilterForConversions
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: TrajectoryFilterForElectrons
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: ckfBaseInOutTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: ckfBaseTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: ckfBaseTrajectoryFilterP5
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: ckfTrajectoryFilterBeamHaloMuon
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: convCkfTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: detachedTripletStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: initialStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: lowPtTripletStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: mixedTripletStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: pixelLessStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: pixelPairStepTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: tobTecStepInOutTrajectoryFilter
+%MSG
+%MSG-i TrajectoryFilterESProducer:  (NoModuleName) 09-Oct-2012 10:09:53 CEST  pre-events
+configured to produce: CkfBaseTrajectoryFilter with name: tobTecStepTrajectoryFilter
+%MSG
+%MSG-i HCAL:  (NoModuleName) 09-Oct-2012 10:09:53 CEST pre-events
+HcalHardcodeCalibrations::HcalHardcodeCalibrations->...
+%MSG
+09-Oct-2012 10:09:59 CEST  Initiating request to open file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-RECO.root
+09-Oct-2012 10:10:01 CEST  Successfully opened file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-RECO.root
+%MSG-i Root_Information:  AfterFile TClass::TClass() 09-Oct-2012 10:10:01 CEST  pre-events
+no dictionary for class pair<edm::IndexIntoFile::IndexRunKey,Long64_t> is available
+%MSG
+%MSG-i Root_Information:  AfterFile TClass::TClass() 09-Oct-2012 10:10:01 CEST  pre-events
+no dictionary for class pair<edm::IndexIntoFile::IndexRunLumiKey,Long64_t> is available
+%MSG
+%MSG-i Root_Information:  AfterFile TClass::TClass() 09-Oct-2012 10:10:01 CEST  pre-events
+no dictionary for class pair<edm::BranchKey,edm::ConstBranchDescription> is available
+%MSG
+%MSG-i Root_Information:  AfterFile TClass::TClass() 09-Oct-2012 10:10:01 CEST  pre-events
+no dictionary for class pair<edm::BranchID,unsigned int> is available
+%MSG
+09-Oct-2012 10:10:02 CEST  Initiating request to open file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-DIGI-RAW-HLTDEBUG.root
+09-Oct-2012 10:10:02 CEST  Successfully opened file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-DIGI-RAW-HLTDEBUG.root
+%MSG-i PF_PU_AssoMap::PF_PU_AssoMapAlgos:   PF_PU_AssoMap:Tracks2VertexDefault@ctor 09-Oct-2012 10:10:06 CEST pre-events
+0. Step: PT-Cut is è
+1. Step: Track weight association
+Without BSCompatibility check
+With Reassociation
+The final association is: ClosestInZ with weight  
+
+
+%MSG
+%MSG-i path:  AfterModConstruction 09-Oct-2012 10:10:06 CEST pre-events
+The following module labels are not assigned to any path:
+'BeamHaloSummary','CSCHaloData','CastorTowerReco','CkfElectronCandidates','CosmicMuonSeed','EcalHaloData','GlobalHaloData','GsfGlobalElectronTest','HcalHaloData','JPTAntiKt5JetExtender','JPTAntiKt5JetTracksAssociatorAtCaloFace','JPTAntiKt5JetTracksAssociatorAtVertex','JPTCaloRecoTauProducer','JPTeidTight','JetPlusTrackZSPCorJetAntiKt5','JetPlusTrackZSPCorJetIcone5','JetPlusTrackZSPCorJetSiscone5','MuonSeed','PhotonIDProd','SETMuonSeed','TCTauJetPlusTrackZSPCorJetAntiKt5','TauDecayModeCutMutliplexerPrototype','TrackProducer','ak5CaloJets','ak5CaloJetsPUCorr','ak5JetExtender','ak5JetID','ak5JetTracksAssociatorAtCaloFace','ak5JetTracksAssociatorAtVertex','ak5PFJetTracksAssociatorAtVertex','ak5PFJets','ak5PFJetsFiltered','ak5PFJetsLegacyHPSPiZeros','ak5PFJetsLegacyTaNCPiZeros','ak5PFJetsMassDropFiltered','ak5PFJetsPruned','ak5PFJetsRecoTauPiZeros','ak5PFJetsTrimmed','ak5TrackJets','ak7BasicJets','ak7CaloJets','ak7CaloJetsPUCorr','ak7CastorJetID','ak7JetExtender','ak7JetID','ak7JetTracksAssociatorAtCaloFace','ak7JetTracksAssociatorAtVertex','ak7PFJets','ak7TrackJets','allConversions','ancientMuonSeed','beamhaloTrackCandidates','beamhaloTrackerSeeds','beamhaloTracks','ca4CaloJets','ca4CaloJetsPUCorr','ca4JetID','ca4PFJets','ca4TrackJets','ca6CaloJets','ca6CaloJetsPUCorr','ca6JetID','ca6PFJets','ca6TrackJets','caloRecoTauDiscriminationAgainstElectron','caloRecoTauDiscriminationAgainstMuon','caloRecoTauDiscriminationByECALIsolation','caloRecoTauDiscriminationByIsolation','caloRecoTauDiscriminationByLeadingTrackFinding','caloRecoTauDiscriminationByLeadingTrackPtCut','caloRecoTauDiscriminationByTrackIsolation','caloRecoTauProducer','caloRecoTauTagInfoProducer','calomuons','calotowermaker','calotoweroptmaker','calotoweroptmakerWithHO','castorDigis','castorreco','ckfInOutTracksFromConversions','ckfOutInTracksFromConversions','ckfTrackCandidates','ckfTrackCandidatesCombinedSeeds','ckfTrackCandidatesNoOverlaps','ckfTrackCandidatesP5','ckfTrackCandidatesPixelLess','cleanedHybridSuperClusters','clusterSummaryProducer','combinatoricRecoTaus','combinatoricRecoTausDiscriminationByLeadingPionPtCut','combinatoricRecoTausDiscriminationByTanc','combinatoricRecoTausHPSSelector','combinatoricRecoTausTancTransform','combinedInclusiveSecondaryVertexBJetTags','combinedMVABJetTags','combinedSecondaryVertexBJetTags','combinedSecondaryVertexMVABJetTags','convClusters','convStepSelector','convStepTracks','convTrackCandidates','conversionStepConversionTrackProducer','conversionStepTracks','conversionTrackCandidates','conversions','corMetGlobalMuons','correctedHybridSuperClusters','correctedMulti5x5SuperClustersWithPreshower','cosmicMuons','cosmicMuons1Leg','cosmicsVeto','cosmicsVetoSeeds','cosmicsVetoTrackCandidates','cosmicsVetoTracks','cosmicsVetoTracksRaw','cosmictrackSelector','csc2DRecHits','cscSegments','csctfDigis','ctfCombinedSeeds','ctfNoOverlaps','ctfPixelLess','ctfWithMaterialTracks','ctfWithMaterialTracksCosmics','dedxDiscrimASmi','dedxDiscrimBTag','dedxDiscrimProd','dedxDiscrimSmi','dedxHarmonic2','dedxMedian','dedxTruncated40','dedxUnbinned','detachedTripletStep','detachedTripletStepClusters','detachedTripletStepSeeds','detachedTripletStepSelector','detachedTripletStepTrackCandidates','detachedTripletStepTracks','dt1DCosmicRecHits','dt1DRecHits','dt2DCosmicSegments','dt2DSegments','dt4DCosmicSegments','dt4DSegments','dt4DSegmentsT0Seg','dttfDigis','ecalCompactTrigPrim','ecalDetIdToBeRecovered','ecalDigis','ecalDrivenElectronSeeds','ecalDrivenGsfElectronCores','ecalDrivenGsfElectrons','ecalGlobalUncalibRecHit','ecalPreshowerDigis','ecalPreshowerRecHit','ecalRecHit','ecalTPSkim','egammaCTFFinalFitWithMaterial','eidCutBasedExt','eidLoose','eidRobustHighEnergy','eidRobustLoose','eidRobustTight','eidTight','elPFIsoDepositCharged','elPFIsoDepositChargedAll','elPFIsoDepositGamma','elPFIsoDepositNeutral','elPFIsoDepositPU','elPFIsoValueCharged03NoPFId','elPFIsoValueCharged03PFId','elPFIsoValueCharged04NoPFId','elPFIsoValueCharged04PFId','elPFIsoValueChargedAll03NoPFId','elPFIsoValueChargedAll03PFId','elPFIsoValueChargedAll04NoPFId','elPFIsoValueChargedAll04PFId','elPFIsoValueGamma03NoPFId','elPFIsoValueGamma03PFId','elPFIsoValueGamma04NoPFId','elPFIsoValueGamma04PFId','elPFIsoValueNeutral03NoPFId','elPFIsoValueNeutral03PFId','elPFIsoValueNeutral04NoPFId','elPFIsoValueNeutral04PFId','elPFIsoValuePU03NoPFId','elPFIsoValuePU03PFId','elPFIsoValuePU04NoPFId','elPFIsoValuePU04PFId','electronCkfTrackCandidates','electronEcalRecHitIsolationLcone','electronEcalRecHitIsolationScone','electronGsfTracks','electronHcalDepth1TowerIsolationLcone','electronHcalDepth1TowerIsolationScone','electronHcalDepth2TowerIsolationLcone','electronHcalDepth2TowerIsolationScone','electronHcalTowerIsolationLcone','electronHcalTowerIsolationScone','electronMergedSeeds','electronTrackIsolationLcone','electronTrackIsolationScone','electronsWithPresel','fixedConePFTauDecayModeIndexProducer','fixedConePFTauDecayModeProducer','fixedConePFTauDiscriminationAgainstElectron','fixedConePFTauDiscriminationAgainstMuon','fixedConePFTauDiscriminationByECALIsolation','fixedConePFTauDiscriminationByECALIsolationUsingLeadingPion','fixedConePFTauDiscriminationByIsolation','fixedConePFTauDiscriminationByIsolationUsingLeadingPion','fixedConePFTauDiscriminationByLeadingPionPtCut','fixedConePFTauDiscriminationByLeadingTrackFinding','fixedConePFTauDiscriminationByLeadingTrackPtCut','fixedConePFTauDiscriminationByTrackIsolation','fixedConePFTauDiscriminationByTrackIsolationUsingLeadingPion','fixedConePFTauProducer','fixedConeRecoTaus','fixedGridRhoAll','fixedGridRhoFastjetAll','gctDigis','generalConversionStepConversionTrackMerger','generalConversionTrackProducer','generalInOutOutInConversionTrackMerger','generalTracks','generalV0Candidates','ghostTrackBJetTags','ghostTrackVertexTagInfos','gk5CaloJets','gk5CaloJetsPUCorr','gk5JetID','gk5PFJets','gk5TrackJets','gk7CaloJets','gk7CaloJetsPUCorr','gk7JetID','gk7PFJets','gk7TrackJets','glbTrackQual','globalCombinedSeeds','globalCosmicMuons','globalCosmicMuons1Leg','globalMixedSeeds','globalMuons','globalPixelLessSeeds','globalPixelSeeds','globalSETMuons','globalSeedsFromPairsWithVertices','globalSeedsFromTriplets','gsfConversionTrackProducer','gsfElectronCores','gsfElectrons','gsfGeneralConversionTrackMerger','gsfGeneralInOutOutInConversionTrackMerger','gtDigis','gtEvmDigis','hbheprereco','hbhereco','hbherecoMB','hcalDigis','hcalnoise','hfEMClusters','hfRecoEcalCandidate','hfreco','hfrecoMB','horeco','horecoMB','hpsPFTauDiscriminationByDecayModeFinding','hpsPFTauDiscriminationByLooseChargedIsolation','hpsPFTauDiscriminationByLooseCombinedIsolationDBSumPtCorr','hpsPFTauDiscriminationByLooseElectronRejection','hpsPFTauDiscriminationByLooseIsolation','hpsPFTauDiscriminationByLooseIsolationDBSumPtCorr','hpsPFTauDiscriminationByLooseMuonRejection','hpsPFTauDiscriminationByMVAElectronRejection','hpsPFTauDiscriminationByMediumChargedIsolation','hpsPFTauDiscriminationByMediumCombinedIsolationDBSumPtCorr','hpsPFTauDiscriminationByMediumElectronRejection','hpsPFTauDiscriminationByMediumIsolation','hpsPFTauDiscriminationByMediumIsolationDBSumPtCorr','hpsPFTauDiscriminationByMediumMuonRejection','hpsPFTauDiscriminationByRawChargedIsolationDBSumPtCorr','hpsPFTauDiscriminationByRawCombinedIsolationDBSumPtCorr','hpsPFTauDiscriminationByRawGammaIsolationDBSumPtCorr','hpsPFTauDiscriminationByTightChargedIsolation','hpsPFTauDiscriminationByTightCombinedIsolationDBSumPtCorr','hpsPFTauDiscriminationByTightElectronRejection','hpsPFTauDiscriminationByTightIsolation','hpsPFTauDiscriminationByTightIsolationDBSumPtCorr','hpsPFTauDiscriminationByTightMuonRejection','hpsPFTauDiscriminationByVLooseChargedIsolation','hpsPFTauDiscriminationByVLooseCombinedIsolationDBSumPtCorr','hpsPFTauDiscriminationByVLooseIsolation','hpsPFTauDiscriminationByVLooseIsolationDBSumPtCorr','hpsPFTauProducer','hpsPFTauProducerSansRefs','hpsSelectionDiscriminator','hpsTancTaus','hpsTancTausDiscriminationAgainstCaloMuon','hpsTancTausDiscriminationByDecayModeSelection','hpsTancTausDiscriminationByFlightPath','hpsTancTausDiscriminationByLeadingPionPtCut','hpsTancTausDiscriminationByLeadingTrackFinding','hpsTancTausDiscriminationByLeadingTrackPtCut','hpsTancTausDiscriminationByLooseElectronRejection','hpsTancTausDiscriminationByLooseIsolation','hpsTancTausDiscriminationByLooseMuonRejection','hpsTancTausDiscriminationByMediumElectronRejection','hpsTancTausDiscriminationByMediumIsolation','hpsTancTausDiscriminationByTanc','hpsTancTausDiscriminationByTancLoose','hpsTancTausDiscriminationByTancMedium','hpsTancTausDiscriminationByTancRaw','hpsTancTausDiscriminationByTancTight','hpsTancTausDiscriminationByTancVLoose','hpsTancTausDiscriminationByTightElectronRejection','hpsTancTausDiscriminationByTightIsolation','hpsTancTausDiscriminationByTightMuonRejection','hpsTancTausDiscriminationByVLooseIsolation','hpsTancTausSansRefs','htMet','htMetAK5','htMetAK7','htMetIC5','htMetKT4','htMetKT6','htMetSC5','htMetSC7','hybridSuperClusters','ic5JetID','ic5JetTracksAssociatorAtVertex','ic5PFJetTracksAssociatorAtVertex','ic7JetID','impactParameterMVABJetTags','impactParameterTagInfos','inOutConversionTrackProducer','inOutOutInConversionTrackMerger','inclusiveSecondaryVertexFinderTagInfos','initialStepSeedClusterMask','initialStepSeeds','initialStepSelector','initialStepTrackCandidates','initialStepTracks','interestingEcalDetIdEB','interestingEcalDetIdEBU','interestingEcalDetIdEE','interestingEleIsoDetId','interestingEleIsoDetIdEB','interestingEleIsoDetIdEE','interestingGamIsoDetId','interestingGamIsoDetIdEB','interestingGamIsoDetIdEE','interestingTrackEcalDetIds','isoDeposits','iterativeCone5CaloJets','iterativeCone5CaloJetsPUCorr','iterativeCone5JetExtender','iterativeCone5JetTracksAssociatorAtCaloFace','iterativeCone5JetTracksAssociatorAtVertex','iterativeCone5PFJets','iterativeCone5TrackJets','jetBProbabilityBJetTags','jetProbabilityBJetTags','kt4CaloJets','kt4CaloJetsPUCorr','kt4JetExtender','kt4JetID','kt4JetTracksAssociatorAtCaloFace','kt4JetTracksAssociatorAtVertex','kt4PFJets','kt4TrackJets','kt6CaloJets','kt6CaloJetsCentral','kt6CaloJetsCentralPUCorr','kt6CaloJetsPUCorr','kt6JetID','kt6PFJets','kt6PFJetsCentralChargedPileUp','kt6PFJetsCentralNeutral','kt6PFJetsCentralNeutralTight','kt6TrackJets','logErrorHarvester','lowPtTripletStepClusters','lowPtTripletStepSeeds','lowPtTripletStepSelector','lowPtTripletStepTrackCandidates','lowPtTripletStepTracks','lumiProducer','mergedStandAloneMuonSeeds','met','metHO','metNoHF','metNoHFHO','metOpt','metOptHO','metOptNoHF','metOptNoHFHO','metsignificance','mixedTripletStep','mixedTripletStepClusters','mixedTripletStepSeedClusterMask','mixedTripletStepSeeds','mixedTripletStepSeedsA','mixedTripletStepSeedsB','mixedTripletStepSelector','mixedTripletStepTrackCandidates','mixedTripletStepTracks','muIsoDepositCalByAssociatorHits','muIsoDepositCalByAssociatorTowers','muIsoDepositJets','muIsoDepositTk','muPFIsoDepositCharged','muPFIsoDepositChargedAll','muPFIsoDepositGamma','muPFIsoDepositNeutral','muPFIsoDepositPU','muPFIsoValueCharged03','muPFIsoValueCharged04','muPFIsoValueChargedAll03','muPFIsoValueChargedAll04','muPFIsoValueGamma03','muPFIsoValueGamma04','muPFIsoValueGammaHighThreshold03','muPFIsoValueGammaHighThreshold04','muPFIsoValueNeutral03','muPFIsoValueNeutral04','muPFIsoValueNeutralHighThreshold03','muPFIsoValueNeutralHighThreshold04','muPFIsoValuePU03','muPFIsoValuePU04','muParamGlobalIsoDepositCalByAssociatorHits','muParamGlobalIsoDepositCalByAssociatorTowers','muParamGlobalIsoDepositCalEcal','muParamGlobalIsoDepositCalHcal','muParamGlobalIsoDepositCtfTk','muParamGlobalIsoDepositGsTk','muParamGlobalIsoDepositJets','muParamGlobalIsoDepositTk','muidAllArbitrated','muidGMStaChiCompatibility','muidGMTkChiCompatibility','muidGMTkKinkTight','muidGlobalMuonPromptTight','muidTM2DCompatibilityLoose','muidTM2DCompatibilityTight','muidTMLastStationAngLoose','muidTMLastStationAngTight','muidTMLastStationLoose','muidTMLastStationOptimizedLowPtLoose','muidTMLastStationOptimizedLowPtTight','muidTMLastStationTight','muidTMOneStationAngLoose','muidTMOneStationAngTight','muidTMOneStationLoose','muidTMOneStationTight','muidTrackerMuonArbitrated','multi5x5BasicClustersCleaned','multi5x5BasicClustersUncleaned','multi5x5PreshowerClusterShape','multi5x5SuperClusters','multi5x5SuperClustersCleaned','multi5x5SuperClustersUncleaned','multi5x5SuperClustersWithPreshower','muonCSCDigis','muonDTDigis','muonEcalDetIds','muonMETValueMapProducer','muonRPCDigis','muonSelectionTypeValueMapProducer','muonShowerInformation','muonTCMETValueMapProducer','muons','muons1stStep','muonsFromCosmics','muonsFromCosmics1Leg','muonsWithSET','muontiming','mvaElectrons','negativeTrackCountingHighEffJetTags','negativeTrackCountingHighPurJetTags','newCombinedSeeds','offlineBeamSpot','offlinePrimaryVertices','offlinePrimaryVerticesWithBS','outInConversionTrackProducer','particleFlow','particleFlowBlock','particleFlowClusterECAL','particleFlowClusterHCAL','particleFlowClusterHFEM','particleFlowClusterHFHAD','particleFlowClusterHO','particleFlowClusterPS','particleFlowDisplacedVertex','particleFlowDisplacedVertexCandidate','particleFlowRecHitECAL','particleFlowRecHitHCAL','particleFlowRecHitHO','particleFlowRecHitPS','particleFlowSimParticle','particleFlowTmp','pfAllChargedHadrons','pfAllChargedParticles','pfAllElectrons','pfAllMuons','pfAllNeutralHadrons','pfAllNeutralHadronsAndPhotons','pfAllPhotons','pfConversions','pfDisplacedTrackerVertex','pfElectronInterestingEcalDetIdEB','pfElectronInterestingEcalDetIdEE','pfElectronTranslator','pfMet','pfNoPileUp','pfNoPileUpIso','pfNuclear','pfPhotonInterestingEcalDetIdEB','pfPhotonInterestingEcalDetIdEE','pfPhotonTranslator','pfPileUp','pfPileUpAllChargedParticles','pfPileUpIso','pfRecoTauDiscriminationAgainstCaloMuon','pfRecoTauDiscriminationAgainstElectron','pfRecoTauDiscriminationAgainstElectronMVA','pfRecoTauDiscriminationAgainstMuon','pfRecoTauDiscriminationByECALIsolation','pfRecoTauDiscriminationByECALIsolationUsingLeadingPion','pfRecoTauDiscriminationByIsolation','pfRecoTauDiscriminationByIsolationUsingLeadingPion','pfRecoTauDiscriminationByLeadingPionPtCut','pfRecoTauDiscriminationByLeadingTrackFinding','pfRecoTauDiscriminationByLeadingTrackPtCut','pfRecoTauDiscriminationByTrackIsolation','pfRecoTauDiscriminationByTrackIsolationUsingLeadingPion','pfRecoTauTagInfoProducer','pfSelectedElectrons','pfSelectedPhotons','pfTauDecayMode','pfTauDecayModeHighEfficiency','pfTauDecayModeIndexProducer','pfTauDecayModeInsideOut','pfTrack','pfTrackElec','pfV0','phPFIsoDepositCharged','phPFIsoDepositChargedAll','phPFIsoDepositGamma','phPFIsoDepositNeutral','phPFIsoDepositPU','phPFIsoValueCharged03PFId','phPFIsoValueCharged04PFId','phPFIsoValueChargedAll03PFId','phPFIsoValueChargedAll04PFId','phPFIsoValueGamma03PFId','phPFIsoValueGamma04PFId','phPFIsoValueNeutral03PFId','phPFIsoValueNeutral04PFId','phPFIsoValuePU03PFId','phPFIsoValuePU04PFId','photonConvTrajSeedFromSingleLeg','photonCore','photons','pixelLessStepClusters','pixelLessStepSeedClusterMask','pixelLessStepSeeds','pixelLessStepSelector','pixelLessStepTrackCandidates','pixelLessStepTracks','pixelPairElectronSeeds','pixelPairStepClusters','pixelPairStepSeedClusterMask','pixelPairStepSeeds','pixelPairStepSelector','pixelPairStepTrackCandidates','pixelPairStepTracks','pixelTracks','pixelVertices','randomEngineStateProducer','recoTauAK5PFJets08Region','recoTauPileUpVertices','reducedEcalRecHitsEB','reducedEcalRecHitsEE','reducedEcalRecHitsES','reducedHcalRecHits','refittedStandAloneMuons','regionalCosmicCkfTrackCandidates','regionalCosmicTrackerSeeds','regionalCosmicTracks','roadSearchClouds','roadSearchSeeds','rpcRecHits','rsTrackCandidates','rsWithMaterialTracks','sc5JetID','sc7JetID','scalersRawToDigi','secondaryVertexNegativeTagInfos','secondaryVertexTagInfos','seedClusterRemover','selectDigi','shrinkingConePFTauDecayModeIndexProducer','shrinkingConePFTauDecayModeProducer','shrinkingConePFTauDiscriminationAgainstElectron','shrinkingConePFTauDiscriminationAgainstMuon','shrinkingConePFTauDiscriminationByECALIsolation','shrinkingConePFTauDiscriminationByECALIsolationUsingLeadingPion','shrinkingConePFTauDiscriminationByIsolation','shrinkingConePFTauDiscriminationByIsolationUsingLeadingPion','shrinkingConePFTauDiscriminationByLeadingPionPtCut','shrinkingConePFTauDiscriminationByLeadingTrackFinding','shrinkingConePFTauDiscriminationByLeadingTrackPtCut','shrinkingConePFTauDiscriminationByTaNC','shrinkingConePFTauDiscriminationByTaNCfrHalfPercent','shrinkingConePFTauDiscriminationByTaNCfrOnePercent','shrinkingConePFTauDiscriminationByTaNCfrQuarterPercent','shrinkingConePFTauDiscriminationByTaNCfrTenthPercent','shrinkingConePFTauDiscriminationByTrackIsolation','shrinkingConePFTauDiscriminationByTrackIsolationUsingLeadingPion','shrinkingConePFTauProducer','shrinkingConePFTauProducerSansRefs','siPixelClusters','siPixelDigis','siPixelRecHits','siStripClusters','siStripDigis','siStripElectronToTrackAssociator','siStripElectrons','siStripMatchedRecHits','siStripZeroSuppression','simEcalTriggerPrimitiveDigis','simpleSecondaryVertexBJetTags','simpleSecondaryVertexHighEffBJetTags','simpleSecondaryVertexHighPurBJetTags','simpleSecondaryVertexNegativeHighEffBJetTags','simpleSecondaryVertexNegativeHighPurBJetTags','sisCone5CaloJets','sisCone5CaloJetsPUCorr','sisCone5JetExtender','sisCone5JetTracksAssociatorAtCaloFace','sisCone5JetTracksAssociatorAtVertex','sisCone5PFJets','sisCone5TrackJets','sisCone7CaloJets','sisCone7CaloJetsPUCorr','sisCone7PFJets','sisCone7TrackJets','softElectronBJetTags','softElectronByIP3dBJetTags','softElectronByPtBJetTags','softElectronCands','softElectronSelector','softElectronTagInfos','softMuonBJetTags','softMuonByIP3dBJetTags','softMuonByPtBJetTags','softMuonNoIPBJetTags','softMuonTagInfos','standAloneMuons','standAloneSETMuons','stripPairElectronSeeds','tcMet','tcMetWithPFclusters','tcRecoTauProducer','tevMuons','tobTecStepClusters','tobTecStepSeeds','tobTecStepSelector','tobTecStepTrackCandidates','tobTecStepTracks','towerMaker','towerMakerPF','towerMakerWithHO','trackCountingHighEffBJetTags','trackCountingHighPurBJetTags','trackExtrapolator','trackRefsForJets','trackWithVertexRefSelector','trackerDrivenElectronSeeds','tripletElectronClusterMask','tripletElectronSeeds','uncleanedHybridSuperClusters','uncleanedOnlyAllConversions','uncleanedOnlyCkfInOutTracksFromConversions','uncleanedOnlyCkfOutInTracksFromConversions','uncleanedOnlyConversionTrackCandidates','uncleanedOnlyCorrectedHybridSuperClusters','uncleanedOnlyCorrectedMulti5x5SuperClustersWithPreshower','uncleanedOnlyElectronCkfTrackCandidates','uncleanedOnlyElectronGsfTracks','uncleanedOnlyElectronSeeds','uncleanedOnlyGeneralConversionTrackProducer','uncleanedOnlyGeneralInOutOutInConversionTrackMerger','uncleanedOnlyGsfConversionTrackProducer','uncleanedOnlyGsfElectronCores','uncleanedOnlyGsfElectrons','uncleanedOnlyGsfGeneralInOutOutInConversionTrackMerger','uncleanedOnlyInOutConversionTrackProducer','uncleanedOnlyInOutOutInConversionTrackMerger','uncleanedOnlyMulti5x5SuperClustersWithPreshower','uncleanedOnlyOutInConversionTrackProducer','uncleanedOnlyPfConversions','uncleanedOnlyPfTrack','uncleanedOnlyPfTrackElec','zdcreco'
+
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record SiStripGainRcd depends on at least one Record 
+ (SiStripApvGain3Rcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record SiStripQualityRcd depends on at least one Record 
+ (SiStripDCSStatusRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record ZDCGeometryRecord depends on at least one Record 
+ (ZDCAlignmentRcd, ZDCAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record HcalGeometryRecord depends on at least one Record 
+ (HcalAlignmentRcd, HcalAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record CkfComponentsRecord depends on at least one Record 
+ (SiStripRegionCablingRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record CastorGeometryRecord depends on at least one Record 
+ (CastorAlignmentRcd, CastorAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record CaloTowerGeometryRecord depends on at least one Record 
+ (CaloTowerAlignmentRcd, CaloTowerAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record EcalBarrelGeometryRecord depends on at least one Record 
+ (EBAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record EcalEndcapGeometryRecord depends on at least one Record 
+ (EEAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i EventSetupDependency:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+The EventSetup record EcalPreshowerGeometryRecord depends on at least one Record 
+ (ESAlignmentErrorRcd) which is not present in the job.
+ This may lead to an exception begin thrown during event processing.
+ If no exception occurs during the job than it is usually safe to ignore this message.
+%MSG
+%MSG-i HCAL:  AfterSource 09-Oct-2012 10:10:06 CEST BeforeEvents
+HcalHardcodeCalibrations::setIntervalFor-> key: HcalGainWidthsRcd time: run: 1 lumi: 0 event: 0/1
+%MSG
+Begin processing the 1st record. Run 1, Event 1201, LumiSection 666678 at 09-Oct-2012 10:10:07.003 CEST
+%MSG-i DDLParser:  PerfectAssociation:perfectTracks 09-Oct-2012 10:10:07 CEST  Run: 1 Event: 1201
+Start Parsing.  Validation is set off for the time being.
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[8] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[8] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[7] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[7] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[6] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[6] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[5] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[5] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[4] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[4] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[3] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[3] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[2] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[2] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[1] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[1] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[9] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[9] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[10] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[10] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[11] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[11] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[12] (key:14200)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_142[12] (key:14200)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[12] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[12] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[11] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[11] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[10] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[10] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[9] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[9] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[8] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[8] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[7] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[7] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[6] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[6] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[5] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[5] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[4] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[4] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[3] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[3] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[2] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[2] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[1] (key:14100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1 to V_141[1] (key:14100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[8] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[8] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[1] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[1] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[2] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[2] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[3] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[3] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[4] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[4] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[5] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[5] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[6] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[6] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[7] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[7] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[9] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[9] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[10] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[10] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[11] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[11] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[12] (key:18300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_183[12] (key:18300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[1] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[1] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[2] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[2] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[3] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[3] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[4] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[4] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[12] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[12] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[11] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[11] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[10] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[10] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[9] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[9] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[8] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[8] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[5] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[5] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[1] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[1] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[2] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[2] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[3] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[3] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[4] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[4] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[6] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[6] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[7] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[7] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[8] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[8] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[9] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[9] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[10] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[10] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[11] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[11] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[12] (key:18600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_186[12] (key:18600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[1] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[1] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[12] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[12] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[11] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[11] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[10] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[10] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[9] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[9] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[8] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[8] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[7] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[7] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[6] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[6] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[5] (key:18400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_184[5] (key:18400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[2] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[2] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[1] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[1] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[3] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[3] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[4] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[4] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[5] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[5] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[6] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[6] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[7] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[7] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[8] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[8] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[9] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[9] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[7] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[7] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[12] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[12] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[11] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[11] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[10] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[10] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[9] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[9] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[8] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[8] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[7] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[7] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[6] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[6] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[5] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[5] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[4] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[4] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[3] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[3] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[2] (key:17600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.994 to V_176[2] (key:17600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[10] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[10] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[1] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[1] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[2] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[2] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[3] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[3] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[4] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[4] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[5] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[5] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[6] (key:18100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.005 to V_181[6] (key:18100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[11] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[11] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[12] (key:17800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_178[12] (key:17800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[1] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[1] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[2] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[2] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[3] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[3] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[4] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[4] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[5] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[5] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[6] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[6] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[7] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[7] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[8] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[8] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[9] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[9] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[10] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[10] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[11] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[11] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[12] (key:17900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 1.004 to V_179[12] (key:17900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[8] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[8] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[1] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[1] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[2] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[2] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[3] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[3] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[4] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[4] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[5] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[5] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[6] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[6] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[7] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[7] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[9] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[9] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[10] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[10] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[11] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[11] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[12] (key:23800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_238[12] (key:23800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[1] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[1] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[2] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[2] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[3] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[3] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[4] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[4] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[12] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[12] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[11] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[11] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[10] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[10] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[9] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[9] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[7] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[7] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[5] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[5] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[1] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[1] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[2] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[2] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[3] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[3] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[4] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[4] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[6] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[6] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[7] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[7] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[8] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[8] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[9] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[9] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[10] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[10] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[11] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[11] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[12] (key:24100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_241[12] (key:24100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[8] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[8] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[12] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[12] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[11] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[11] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[10] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[10] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[9] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[9] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[8] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[8] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[7] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[7] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[6] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[6] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[5] (key:23900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_239[5] (key:23900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[1] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[1] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[2] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[2] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[3] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[3] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[4] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[4] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[5] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[5] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[6] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[6] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[7] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[7] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[8] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[8] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[6] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[6] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[12] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[12] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[11] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[11] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[10] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[10] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[9] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[9] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[8] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[8] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[7] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[7] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[6] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[6] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[5] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[5] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[4] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[4] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[3] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[3] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[2] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[2] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[1] (key:23100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.965 to V_231[1] (key:23100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[9] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[9] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[1] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[1] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[2] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[2] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[3] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[3] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[4] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[4] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[5] (key:23600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.953 to V_236[5] (key:23600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[10] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[10] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[11] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[11] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[12] (key:23300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_233[12] (key:23300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[1] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[1] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[2] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[2] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[3] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[3] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[4] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[4] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[5] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[5] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[6] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[6] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[7] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[7] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[8] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[8] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[9] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[9] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[10] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[10] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[11] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[11] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[12] (key:23400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.958 to V_234[12] (key:23400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[3] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[3] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[1] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[1] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[2] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[2] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[3] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[3] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[4] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[4] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[5] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[5] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[6] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[6] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[8] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[8] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[9] (key:29309)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[9] (key:29309)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[10] (key:29310)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[10] (key:29310)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[11] (key:29311)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_293[11] (key:29311)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[12] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[12] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[1] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[1] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[2] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[2] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[7] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[7] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[7] (key:29300)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_293[7] (key:29300)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[8] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[8] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[9] (key:29109)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[9] (key:29109)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[10] (key:29110)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[10] (key:29110)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[11] (key:29111)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.978 to V_291[11] (key:29111)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[12] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[12] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[5] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[5] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[1] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[1] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[2] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[2] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[3] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[3] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[4] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[4] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[6] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[6] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[7] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[7] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[8] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[8] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[9] (key:29609)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[9] (key:29609)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[10] (key:29610)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[10] (key:29610)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[11] (key:29611)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_296[11] (key:29611)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[12] (key:29600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_296[12] (key:29600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[4] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[4] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[12] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[12] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[11] (key:29411)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[11] (key:29411)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[10] (key:29410)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[10] (key:29410)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[9] (key:29409)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_294[9] (key:29409)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[8] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[8] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[7] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[7] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[6] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[6] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[5] (key:29400)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_294[5] (key:29400)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[1] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[1] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[2] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[2] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[3] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[3] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[4] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[4] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[5] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[5] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[6] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[6] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[7] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[7] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[8] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[8] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[12] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[12] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[11] (key:28611)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[11] (key:28611)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[10] (key:28610)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[10] (key:28610)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[9] (key:28609)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.991 to V_286[9] (key:28609)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[8] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[8] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[7] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[7] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[6] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[6] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[5] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[5] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[4] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[4] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[3] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[3] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[2] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[2] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[1] (key:28600)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.918 to V_286[1] (key:28600)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[6] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[6] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[1] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[1] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[2] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[2] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[3] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[3] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[4] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[4] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[5] (key:29100)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.906 to V_291[5] (key:29100)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[9] (key:28809)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[9] (key:28809)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[10] (key:28810)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[10] (key:28810)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[11] (key:28811)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_288[11] (key:28811)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[12] (key:28800)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_288[12] (key:28800)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[1] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[1] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[2] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[2] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[3] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[3] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[4] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[4] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[5] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[5] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[6] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[6] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[7] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[7] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[8] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[8] (key:28900)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[9] (key:28909)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[9] (key:28909)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[10] (key:28910)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[10] (key:28910)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[11] (key:28911)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.998 to V_289[11] (key:28911)
+%MSG
+%MSG-i MagneticField:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[12] (key:28900)
+%MSG
+%MSG-i VolumeBasedMagneticFieldESProducer:  PerfectAssociation:perfectTracks  09-Oct-2012 10:10:08 CEST Run: 1 Event: 1201
+Applying scaling factor 0.924 to V_289[12] (key:28900)
+%MSG
+%MSG-i DDLParser:  PF_PU_AssoMap:Tracks2VertexDefault 09-Oct-2012 10:10:09 CEST  Run: 1 Event: 1201
+Start Parsing.  Validation is set off for the time being.
+%MSG
+%MSG-i EcalGeom:  PF_PU_AssoMap:Tracks2VertexDefault 09-Oct-2012 10:10:11 CEST  Run: 1 Event: 1201
+DDEcalEndcapAlgo info: Creating an instance
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:12 CEST Run: 1 Event: 1201
+Starting to apply alignments.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:12 CEST Run: 1 Event: 1201
+Finished to apply 19876 alignments with 16588 non-zero APE.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::attachSurfaceDeformations() 09-Oct-2012 10:10:13 CEST  Run: 1 Event: 1201
+Starting to attach surface deformations.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::attachSurfaceDeformations() 09-Oct-2012 10:10:13 CEST  Run: 1 Event: 1201
+Finished to attach 16588 surface deformations.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:14 CEST Run: 1 Event: 1201
+Starting to apply alignments.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:14 CEST Run: 1 Event: 1201
+Finished to apply 3650 alignments with 0 non-zero APE.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:15 CEST Run: 1 Event: 1201
+Starting to apply alignments.
+%MSG
+%MSG-i Alignment:  PF_PU_AssoMap:Tracks2VertexDefault  GeometryAligner::applyAlignments() 09-Oct-2012 10:10:15 CEST Run: 1 Event: 1201
+Finished to apply 4284 alignments with 0 non-zero APE.
+%MSG
+Begin processing the 2nd record. Run 1, Event 1202, LumiSection 666678 at 09-Oct-2012 10:10:19.994 CEST
+%MSG-i DDCompactViewImpl:  AfterSource 09-Oct-2012 10:10:19 CEST  PostProcessEvent
+DDD transient representation has been destructed.
+%MSG
+%MSG-i DDCompactViewImpl:  AfterSource 09-Oct-2012 10:10:20 CEST  PostProcessEvent
+DDD transient representation has been destructed.
+%MSG
+Begin processing the 3rd record. Run 1, Event 1203, LumiSection 666678 at 09-Oct-2012 10:10:22.145 CEST
+09-Oct-2012 10:10:26 CEST  Closed file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-RECO.root
+09-Oct-2012 10:10:26 CEST  Closed file file:/user/geisler/RelValZmumuJets_Pt_20_300_PU_START53_V6-v1_GEN-SIM-DIGI-RAW-HLTDEBUG.root

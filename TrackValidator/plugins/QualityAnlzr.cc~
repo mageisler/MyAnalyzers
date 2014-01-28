@@ -1,0 +1,546 @@
+// -*- C++ -*-
+//
+// Package:    QualityAnlzr
+// Class:      QualityAnlzr
+// 
+/**\class QualityAnlzr QualityAnlzr.cc MGeisler/QualityAnlzr/src/QualityAnlzr.cc
+
+ Description: [one line class summary]
+
+ Implementation:
+     [Notes on implementation]
+*/
+//
+// Original Author:  Matthias Geisler
+//         Created:  Tue Oct  9 13:47:28 CEST 2012
+// $Id$
+//
+//
+
+// system include files
+#include <memory>
+#include <vector>
+
+// user include files
+#include "FWCore/Framework/interface/Frameworkfwd.h"
+#include "FWCore/Framework/interface/EDAnalyzer.h"
+
+#include "FWCore/Framework/interface/Event.h"
+#include "FWCore/Framework/interface/Run.h"
+#include "FWCore/Framework/interface/MakerMacros.h"
+
+#include "FWCore/MessageLogger/interface/MessageLogger.h"
+#include "FWCore/Utilities/interface/InputTag.h"
+
+#include "FWCore/ParameterSet/interface/ParameterSet.h"
+#include "DataFormats/Common/interface/AssociationMap.h"
+#include "DataFormats/Common/interface/Handle.h"
+#include "DataFormats/Common/interface/OneToManyWithQuality.h"
+#include "DataFormats/Common/interface/OneToManyWithQualityGeneric.h"
+#include "DataFormats/Common/interface/View.h"
+
+#include "FWCore/ServiceRegistry/interface/Service.h"
+#include "CommonTools/UtilAlgos/interface/TFileService.h"
+
+#include "SimDataFormats/TrackingAnalysis/interface/TrackingParticle.h"
+#include "DataFormats/RecoCandidate/interface/TrackAssociation.h"
+
+#include "SimTracker/Records/interface/TrackAssociatorRecord.h"
+#include "SimTracker/TrackAssociation/interface/TrackAssociatorBase.h"
+#include "SimTracker/TrackAssociation/interface/QuickTrackAssociatorByHits.h"
+
+#include "DataFormats/TrackReco/interface/Track.h"
+#include "DataFormats/TrackReco/interface/TrackFwd.h"
+#include "DataFormats/TrackReco/interface/TrackBase.h"
+
+
+#include "TrackingTools/IPTools/interface/IPTools.h"
+
+#include "CommonTools/RecoUtils/interface/PF_PU_AssoMap.h"
+
+// root includes
+#include "TH1F.h"
+#include "TProfile.h"
+#include "TH2F.h"
+#include "TProfile2D.h"
+
+//
+// class declaration
+//
+
+class QualityAnlzr : public edm::EDAnalyzer, public PF_PU_AssoMapAlgos {
+   public:
+      explicit QualityAnlzr(const edm::ParameterSet&);
+      ~QualityAnlzr();
+
+      static void fillDescriptions(edm::ConfigurationDescriptions& descriptions);
+
+
+   private:
+      virtual void analyze(const edm::Event&, const edm::EventSetup&);
+
+      // ----------member data ---------------------------
+
+  	  // ########################
+      // histograms && profiles
+      // ########################
+
+      std::vector<TH1F*> h_all_distance;
+      std::vector<TH1F*> h_matched_distance;
+      std::vector<TProfile*> p_purity_distance;
+
+      std::vector<TH2F*> h2_all_a1distance_a2distance;
+      std::vector<TH2F*> h2_matched_a1distance_a2distance;
+      std::vector<TProfile2D*> p2_purity_a1distance_a2distance;
+
+      std::vector<TH2F*> h2_all_a1quality_a2distance;
+      std::vector<TH2F*> h2_matched_a1quality_a2distance;
+      std::vector<TProfile2D*> p2_purity_a1quality_a2distance;
+
+      std::vector<TH1F*> h_tw_all_distance;
+      std::vector<TH1F*> h_tw_matched_distance;
+      std::vector<TProfile*> p_tw_purity_distance;
+
+      std::vector<TH2F*> h2_tw_all_a1distance_a2distance;
+      std::vector<TH2F*> h2_tw_matched_a1distance_a2distance;
+      std::vector<TProfile2D*> p2_tw_purity_a1distance_a2distance;
+
+      std::vector<TH2F*> h2_tw_all_a1quality_a2distance;
+      std::vector<TH2F*> h2_tw_matched_a1quality_a2distance;
+      std::vector<TProfile2D*> p2_tw_purity_a1quality_a2distance;
+      
+
+      std::vector<TH1F*> h_sc_all_distance;
+      std::vector<TH1F*> h_sc_matched_distance;
+      std::vector<TProfile*> p_sc_purity_distance;
+
+      std::vector<TH2F*> h2_sc_all_a1distance_a2distance;
+      std::vector<TH2F*> h2_sc_matched_a1distance_a2distance;
+      std::vector<TProfile2D*> p2_sc_purity_a1distance_a2distance;
+
+      std::vector<TH2F*> h2_sc_all_a1quality_a2distance;
+      std::vector<TH2F*> h2_sc_matched_a1quality_a2distance;
+      std::vector<TProfile2D*> p2_sc_purity_a1quality_a2distance;
+      
+
+      std::vector<TH1F*> h_fa_all_distance;
+      std::vector<TH1F*> h_fa_matched_distance;
+      std::vector<TProfile*> p_fa_purity_distance;
+
+      std::vector<TH2F*> h2_fa_all_a1distance_a2distance;
+      std::vector<TH2F*> h2_fa_matched_a1distance_a2distance;
+      std::vector<TProfile2D*> p2_fa_purity_a1distance_a2distance;
+
+      std::vector<TH2F*> h2_fa_all_a1quality_a2distance;
+      std::vector<TH2F*> h2_fa_matched_a1quality_a2distance;
+      std::vector<TProfile2D*> p2_fa_purity_a1quality_a2distance;
+};
+
+//
+// constants, enums and typedefs
+//
+   
+using namespace edm;
+using namespace std;
+using namespace reco;
+
+//
+// static data member definitions
+//
+
+//
+// constructors and destructor
+//
+QualityAnlzr::QualityAnlzr(const edm::ParameterSet& iConfig):PF_PU_AssoMapAlgos(iConfig)
+{
+
+  //--------------
+
+  Service<TFileService> tfs;
+  
+  double Qmin = -0.5 ;
+  double Qmax = 5.5 ;
+  int Qnbins =  6 ;
+   
+  double stepQ = (Qmax-Qmin)/Qnbins; 
+  
+  Double_t qIntervalsa[7];  
+  
+  for (int k=0;k<Qnbins+1;k++) {
+    double d = Qmin+k*stepQ;
+    qIntervalsa[k] = d;
+  } 
+
+  double rhoMin = 0.001;
+  double rhoMax = 50.;
+  int rhoNbin = 120;
+
+  double rhoMinLog = log10(rhoMin);
+  double rhoMaxLog = log10(rhoMax);
+   
+  double stepRho = (rhoMaxLog-rhoMinLog)/rhoNbin; 
+  
+  Double_t rhoIntervalsa[101];      
+  rhoIntervalsa[0] = rhoMin;
+  
+  for (int k=1;k<rhoNbin+1;k++) {
+    double d=pow(10,rhoMinLog+k*stepRho);
+    rhoIntervalsa[k] = d;
+  }  
+
+  for ( unsigned ite = 0; ite<3; ite++) {             
+      
+    char h_all_name[48];
+    char h_matched_name[48];
+    char p_name[48];
+    
+    char h2_all_name[48];
+    char h2_matched_name[48];
+    char p2_name[48];
+    
+    char h2d_all_name[48];
+    char h2d_matched_name[48];
+    char p2d_name[48];
+    
+    
+    sprintf(h_all_name,"h_gen_all_distance_%i",ite);
+    sprintf(h_matched_name,"h_gen_matched_distance_%i",ite);
+    sprintf(p_name,"p_gen_purity_distance_%i",ite);
+     
+    h_all_distance.push_back( tfs->make<TH1F>(h_all_name, "All vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );
+    h_matched_distance.push_back( tfs->make<TH1F>(h_matched_name, "Matched vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );
+    p_purity_distance.push_back( tfs->make<TProfile>(p_name, "Purity vs distance; distance / cm; purity", rhoNbin, rhoIntervalsa) );
+    
+   
+    sprintf(h2_all_name,"h2_gen_all_a1distance_a2distance_%i",ite);
+    sprintf(h2_matched_name,"h2_gen_matched_a1distance_a2distance_%i",ite);
+    sprintf(p2_name,"p2_gen_purity_a1distance_a2distance_%i",ite);
+    
+    h2_all_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_all_name, "All vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_matched_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_matched_name, "Matched vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_purity_a1distance_a2distance.push_back( tfs->make<TProfile2D>(p2_name, "Purity vs distance; distance / cm; distance / cm; purity", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h2d_all_name,"h2_gen_all_a1quality_a2distance_%i",ite);
+    sprintf(h2d_matched_name,"h2_gen_matched_a1quality_a2distance_%i",ite);
+    sprintf(p2d_name,"p2_gen_purity_a1quality_a2distance_%i",ite);       
+     
+    h2_all_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_all_name, "All vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_matched_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_matched_name, "Matched vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_purity_a1quality_a2distance.push_back( tfs->make<TProfile2D>(p2d_name, "Purity vs distance; association quality; distance / cm; purity", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h_all_name,"h_tw_all_distance_%i",ite);
+    sprintf(h_matched_name,"h_tw_matched_distance_%i",ite);
+    sprintf(p_name,"p_tw_purity_distance_%i",ite);   
+     
+    h_tw_all_distance.push_back( tfs->make<TH1F>(h_all_name, "All vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );
+    h_tw_matched_distance.push_back( tfs->make<TH1F>(h_matched_name, "Matched vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );   
+    p_tw_purity_distance.push_back( tfs->make<TProfile>(p_name, "Purity vs distance; distance / cm; purity", rhoNbin, rhoIntervalsa) );
+    
+   
+    sprintf(h2_all_name,"h2_tw_all_a1distance_a2distance_%i",ite);
+    sprintf(h2_matched_name,"h2_tw_matched_a1distance_a2distance_%i",ite);
+    sprintf(p2_name,"p2_tw_purity_a1distance_a2distance_%i",ite);
+     
+    h2_tw_all_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_all_name, "All vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_tw_matched_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_matched_name, "Matched vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_tw_purity_a1distance_a2distance.push_back( tfs->make<TProfile2D>(p2_name, "Purity vs distance; distance / cm; distance / cm; purity", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h2d_all_name,"h2_tw_all_a1quality_a2distance_%i",ite);
+    sprintf(h2d_matched_name,"h2_tw_matched_a1quality_a2distance_%i",ite);
+    sprintf(p2d_name,"p2_tw_purity_a1quality_a2distance_%i",ite);
+     
+    h2_tw_all_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_all_name, "All vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_tw_matched_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_matched_name, "Matched vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_tw_purity_a1quality_a2distance.push_back( tfs->make<TProfile2D>(p2d_name, "Purity vs distance; association quality; distance / cm; purity", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+          
+    
+    sprintf(h_all_name,"h_sc_all_distance_%i",ite);
+    sprintf(h_matched_name,"h_sc_matched_distance_%i",ite);
+    sprintf(p_name,"p_sc_purity_distance_%i",ite);
+     
+    h_sc_all_distance.push_back( tfs->make<TH1F>(h_all_name, "All vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );
+    h_sc_matched_distance.push_back( tfs->make<TH1F>(h_matched_name, "Matched vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );   
+    p_sc_purity_distance.push_back( tfs->make<TProfile>(p_name, "Purity vs distance; distance / cm; purity", rhoNbin, rhoIntervalsa) );
+    
+   
+    sprintf(h2_all_name,"h2_sc_all_a1distance_a2distance_%i",ite);
+    sprintf(h2_matched_name,"h2_sc_matched_a1distance_a2distance_%i",ite);
+    sprintf(p2_name,"p2_sc_purity_a1distance_a2distance_%i",ite);
+    
+    h2_sc_all_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_all_name, "All vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_sc_matched_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_matched_name, "Matched vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_sc_purity_a1distance_a2distance.push_back( tfs->make<TProfile2D>(p2_name, "Purity vs distance; distance / cm; distance / cm; purity", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h2d_all_name,"h2_sc_all_a1quality_a2distance_%i",ite);
+    sprintf(h2d_matched_name,"h2_sc_matched_a1quality_a2distance_%i",ite);
+    sprintf(p2d_name,"p2_sc_purity_a1quality_a2distance_%i",ite);   
+     
+    h2_sc_all_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_all_name, "All vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_sc_matched_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_matched_name, "Matched vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_sc_purity_a1quality_a2distance.push_back( tfs->make<TProfile2D>(p2d_name, "Purity vs distance; association quality; distance / cm; purity", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h_all_name,"h_fa_all_distance_%i",ite);
+    sprintf(h_matched_name,"h_fa_matched_distance_%i",ite);
+    sprintf(p_name,"p_fa_purity_distance_%i",ite);
+    
+    
+    h_fa_all_distance.push_back( tfs->make<TH1F>(h_all_name, "All vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );
+    h_fa_matched_distance.push_back( tfs->make<TH1F>(h_matched_name, "Matched vertices distance; distance / cm; # entries", rhoNbin, rhoIntervalsa) );   
+    p_fa_purity_distance.push_back( tfs->make<TProfile>(p_name, "Purity vs distance; distance / cm; purity", rhoNbin, rhoIntervalsa) );
+    
+   
+    sprintf(h2_all_name,"h2_fa_all_a1distance_a2distance_%i",ite);
+    sprintf(h2_matched_name,"h2_fa_matched_a1distance_a2distance_%i",ite);
+    sprintf(p2_name,"p2_fa_purity_a1distance_a2distance_%i",ite);    
+     
+    h2_fa_all_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_all_name, "All vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_fa_matched_a1distance_a2distance.push_back( tfs->make<TH2F>(h2_matched_name, "Matched vertices distance; distance / cm; distance / cm; # entries", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_fa_purity_a1distance_a2distance.push_back( tfs->make<TProfile2D>(p2_name, "Purity vs distance; distance / cm; distance / cm; purity", rhoNbin, rhoIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+    
+    sprintf(h2d_all_name,"h2_fa_all_a1quality_a2distance_%i",ite);
+    sprintf(h2d_matched_name,"h2_fa_matched_a1quality_a2distance_%i",ite);
+    sprintf(p2d_name,"p2_fa_purity_a1quality_a2distance_%i",ite);
+     
+    h2_fa_all_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_all_name, "All vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    h2_fa_matched_a1quality_a2distance.push_back( tfs->make<TH2F>(h2d_matched_name, "Matched vertices distance; association quality; distance / cm; # entries", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );   
+    p2_fa_purity_a1quality_a2distance.push_back( tfs->make<TProfile2D>(p2d_name, "Purity vs distance; association quality; distance / cm; purity", Qnbins, qIntervalsa, rhoNbin, rhoIntervalsa) );
+    
+  }
+
+}
+
+
+QualityAnlzr::~QualityAnlzr()
+{
+ 
+   // do anything here that needs to be done at desctruction time
+   // (e.g. close files, deallocate resources etc.)
+
+}
+
+
+//
+// member functions
+//
+
+// ------------ method called for each event  ------------
+void
+QualityAnlzr::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
+{
+
+  PF_PU_AssoMapAlgos::GetInputCollections( (edm::Event&) iEvent, iSetup);
+
+  //associate reco tracks to tracking particles
+  ESHandle<TrackAssociatorBase> theAssociator;
+  iSetup.get<TrackAssociatorRecord>().get("quickTrackAssociatorByHits", theAssociator);
+  TrackAssociatorBase* theTrackAssociator_ = (TrackAssociatorBase *) theAssociator.product(); 
+
+  //get the tracking particles   
+  Handle<TrackingParticleCollection>  TPCollectionH ;
+  iEvent.getByLabel("mergedtruth","MergedTrackTruth", TPCollectionH);
+  const TrackingParticleCollection tPC = *(TPCollectionH.product());
+
+  //get reference track collection from the event
+  Handle<TrackCollection>  trkcollH;
+  Handle<View<Track> >  RefTrackCollectionH;
+  iEvent.getByLabel("generalTracks", trkcollH);
+  iEvent.getByLabel("generalTracks", RefTrackCollectionH);
+
+  RecoToSimCollection recSimColl;
+  recSimColl=theTrackAssociator_->associateRecoToSim(RefTrackCollectionH, TPCollectionH, &iEvent, &iSetup);
+	  
+  //get the input vertex collection
+  Handle<VertexCollection>  vtxcollH;
+  iEvent.getByLabel("offlinePrimaryVertices", vtxcollH);
+  VertexRef firstVertexRef(vtxcollH, 0); 
+  
+  //get the offline beam spot
+  Handle<BeamSpot>  beamspotH;
+  iEvent.getByLabel("offlineBeamSpot", beamspotH);
+
+  ESHandle<MagneticField>  bFieldH;
+  iSetup.get<IdealMagneticFieldRecord>().get(bFieldH);
+
+  int num_vertices = vtxcollH->size();
+  int input_MaxNumAssociations_ = 3;
+  if ( num_vertices < input_MaxNumAssociations_) input_MaxNumAssociations_ = num_vertices;
+  
+  //loop over all tracks of the track collection	
+  for ( unsigned trk_idx = 0; trk_idx < trkcollH->size(); ++trk_idx ) {
+
+    TrackRef trackref = TrackRef(trkcollH, trk_idx);
+
+    TransientTrack transtrk(trackref, &(*bFieldH) );
+    transtrk.setBeamSpot(*beamspotH);
+    transtrk.setES(iSetup);
+
+    vector<VertexRef>* vtxColl_help = PF_PU_AssoMapAlgos::CreateVertexVector(vtxcollH);
+	vector< pair<int, double> > distances;
+	vector< pair<int, int> > qs;
+    
+	int firstStep = 0;
+
+	for ( int assoc_ite = 0; assoc_ite < input_MaxNumAssociations_; ++assoc_ite ) {
+
+      VertexStepPair assocVtx = PF_PU_AssoMapAlgos::FindAssociation(trackref, vtxColl_help, bFieldH, iSetup, beamspotH, assoc_ite);	 
+      VertexRef vtx_ref = assocVtx.first;
+      
+      PF_PU_AssoMapAlgos::EraseVertex(vtxColl_help, vtx_ref);
+      
+	  int step = assocVtx.second;
+	  if ( assoc_ite==0 ) firstStep = step;
+	  
+	  double distance = ( IPTools::absoluteImpactParameter3D( transtrk, *vtx_ref ) ).second.value();
+	  distances.push_back( make_pair(step, distance) );
+	  
+	  int quality = PF_PU_AssoMapAlgos::DefineQuality(distances, step, distance);
+	  qs.push_back( make_pair(step, quality) );
+      
+      if ( vtx_ref!=firstVertexRef ) continue;
+	  
+	  double firstDis = distances.at(0).second;
+	  
+	  h_all_distance[assoc_ite]->Fill( distance );
+      h2_all_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+      h2_all_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+            
+	  switch ( firstStep ) {
+	    
+	    case 0:{	  
+	      h_tw_all_distance[assoc_ite]->Fill( distance );
+          h2_tw_all_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+          h2_tw_all_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	      break;
+	    }
+	    
+	    case 1:{	  
+	      h_sc_all_distance[assoc_ite]->Fill( distance );
+          h2_sc_all_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+          h2_sc_all_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	      break;
+	    }
+	    
+	    case 2:{	  
+	      h_fa_all_distance[assoc_ite]->Fill( distance );
+          h2_fa_all_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+          h2_fa_all_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	      break;
+	    }
+	  
+ 	    default:{
+	      break;
+        }
+        
+      }
+
+      RefToBase<Track> trk_bref( trackref );
+
+      vector<pair<TrackingParticleRef, double> > tp;
+      if ( recSimColl.find(trk_bref) != recSimColl.end() ) tp = recSimColl[trk_bref];
+      
+      double pur = 0.;
+
+      if ( tp.size()!=0 ) {
+        for (unsigned int tp_ite=0;tp_ite<tp.size();++tp_ite){ 
+          TrackingParticle trackpart = *(tp[tp_ite].first);
+          if ((trackpart.eventId().event() == 0) && (trackpart.eventId().bunchCrossing() == 0)){
+          
+            pur = 1.;
+            
+            h_matched_distance[assoc_ite]->Fill( distance );            
+            h2_matched_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+            h2_matched_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+            
+	        switch (firstStep) {
+	    
+	          case 0:{	  
+	            h_tw_matched_distance[assoc_ite]->Fill( distance );
+                h2_tw_matched_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+                h2_tw_matched_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	            break;
+	          }
+  	    
+	          case 1:{	  
+  	            h_sc_matched_distance[assoc_ite]->Fill( distance );
+                h2_sc_matched_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+                h2_sc_matched_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	            break;
+	          }
+	    
+	          case 2:{	  
+	            h_fa_matched_distance[assoc_ite]->Fill( distance );
+                h2_fa_matched_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance);
+                h2_fa_matched_a1quality_a2distance[assoc_ite]->Fill( quality, distance);
+	            break;
+	          }
+	  
+ 	          default:{
+	            break;
+              }
+            
+            }
+            
+            break;
+            
+          }
+        }
+      }
+      
+      p_purity_distance[assoc_ite]->Fill( distance, pur );      
+      p2_purity_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance, pur );
+      p2_purity_a1quality_a2distance[assoc_ite]->Fill( quality, distance, pur );
+            
+	  switch (firstStep) {
+	    
+	    case 0:{	        
+          p_tw_purity_distance[assoc_ite]->Fill( distance, pur );      
+          p2_tw_purity_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance, pur );
+          p2_tw_purity_a1quality_a2distance[assoc_ite]->Fill( quality, distance, pur );
+	      break;
+	    }
+	    
+	    case 1:{	  
+          p_sc_purity_distance[assoc_ite]->Fill( distance, pur );      
+          p2_sc_purity_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance, pur );
+          p2_sc_purity_a1quality_a2distance[assoc_ite]->Fill( quality, distance, pur );
+	      break;
+	    }
+	    
+	    case 2:{	  
+          p_fa_purity_distance[assoc_ite]->Fill( distance, pur );      
+          p2_fa_purity_a1distance_a2distance[assoc_ite]->Fill( firstDis, distance, pur );
+          p2_fa_purity_a1quality_a2distance[assoc_ite]->Fill( quality, distance, pur );
+	      break;
+	    }
+	  
+ 	    default:{
+	      break;
+        }
+        
+      }
+
+      
+    }
+    
+  }
+
+}
+
+// ------------ method fills 'descriptions' with the allowed parameters for the module  ------------
+void
+QualityAnlzr::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
+  //The following says we do not know what parameters are allowed so do no validation
+  // Please change this to state exactly what you do use, even if it is no parameters
+  edm::ParameterSetDescription desc;
+  desc.setUnknown();
+  descriptions.addDefault(desc);
+}
+
+//define this as a plug-in
+DEFINE_FWK_MODULE(QualityAnlzr);

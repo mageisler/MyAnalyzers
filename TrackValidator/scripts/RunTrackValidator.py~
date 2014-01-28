@@ -1,0 +1,166 @@
+import os, fcntl, fcntl, select, sys, getopt, time
+
+sys.path.append('/user/geisler/CMSSW/Helpers/')
+from AnalysisTools import GetListOfKeyWords, GetListOfFilesWithEnding, GetListOfSubdirectories
+
+print "\n This script should create the histogram based on the TrackValidator \n" 
+
+
+#_____________________
+#
+# READ INPUT PARAMETERS
+#_____________________
+
+letters = 'n:r:p:o:t:'
+keywords = ['number','run','path','outputPath','tag']
+opts, extraparams = getopt.getopt(sys.argv[1:], letters, keywords)
+
+NumberOfEvents=-1
+RunTrackValidator=False
+path=''
+outputPath=''
+tags = 'EMPTY'
+
+for o,p in opts: 
+	if o in ['-r','--run']:
+		if p == "True":
+			RunTrackValidator = True
+	if o in ['-n','--number']:
+		NumberOfEvents = int(p)
+	if o in ['-p','--path']:
+		path = p
+	if o in ['-o','--outputPath']:
+		outputPath = p
+	if o in ['-t','--tag']:
+		tags = p.split(",")
+
+
+#_____________________
+#
+# Check Input Parameters
+#_____________________
+
+PathGiven = not (path=='')
+
+if (RunTrackValidator) and (PathGiven):
+	print " Please give either a path or run the TrackValidator. \n"
+	sys.exit()
+
+if RunTrackValidator:
+	print " Will run the TrackValidator on", NumberOfEvents, "events first. This may take some time!"
+
+
+##____________________
+##
+## CMSRUN
+#_____________________
+
+if RunTrackValidator:		
+    
+	OutputPathGiven = not (outputPath=='')
+	if not OutputPathGiven: 
+		date = time.localtime()[0:3]
+		folder = "%02i"% date[2] + "%02i"% date[1] + str(date[0]) + "/"
+		outputPath = '/user/geisler/TrackValidator/' + folder
+	
+	path = outputPath
+	
+	if NumberOfEvents == -1:
+		cmsRun = 'cmsRun ../test/trackvalidator_cfg.py &> ../logs/TV_log.txt \n'
+	else:
+		cmsRun = 'cmsRun ../test/trackvalidator_cfg.py ' + str(NumberOfEvents) + ' &>../logs/TV_log.txt \n'	
+	print "", cmsRun
+	os.system(cmsRun)
+    
+	print " Will move the output file to", outputPath
+	makeDir = 'mkdir -p ' + outputPath
+	moveFile = 'mv trackvalidator.root ' + outputPath + 'trackvalidator.root'
+	print "", moveFile
+	os.system(makeDir)
+	os.system(moveFile)
+
+
+##____________________
+##
+## PYTHON
+##____________________
+        
+PathGiven = not (path=='')
+
+if PathGiven:
+	
+	print "\n Will create the histograms using the files from", path
+	
+	file_names = GetListOfFilesWithEnding(path,".root")
+	file_number = len(file_names)
+	
+	if file_number<1:
+		print "Too less files"
+		sys.exit()
+		
+	dir_names = GetListOfSubdirectories(file_names[0],"","trackvalidator")
+	dir_number = len(dir_names)
+	
+	if dir_number<1:
+		print "Too less directories"
+		sys.exit()
+		
+	for tag in tags:
+		
+		ass_names = GetListOfSubdirectories(file_names[0],dir_names[0],tag)
+		ass_names+= "trackvalidator/cutsRecoTracks/",
+		ass_number = len(ass_names)
+	
+		if ass_number<2:
+			print "Too less associations"
+			sys.exit()
+		
+		keywords = GetListOfKeyWords(file_names[0],ass_names[0],"p_")
+		
+		for keyword in keywords:
+			
+			if "PileUp" in keyword:
+				continue
+		
+			print keyword
+			
+			label = keyword.split("_")[1]
+			output_label = label + tag
+			
+			collections = ''
+			for ass_ite in range(ass_number):
+				if "cutsReco" in ass_names[ass_ite]:
+					if not label == "fakerate":
+						collections+= ass_names[ass_ite] + ","
+				else:
+					collections+= ass_names[ass_ite] + ","
+					
+			collections = collections[0:(len(collections)-1)]
+			
+			makePicEtaDir = 'mkdir -p ../pictures/eta/' + output_label + '/'    
+			os.system(makePicEtaDir)
+			makePicPtDir = 'mkdir -p ../pictures/pt/' + output_label + '/'    
+			os.system(makePicPtDir)
+			makePicNpuDir = 'mkdir -p ../pictures/npu/' + output_label + '/'    
+			os.system(makePicNpuDir)
+			
+			makeRootEtaDir = 'mkdir -p ../root/eta/' + output_label + '/'    
+			os.system(makeRootEtaDir)
+			makeRootPtDir = 'mkdir -p ../root/pt/' + output_label + '/'    
+			os.system(makeRootPtDir)
+			makeRootNpuDir = 'mkdir -p ../root/npu/' + output_label + '/'    
+			os.system(makeRootNpuDir)
+			
+			makePdfEtaDir = 'mkdir -p ../pdfs/eta/' + output_label + '/'
+			os.system(makePdfEtaDir)
+			makePdfPtDir = 'mkdir -p ../pdfs/pt/' + output_label + '/'
+			os.system(makePdfPtDir)
+			makePdfNpuDir = 'mkdir -p ../pdfs/npu/' + output_label + '/'
+			os.system(makePdfNpuDir)
+			
+			print ""
+			
+			pyRun = 'python -u ../python/TrackValidator.py -p ' + path + ' -k ' + keyword + ' -c ' + collections + ' -t ' + tag + ' &>../logs/tv_' + label + '_log.txt \n'
+			print "", pyRun
+			
+			#os.system(pyRun)

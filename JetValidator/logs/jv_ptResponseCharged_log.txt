@@ -1,0 +1,106 @@
+Read input file
+
+301 files were found
+
+1 subdirectories were found:
+ jetvalidator/
+
+
+2 subdirectories were found:
+ jetvalidator/patJetsPFRef/
+ jetvalidator/patJetsPFNew/
+
+
+File 1: /user/geisler/JetValidator/12022013/jetvalidator_100_1_1Cb.root ...  done
+File 2: /user/geisler/JetValidator/12022013/jetvalidator_100_1_jXw.root ...  done
+File 3: /user/geisler/JetValidator/12022013/jetvalidator_100_1_x5p.root ...  done
+File 4: /user/geisler/JetValidator/12022013/jetvalidator_101_1_1Fl.root ...  done
+File 5: /user/geisler/JetValidator/12022013/jetvalidator_10_1_Lma.root ...  done
+File 6: /user/geisler/JetValidator/12022013/jetvalidator_10_1_MuV.root ...  done
+File 7: /user/geisler/JetValidator/12022013/jetvalidator_10_1_YSs.root ...  done
+File 8: /user/geisler/JetValidator/12022013/jetvalidator_11_1_DND.root ...  done
+File 9: /user/geisler/JetValidator/12022013/jetvalidator_11_1_OrB.root ...  done
+File 10: /user/geisler/JetValidator/12022013/jetvalidator_11_1_SrR.root ...  done
+File 11: /user/geisler/JetValidator/12022013/jetvalidator_12_1_KIy.root ...  done
+File 12: /user/geisler/JetValidator/12022013/jetvalidator_12_1_dSI.root ...  done
+File 13: /user/geisler/JetValidator/12022013/jetvalidator_12_1_dwX.root ...  done
+File 14: /user/geisler/JetValidator/12022013/jetvalidator_13_1_0KT.root ...  done
+File 15: /user/geisler/JetValidator/12022013/jetvalidator_13_1_QW5.root ...  done
+File 16: /user/geisler/JetValidator/12022013/jetvalidator_13_1_ZOL.root ...  done
+File 17: /user/geisler/JetValidator/12022013/jetvalidator_14_1_PJv.root ...  done
+File 18: /user/geisler/JetValidator/12022013/jetvalidator_14_1_Wb4.root ...  done
+File 19: /user/geisler/JetValidator/12022013/jetvalidator_14_1_tgy.root ...  done
+File 20: /user/geisler/JetValidator/12022013/jetvalidator_15_1_AYX.root ...  done
+File 21: /user/geisler/JetValidator/12022013/jetvalidator_15_1_Tss.root ...  done
+File 22: /user/geisler/JetValidator/12022013/jetvalidator_15_1_z02.root ...  done
+File 23: /user/geisler/JetValidator/12022013/jetvalidator_16_1_58y.root ...  done
+File 24: /user/geisler/JetValidator/12022013/jetvalidator_16_1_SVl.root ...  done
+File 25: /user/geisler/JetValidator/12022013/jetvalidator_16_1_tdD.root ...  done
+File 26: /user/geisler/JetValidator/12022013/jetvalidator_17_1_Aag.root ...  done
+File 27: /user/geisler/JetValidator/12022013/jetvalidator_17_1_FU5.root ...  done
+File 28: /user/geisler/JetValidator/12022013/jetvalidator_17_1_qAf.root ...  done
+File 29: /user/geisler/JetValidator/12022013/jetvalidator_18_1_25E.root ...  done
+File 30: /user/geisler/JetValidator/12022013/jetvalidator_18_1_cKi.root ...  done
+File 31: /user/geisler/JetValidator/12022013/jetvalidator_18_1_sud.root ...  done
+File 32: /user/geisler/JetValidator/12022013/jetvalidator_19_1_Tcm.root ...  done
+File 33: /user/geisler/JetValidator/12022013/jetvalidator_19_1_iAh.root ...  done
+File 34: /user/geisler/JetValidator/12022013/jetvalidator_19_1_k8M.root ...  done
+File 35: /user/geisler/JetValidator/12022013/jetvalidator_1_1_Wyo.root ...  done
+File 36: /user/geisler/JetValidator/12022013/jetvalidator_1_1_d59.root ...  done
+File 37: /user/geisler/JetValidator/12022013/jetvalidator_1_1_yR8.root ...  done
+File 38: /user/geisler/JetValidator/12022013/jetvalidator_20_1_6ZW.root ...  done
+File 39: /user/geisler/JetValidator/12022013/jetvalidator_20_1_Bwb.root ...  done
+File 40: /user/geisler/JetValidator/12022013/jetvalidator_20_1_a2z.root ...  done
+File 41: /user/geisler/JetValidator/12022013/jetvalidator_21_1_egh.root ...  done
+File 42: /user/geisler/JetValidator/12022013/jetvalidator_21_1_hGP.root ...  done
+File 43: /user/geisler/JetValidator/12022013/jetvalidator_21_1_qoj.root ...  done
+File 44: /user/geisler/JetValidator/12022013/jetvalidator_22_1_XuG.root ...  done
+File 45: /user/geisler/JetValidator/12022013/jetvalidator_22_1_pGs.root ...  done
+File 46: /user/geisler/JetValidator/12022013/jetvalidator_22_1_rDX.root ...  done
+File 47: /user/geisler/JetValidator/12022013/jetvalidator_23_1_Llo.root ...  done
+File 48: /user/geisler/JetValidator/12022013/jetvalidator_23_1_Luu.root ...  done
+File 49: /user/geisler/JetValidator/12022013/jetvalidator_23_1_gng.root ...  done
+File 50: /user/geisler/JetValidator/12022013/jetvalidator_24_1_AeZ.root ...  done
+File 51: /user/geisler/JetValidator/12022013/jetvalidator_24_1_YRx.root ...  done
+File 52: /user/geisler/JetValidator/12022013/jetvalidator_24_1_nGq.root ...  done
+File 53: /user/geisler/JetValidator/12022013/jetvalidator_25_1_51t.root ...  done
+File 54: /user/geisler/JetValidator/12022013/jetvalidator_25_1_cu7.root ...  done
+File 55: /user/geisler/JetValidator/12022013/jetvalidator_25_1_u9u.root ...  done
+File 56: /user/geisler/JetValidator/12022013/jetvalidator_26_1_I2l.root ...  done
+File 57: /user/geisler/JetValidator/12022013/jetvalidator_26_1_Wwc.root ...  done
+File 58: /user/geisler/JetValidator/12022013/jetvalidator_26_1_Z2m.root ...  done
+File 59: /user/geisler/JetValidator/12022013/jetvalidator_27_1_8ml.root ...  done
+File 60: /user/geisler/JetValidator/12022013/jetvalidator_27_1_TMn.root ...  done
+File 61: /user/geisler/JetValidator/12022013/jetvalidator_27_1_ies.root ...  done
+File 62: /user/geisler/JetValidator/12022013/jetvalidator_28_1_6kf.root ...  done
+File 63: /user/geisler/JetValidator/12022013/jetvalidator_28_1_FBt.root ...  done
+File 64: /user/geisler/JetValidator/12022013/jetvalidator_28_1_Hxq.root ...  done
+File 65: /user/geisler/JetValidator/12022013/jetvalidator_29_1_3zh.root ...  done
+File 66: /user/geisler/JetValidator/12022013/jetvalidator_29_1_BS8.root ...  done
+File 67: /user/geisler/JetValidator/12022013/jetvalidator_29_1_YzT.root ...  done
+File 68: /user/geisler/JetValidator/12022013/jetvalidator_2_1_5Mz.root ...  done
+File 69: /user/geisler/JetValidator/12022013/jetvalidator_2_1_7N5.root ...  done
+File 70: /user/geisler/JetValidator/12022013/jetvalidator_2_1_aoi.root ...  done
+File 71: /user/geisler/JetValidator/12022013/jetvalidator_30_1_1aS.root ...  done
+File 72: /user/geisler/JetValidator/12022013/jetvalidator_30_1_E1V.root ...  done
+File 73: /user/geisler/JetValidator/12022013/jetvalidator_30_1_tzJ.root ...  done
+File 74: /user/geisler/JetValidator/12022013/jetvalidator_31_1_SVA.root ...  done
+File 75: /user/geisler/JetValidator/12022013/jetvalidator_31_1_Vau.root ...  done
+File 76: /user/geisler/JetValidator/12022013/jetvalidator_31_1_kDK.root ...  done
+File 77: /user/geisler/JetValidator/12022013/jetvalidator_32_1_9EB.root ...  done
+File 78: /user/geisler/JetValidator/12022013/jetvalidator_32_1_J02.root ...  done
+File 79: /user/geisler/JetValidator/12022013/jetvalidator_32_1_qta.root ...  done
+File 80: /user/geisler/JetValidator/12022013/jetvalidator_33_1_M1N.root ...  done
+File 81: /user/geisler/JetValidator/12022013/jetvalidator_33_1_Qcp.root ...  done
+File 82: /user/geisler/JetValidator/12022013/jetvalidator_33_1_xYh.root ...  done
+File 83: /user/geisler/JetValidator/12022013/jetvalidator_34_1_6QA.root ...  done
+File 84: /user/geisler/JetValidator/12022013/jetvalidator_34_1_6bd.root ...  done
+File 85: /user/geisler/JetValidator/12022013/jetvalidator_34_1_92Y.root ...  done
+File 86: /user/geisler/JetValidator/12022013/jetvalidator_35_1_8Qu.root ...  done
+File 87: /user/geisler/JetValidator/12022013/jetvalidator_35_1_GiE.root ...  done
+File 88: /user/geisler/JetValidator/12022013/jetvalidator_35_1_e3g.root ...  done
+File 89: /user/geisler/JetValidator/12022013/jetvalidator_36_1_gRj.root ...
+Traceback (most recent call last):
+  File "../python/jetvalidator.py", line 82, in <module>
+    prof_help = File_ref[file_ite].Get(ass_names[dir_ite][ass_ite]+histo_name)
+KeyboardInterrupt

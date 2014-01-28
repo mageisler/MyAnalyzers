@@ -1,0 +1,21 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="PhysicsTools/Utilities"/>
+<use name="PhysicsTools/UtilAlgos"/>
+<use name="MGeisler/TrackValidator"/>
+<use name="SimDataFormats/PileupSummaryInfo"/>
+<use name="CommonTools/RecoUtils"/>
+<use name="SimDataFormats/TrackingAnalysis"/>
+<use name="DataFormats/RecoCandidate"/>
+<use name="DataFormats/ParticleFlowCandidate"/>
+<use name="RecoEgamma/EgammaMCTools"/>
+<use name="RecoEgamma/EgammaTools"/>
+<use name="SimTracker/Records"/>
+<use name="SimTracker/TrackAssociation"/>
+<use name="TrackingTools/IPTools"/>
+<use name="TrackingTools/TransientTrack"/>
+<library   file="*.cc" name="DaughtersFinderPlugins">
+	<flags   EDM_PLUGIN="1"/>
+</library>

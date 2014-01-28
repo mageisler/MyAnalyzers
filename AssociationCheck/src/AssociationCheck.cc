@@ -1,0 +1,174 @@
+// -*- C++ -*-
+//
+// Package:    AssociationCheck
+// Class:      AssociationCheck
+// 
+/**\class AssociationCheck AssociationCheck.cc MGeisler/AssociationCheck/src/AssociationCheck.cc
+
+ Description: [one line class summary]
+
+ Implementation:
+     [Notes on implementation]
+*/
+//
+// Original Author:  Matthias Geisler
+//         Created:  Fri Aug  2 14:44:27 CEST 2013
+// $Id$
+//
+//
+
+
+// system include files
+#include <memory>
+
+// user include files
+#include "FWCore/Framework/interface/Frameworkfwd.h"
+#include "FWCore/Framework/interface/EDAnalyzer.h"
+
+#include "FWCore/Framework/interface/Event.h"
+#include "FWCore/Framework/interface/MakerMacros.h"
+
+#include "FWCore/ParameterSet/interface/ParameterSet.h"
+#include "FWCore/ServiceRegistry/interface/Service.h"
+
+#include "CommonTools/UtilAlgos/interface/TFileService.h"
+
+#include "DataFormats/TrackReco/interface/Track.h"
+#include "DataFormats/TrackReco/interface/TrackFwd.h"
+#include "DataFormats/TrackReco/interface/TrackBase.h"
+
+#include "DataFormats/VertexReco/interface/Vertex.h"
+#include "DataFormats/VertexReco/interface/VertexFwd.h"
+
+#include "CommonTools/RecoUtils/interface/PF_PU_AssoMap.h"
+
+#include "DataFormats/Common/interface/AssociationMap.h"
+#include "DataFormats/Common/interface/Handle.h"
+#include "DataFormats/Common/interface/OneToManyWithQuality.h"
+#include "DataFormats/Common/interface/OneToManyWithQualityGeneric.h"
+#include "DataFormats/Common/interface/View.h"
+
+// root includes
+#include "TH1F.h"
+
+//
+// class declaration
+//
+
+class AssociationCheck : public edm::EDAnalyzer, public PF_PU_AssoMapAlgos  {
+   public:
+      explicit AssociationCheck(const edm::ParameterSet&);
+      ~AssociationCheck();
+
+      static void fillDescriptions(edm::ConfigurationDescriptions& descriptions);
+
+
+   private:
+      virtual void analyze(const edm::Event&, const edm::EventSetup&);
+
+      // ----------member data ---------------------------
+
+      std::vector<TH1F*> h_as_vs_eta;
+};
+
+//
+// constants, enums and typedefs
+//
+
+//
+// static data member definitions
+//
+
+
+using namespace edm;
+using namespace std;
+using namespace reco;
+
+//
+// constructors and destructor
+//
+AssociationCheck::AssociationCheck(const edm::ParameterSet& iConfig):PF_PU_AssoMapAlgos(iConfig)
+
+{
+   //now do what ever initialization is needed
+   //now do what ever initialization is needed
+
+  Service<TFileService> tfs;
+
+  for ( unsigned ite = 0; ite<3; ite++) {             
+      
+    char h_name[48];    
+    
+    sprintf(h_name,"h_as_vs_eta_%i",ite);
+     
+    h_as_vs_eta.push_back( tfs->make<TH1F>(h_name, " ; #eta; # entries", 50, -2.5, 2.5) );
+    
+  }
+
+}
+
+
+AssociationCheck::~AssociationCheck()
+{
+ 
+   // do anything here that needs to be done at desctruction time
+   // (e.g. close files, deallocate resources etc.)
+
+}
+
+
+//
+// member functions
+//
+
+// ------------ method called for each event  ------------
+void
+AssociationCheck::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
+{
+
+  PF_PU_AssoMapAlgos::GetInputCollections( (edm::Event&) iEvent, iSetup);
+
+  //get reference track collection from the event
+  Handle<TrackCollection>  tCH;
+  iEvent.getByLabel("generalTracks", tCH);
+	  
+  //get the input vertex collection
+  Handle<VertexCollection>  vCH;
+  iEvent.getByLabel("offlinePrimaryVertices", vCH);
+  
+  //get the offline beam spot
+  Handle<BeamSpot>  beamspotH;
+  iEvent.getByLabel("offlineBeamSpot", beamspotH);
+
+  ESHandle<MagneticField>  bFieldH;
+  iSetup.get<IdealMagneticFieldRecord>().get(bFieldH);
+  
+  //loop over all tracks of the track collection	
+  for ( unsigned trk_idx = 0; trk_idx < tCH->size(); ++trk_idx ) {
+
+    TrackRef trackref = TrackRef(tCH, trk_idx);
+    double trk_eta = trackref->eta();
+
+    vector<VertexRef>* vtxColl_help = PF_PU_AssoMapAlgos::CreateVertexVector(vCH);
+
+    VertexStepPair assocVtx = PF_PU_AssoMapAlgos::FindAssociation(trackref, vtxColl_help, bFieldH, iSetup, beamspotH, 0);
+    int step = assocVtx.second;   
+    	
+    h_as_vs_eta[step]->Fill( trk_eta );
+    
+  }
+    	
+}
+
+// ------------ method fills 'descriptions' with the allowed parameters for the module  ------------
+void
+AssociationCheck::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
+  //The following says we do not know what parameters are allowed so do no validation
+  // Please change this to state exactly what you do use, even if it is no parameters
+  edm::ParameterSetDescription desc;
+  desc.setUnknown();
+  descriptions.addDefault(desc);
+}
+
+//define this as a plug-in
+DEFINE_FWK_MODULE(AssociationCheck);

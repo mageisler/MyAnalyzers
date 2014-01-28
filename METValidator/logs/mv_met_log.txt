@@ -1,0 +1,67 @@
+Read input file
+
+20 files were found
+
+1 subdirectories were found:
+ metvalidator/
+
+
+3 subdirectories were found:
+ metvalidator/CorrPFMETDefault/
+ metvalidator/CorrPFMETJetMet/
+ metvalidator/CorrPFMETMuoEgm/
+
+
+
+File 1: /user/geisler/METValidator/14022013/metvalidator_10_1_Pf2.root ...  done
+File 2: /user/geisler/METValidator/14022013/metvalidator_11_1_Zdb.root ...  done
+File 3: /user/geisler/METValidator/14022013/metvalidator_12_1_wX1.root ...  done
+File 4: /user/geisler/METValidator/14022013/metvalidator_13_1_C8C.root ...  done
+File 5: /user/geisler/METValidator/14022013/metvalidator_14_1_Mno.root ...  done
+File 6: /user/geisler/METValidator/14022013/metvalidator_15_1_UtB.root ...  done
+File 7: /user/geisler/METValidator/14022013/metvalidator_16_1_CyC.root ...  done
+File 8: /user/geisler/METValidator/14022013/metvalidator_17_1_hzG.root ...  done
+File 9: /user/geisler/METValidator/14022013/metvalidator_18_1_LLm.root ...  done
+File 10: /user/geisler/METValidator/14022013/metvalidator_19_1_n3d.root ...  done
+File 11: /user/geisler/METValidator/14022013/metvalidator_1_1_YZT.root ...  done
+File 12: /user/geisler/METValidator/14022013/metvalidator_20_1_2Hn.root ...  done
+File 13: /user/geisler/METValidator/14022013/metvalidator_2_1_k6e.root ...  done
+File 14: /user/geisler/METValidator/14022013/metvalidator_3_1_QqI.root ...  done
+File 15: /user/geisler/METValidator/14022013/metvalidator_4_1_5KF.root ...  done
+File 16: /user/geisler/METValidator/14022013/metvalidator_5_1_dIB.root ...  done
+File 17: /user/geisler/METValidator/14022013/metvalidator_6_1_7Dh.root ...  done
+File 18: /user/geisler/METValidator/14022013/metvalidator_7_1_F5z.root ...  done
+File 19: /user/geisler/METValidator/14022013/metvalidator_8_1_Iuu.root ...  done
+File 20: /user/geisler/METValidator/14022013/metvalidator_9_1_1nt.root ...  done
+
+Change order ...  done
+
+Merge files ...  done
+
+Create seperated plots ...  done
+
+Create additional plots ... Change order again...  done
+
+Plot them all ... 
+
+CorrPFMETDefault is drawn in Black
+CorrPFMETJetMet is drawn in Red
+
+Info in <TCanvas::Print>: file ../pictures/METValidator_Npu0to15.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_Npu0to15.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_Npu0to15.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/METValidator_Npu15to30.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_Npu15to30.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_Npu15to30.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/METValidator_Npu30to45.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_Npu30to45.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_Npu30to45.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/METValidator_Npu45to59.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_Npu45to59.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_Npu45to59.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/METValidator_NpucR.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_NpucR.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_NpucR.pdf has been created
+Info in <TCanvas::Print>: file ../pictures/METValidator_Prof.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ../root/METValidator_Prof.root has been created
+Info in <TCanvas::Print>: pdf file ../pdfs/METValidator_Prof.pdf has been created

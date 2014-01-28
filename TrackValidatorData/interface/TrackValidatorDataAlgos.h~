@@ -1,0 +1,150 @@
+#ifndef TrackValidatorDataAlgos_h
+#define TrackValidatorDataAlgos_h
+
+// -*- C++ -*-
+//
+// Package:    TrackValidatorData
+// Class:      TrackValidatorData
+// 
+/**\class TrackValidatorData TrackValidatorData.cc MGeisler/TrackValidatorData/src/TrackValidatorData.cc
+
+ Description: [one line class summary]
+
+ Implementation:
+     [Notes on implementation]
+*/
+//
+// Original Author:  Matthias Geisler,32 4-B20,+41227676487,
+//         Created:  Fri Feb  3 13:57:40 CET 2012
+// $Id: TrackValidatorDataAlgos.h,v 1.8 2012/07/10 08:34:08 mgeisler Exp $
+//
+//
+
+// system include files
+#include <memory>
+#include <string>
+#include <vector>
+
+// user include files
+#include "FWCore/Framework/interface/Frameworkfwd.h"
+#include "FWCore/Framework/interface/EDAnalyzer.h"
+#include "FWCore/Framework/interface/Event.h"
+#include "FWCore/Framework/interface/MakerMacros.h"
+
+#include "FWCore/ParameterSet/interface/ParameterSet.h"
+#include "FWCore/ServiceRegistry/interface/Service.h"
+
+#include "CommonTools/UtilAlgos/interface/TFileService.h"
+
+#include "FWCore/Utilities/interface/InputTag.h"
+
+#include "DataFormats/TrackReco/interface/Track.h"
+#include "DataFormats/VertexReco/interface/Vertex.h"
+#include "DataFormats/VertexReco/interface/VertexFwd.h"
+
+#include "MagneticField/Records/interface/IdealMagneticFieldRecord.h"
+
+#include "TrackingTools/TransientTrack/interface/TransientTrackBuilder.h"
+#include "TrackingTools/Records/interface/TransientTrackRecord.h"
+#include "DataFormats/BeamSpot/interface/BeamSpot.h"
+
+#include "DataFormats/MuonReco/interface/Muon.h"
+#include "DataFormats/MuonReco/interface/MuonFwd.h"
+
+
+// ROOT include files
+#include <TH1F.h>
+#include <TProfile.h>
+
+using namespace std;
+using namespace edm;
+using namespace reco;
+
+typedef vector<pair<TrackRef, int> > TrackQualityPairVector;
+
+//
+// class declaration
+//
+
+class TrackValidatorDataAlgos{
+ public:
+
+    TrackValidatorDataAlgos(const edm::ParameterSet&);
+
+    void BookHistos(TFileDirectory); 
+    
+    void get_input_collections(const Event&, const EventSetup&); 
+
+    void fill_independent_histos(int, int, int, float);
+
+    void fill_track_dependend_histos(int, const TrackRef, int, const EventSetup&, const VertexRef, int, float);
+
+    void fill_zmumu_histos(int, Handle< MuonCollection >, const TrackQualityPairVector, const edm::EventSetup&, 
+                           const VertexRef, int, float);
+
+    int find_muon_in_collection(const TrackRef, const TrackQualityPairVector);
+
+ protected:
+  //protected functions 
+
+ private: 
+ 
+  edm::Handle< reco::BeamSpot >  bsH ;
+  edm::ESHandle< MagneticField > bFieldH;
+
+  //parameters for the histograms
+
+  double minEta, maxEta;  int nintEta;
+  double minEtaErr, maxEtaErr;  int nintEtaErr;
+  double minPt, maxPt;  int nintPt;
+  double minPtErr, maxPtErr;  int nintPtErr;
+  double minPtErrRel, maxPtErrRel;  int nintPtErrRel;
+  double minD, maxD, maxDZ;  int nintD;
+  double minQ, maxQ;  int nintQ;
+  double minTW, maxTW;  int nintTW;
+  double minTrackcount, maxTrackcount;  int nintTrackcount;
+  int minVertcount, maxVertcount, nintVertcount;
+  double minM, maxM;  int nintM;
+
+
+  // ###########
+  // histograms 
+  // ###########
+  
+  vector<TH1F*> h_numVtx;
+  
+  vector<TH1F*> h_numTrks;
+  
+  vector<TH1F*> h_minDist;  
+  vector<TH1F*> h_quality;  
+  vector<TH1F*> h_tweight;
+  
+  vector<TH1F*> h_numTrks_eta; vector<TH1F*> h_numTrks_pt;
+  
+  vector<TH1F*> h_zmumunum_eta; vector<TH1F*> h_zmumunum_pt; vector<TH1F*> h_zmumunum_nrv;
+  vector<TH1F*> h_zmumunum_minDist;  vector<TH1F*> h_zmumunum_quality;
+  
+  vector<TH1F*> h_zmumuden_eta; vector<TH1F*> h_zmumuden_pt; vector<TH1F*> h_zmumuden_nrv;
+  vector<TH1F*> h_zmumuden_minDist; vector<TH1F*> h_zmumuden_quality;
+  
+  vector<TH1F*> h_invariantMass_passed; vector<TH1F*> h_invariantMass_failed;
+
+
+  // ###########
+  // profiles 
+  // ###########
+  
+  vector<TProfile*> p_numTrks_nrv;
+  
+  vector<TProfile*> p_minDist_eta;  vector<TProfile*> p_minDist_pt;  vector<TProfile*> p_minDist_nrv;   
+  vector<TProfile*> p_quality_eta;  vector<TProfile*> p_quality_pt;  vector<TProfile*> p_quality_nrv; 
+  
+  vector<TProfile*> p_tweight_eta;      vector<TProfile*> p_tweight_pt;       vector<TProfile*> p_tweight_nrv;   
+  vector<TProfile*> p_tweight_quality;  vector<TProfile*> p_tweight_minDist;
+  
+  vector<TProfile*> p_zmumueff_eta;     vector<TProfile*> p_zmumueff_pt; vector<TProfile*> p_zmumueff_nrv;
+  vector<TProfile*> p_zmumueff_minDist; vector<TProfile*> p_zmumueff_quality;
+
+};
+
+#endif

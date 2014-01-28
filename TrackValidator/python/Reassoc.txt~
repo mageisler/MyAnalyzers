@@ -1,0 +1,298 @@
+Directory  Uncleaned/ :
+
+Black
+assoc_FindZ_Conv_Prim  with radius  0  leads to  78.5992217899 %
+assoc_FindZ_Conv_Prim  with radius  1  leads to  64.2857142857 %
+assoc_FindZ_Conv_Prim  with radius  2  leads to  69.4444444444 %
+assoc_FindZ_Conv_Prim  with radius  3  leads to  58.3333333333 %
+assoc_FindZ_Conv_Prim  with radius  4  leads to  52.1739130435 %
+assoc_FindZ_Conv_Prim  with radius  5  leads to  84.6153846154 %
+assoc_FindZ_Conv_Prim  with radius  6  leads to  84.6153846154 %
+assoc_FindZ_Conv_Prim  with radius  7  leads to  70.0 %
+assoc_FindZ_Conv_Prim  with radius  8  leads to  75.0 %
+assoc_FindZ_Conv_Prim  with radius  9  leads to  77.7777777778 %
+All radii leads to  73.9130434783 %
+
+Red
+assoc_Find3_Conv_Prim  with radius  0  leads to  90.2723735409 %
+assoc_Find3_Conv_Prim  with radius  1  leads to  76.1904761905 %
+assoc_Find3_Conv_Prim  with radius  2  leads to  80.5555555556 %
+assoc_Find3_Conv_Prim  with radius  3  leads to  63.8888888889 %
+assoc_Find3_Conv_Prim  with radius  4  leads to  56.5217391304 %
+assoc_Find3_Conv_Prim  with radius  5  leads to  92.3076923077 %
+assoc_Find3_Conv_Prim  with radius  6  leads to  84.6153846154 %
+assoc_Find3_Conv_Prim  with radius  7  leads to  70.0 %
+assoc_Find3_Conv_Prim  with radius  8  leads to  75.0 %
+assoc_Find3_Conv_Prim  with radius  9  leads to  77.7777777778 %
+All radii leads to  83.4782608696 %
+
+Green
+assoc_FindZ_Conv_Sec  with radius  0  leads to  92.9961089494 %
+assoc_FindZ_Conv_Sec  with radius  1  leads to  76.1904761905 %
+assoc_FindZ_Conv_Sec  with radius  2  leads to  83.3333333333 %
+assoc_FindZ_Conv_Sec  with radius  3  leads to  75.0 %
+assoc_FindZ_Conv_Sec  with radius  4  leads to  52.1739130435 %
+assoc_FindZ_Conv_Sec  with radius  5  leads to  92.3076923077 %
+assoc_FindZ_Conv_Sec  with radius  6  leads to  69.2307692308 %
+assoc_FindZ_Conv_Sec  with radius  7  leads to  70.0 %
+assoc_FindZ_Conv_Sec  with radius  8  leads to  75.0 %
+assoc_FindZ_Conv_Sec  with radius  9  leads to  44.4444444444 %
+All radii leads to  84.7826086957 %
+
+Blue
+assoc_Find3_Conv_Sec  with radius  0  leads to  93.7743190661 %
+assoc_Find3_Conv_Sec  with radius  1  leads to  76.1904761905 %
+assoc_Find3_Conv_Sec  with radius  2  leads to  83.3333333333 %
+assoc_Find3_Conv_Sec  with radius  3  leads to  75.0 %
+assoc_Find3_Conv_Sec  with radius  4  leads to  52.1739130435 %
+assoc_Find3_Conv_Sec  with radius  5  leads to  88.4615384615 %
+assoc_Find3_Conv_Sec  with radius  6  leads to  69.2307692308 %
+assoc_Find3_Conv_Sec  with radius  7  leads to  70.0 %
+assoc_Find3_Conv_Sec  with radius  8  leads to  75.0 %
+assoc_Find3_Conv_Sec  with radius  9  leads to  44.4444444444 %
+All radii leads to  85.0 %
+
+assoc_FindZ_Dec_Prim  with radius  0  leads to  90.4761904762 %
+assoc_FindZ_Dec_Prim  with radius  1  leads to  82.0809248555 %
+assoc_FindZ_Dec_Prim  with radius  2  leads to  77.0491803279 %
+assoc_FindZ_Dec_Prim  with radius  3  leads to  73.3333333333 %
+assoc_FindZ_Dec_Prim  with radius  4  leads to  56.0 %
+assoc_FindZ_Dec_Prim  with radius  5  leads to  71.4285714286 %
+assoc_FindZ_Dec_Prim  with radius  6  leads to  36.3636363636 %
+assoc_FindZ_Dec_Prim  with radius  7  leads to  55.5555555556 %
+assoc_FindZ_Dec_Prim  with radius  8  leads to  62.5 %
+assoc_FindZ_Dec_Prim  with radius  9  leads to  50.0 %
+All radii leads to  85.0515463918 %
+
+assoc_Find3_Dec_Prim  with radius  0  leads to  93.1746031746 %
+assoc_Find3_Dec_Prim  with radius  1  leads to  89.5953757225 %
+assoc_Find3_Dec_Prim  with radius  2  leads to  81.9672131148 %
+assoc_Find3_Dec_Prim  with radius  3  leads to  73.3333333333 %
+assoc_Find3_Dec_Prim  with radius  4  leads to  68.0 %
+assoc_Find3_Dec_Prim  with radius  5  leads to  85.7142857143 %
+assoc_Find3_Dec_Prim  with radius  6  leads to  45.4545454545 %
+assoc_Find3_Dec_Prim  with radius  7  leads to  55.5555555556 %
+assoc_Find3_Dec_Prim  with radius  8  leads to  62.5 %
+assoc_Find3_Dec_Prim  with radius  9  leads to  50.0 %
+All radii leads to  89.175257732 %
+
+assoc_FindZ_Dec_Sec  with radius  0  leads to  92.380952381 %
+assoc_FindZ_Dec_Sec  with radius  1  leads to  87.8612716763 %
+assoc_FindZ_Dec_Sec  with radius  2  leads to  81.9672131148 %
+assoc_FindZ_Dec_Sec  with radius  3  leads to  76.6666666667 %
+assoc_FindZ_Dec_Sec  with radius  4  leads to  60.0 %
+assoc_FindZ_Dec_Sec  with radius  5  leads to  80.9523809524 %
+assoc_FindZ_Dec_Sec  with radius  6  leads to  27.2727272727 %
+assoc_FindZ_Dec_Sec  with radius  7  leads to  77.7777777778 %
+assoc_FindZ_Dec_Sec  with radius  8  leads to  75.0 %
+assoc_FindZ_Dec_Sec  with radius  9  leads to  50.0 %
+All radii leads to  88.2474226804 %
+
+assoc_Find3_Dec_Sec  with radius  0  leads to  92.5396825397 %
+assoc_Find3_Dec_Sec  with radius  1  leads to  87.8612716763 %
+assoc_Find3_Dec_Sec  with radius  2  leads to  81.9672131148 %
+assoc_Find3_Dec_Sec  with radius  3  leads to  73.3333333333 %
+assoc_Find3_Dec_Sec  with radius  4  leads to  60.0 %
+assoc_Find3_Dec_Sec  with radius  5  leads to  71.4285714286 %
+assoc_Find3_Dec_Sec  with radius  6  leads to  18.1818181818 %
+assoc_Find3_Dec_Sec  with radius  7  leads to  77.7777777778 %
+assoc_Find3_Dec_Sec  with radius  8  leads to  75.0 %
+assoc_Find3_Dec_Sec  with radius  9  leads to  50.0 %
+All radii leads to  87.9381443299 %
+
+assoc_FindZ_NI_Prim  with radius  0  leads to  59.375 %
+assoc_FindZ_NI_Prim  with radius  1  leads to  31.8181818182 %
+assoc_FindZ_NI_Prim  with radius  2  leads to  22.7272727273 %
+assoc_FindZ_NI_Prim  with radius  3  leads to  27.2727272727 %
+assoc_FindZ_NI_Prim  with radius  4  leads to  25.0 %
+assoc_FindZ_NI_Prim  with radius  5  leads to  50.0 %
+assoc_FindZ_NI_Prim  with radius  6  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  7  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  8  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  9  leads to  100.0 %
+All radii leads to  41.5094339623 %
+
+assoc_Find3_NI_Prim  with radius  0  leads to  65.625 %
+assoc_Find3_NI_Prim  with radius  1  leads to  36.3636363636 %
+assoc_Find3_NI_Prim  with radius  2  leads to  22.7272727273 %
+assoc_Find3_NI_Prim  with radius  3  leads to  27.2727272727 %
+assoc_Find3_NI_Prim  with radius  4  leads to  25.0 %
+assoc_Find3_NI_Prim  with radius  5  leads to  83.3333333333 %
+assoc_Find3_NI_Prim  with radius  6  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  7  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  8  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  9  leads to  100.0 %
+All radii leads to  46.2264150943 %
+
+assoc_FindZ_NI_Sec  with radius  0  leads to  71.875 %
+assoc_FindZ_NI_Sec  with radius  1  leads to  81.8181818182 %
+assoc_FindZ_NI_Sec  with radius  2  leads to  68.1818181818 %
+assoc_FindZ_NI_Sec  with radius  3  leads to  81.8181818182 %
+assoc_FindZ_NI_Sec  with radius  4  leads to  75.0 %
+assoc_FindZ_NI_Sec  with radius  5  leads to  50.0 %
+assoc_FindZ_NI_Sec  with radius  6  leads to  100.0 %
+assoc_FindZ_NI_Sec  with radius  7  leads to  0.0 %
+assoc_FindZ_NI_Sec  with radius  8  leads to  100.0 %
+assoc_FindZ_NI_Sec  with radius  9  leads to  100.0 %
+All radii leads to  73.5849056604 %
+
+assoc_Find3_NI_Sec  with radius  0  leads to  71.875 %
+assoc_Find3_NI_Sec  with radius  1  leads to  81.8181818182 %
+assoc_Find3_NI_Sec  with radius  2  leads to  68.1818181818 %
+assoc_Find3_NI_Sec  with radius  3  leads to  81.8181818182 %
+assoc_Find3_NI_Sec  with radius  4  leads to  75.0 %
+assoc_Find3_NI_Sec  with radius  5  leads to  50.0 %
+assoc_Find3_NI_Sec  with radius  6  leads to  100.0 %
+assoc_Find3_NI_Sec  with radius  7  leads to  0.0 %
+assoc_Find3_NI_Sec  with radius  8  leads to  100.0 %
+assoc_Find3_NI_Sec  with radius  9  leads to  100.0 %
+All radii leads to  73.5849056604 %
+
+
+
+Directory  Cleaned/ :
+
+assoc_FindZ_Conv_Prim  with radius  0  leads to  100.0 %
+assoc_FindZ_Conv_Prim  with radius  1  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  2  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  3  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  4  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  5  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  6  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  7  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  8  leads to  200.0 %
+assoc_FindZ_Conv_Prim  with radius  9  leads to  200.0 %
+All radii leads to  100.0 %
+
+assoc_Find3_Conv_Prim  with radius  0  leads to  100.0 %
+assoc_Find3_Conv_Prim  with radius  1  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  2  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  3  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  4  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  5  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  6  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  7  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  8  leads to  200.0 %
+assoc_Find3_Conv_Prim  with radius  9  leads to  200.0 %
+All radii leads to  100.0 %
+
+assoc_FindZ_Conv_Sec  with radius  0  leads to  100.0 %
+assoc_FindZ_Conv_Sec  with radius  1  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  2  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  3  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  4  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  5  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  6  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  7  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  8  leads to  200.0 %
+assoc_FindZ_Conv_Sec  with radius  9  leads to  200.0 %
+All radii leads to  100.0 %
+
+assoc_Find3_Conv_Sec  with radius  0  leads to  100.0 %
+assoc_Find3_Conv_Sec  with radius  1  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  2  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  3  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  4  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  5  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  6  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  7  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  8  leads to  200.0 %
+assoc_Find3_Conv_Sec  with radius  9  leads to  200.0 %
+All radii leads to  100.0 %
+
+assoc_FindZ_Dec_Prim  with radius  0  leads to  87.7192982456 %
+assoc_FindZ_Dec_Prim  with radius  1  leads to  76.1904761905 %
+assoc_FindZ_Dec_Prim  with radius  2  leads to  94.4444444444 %
+assoc_FindZ_Dec_Prim  with radius  3  leads to  100.0 %
+assoc_FindZ_Dec_Prim  with radius  4  leads to  0.0 %
+assoc_FindZ_Dec_Prim  with radius  5  leads to  75.0 %
+assoc_FindZ_Dec_Prim  with radius  6  leads to  50.0 %
+assoc_FindZ_Dec_Prim  with radius  7  leads to  200.0 %
+assoc_FindZ_Dec_Prim  with radius  8  leads to  50.0 %
+assoc_FindZ_Dec_Prim  with radius  9  leads to  200.0 %
+All radii leads to  84.1121495327 %
+
+assoc_Find3_Dec_Prim  with radius  0  leads to  96.4912280702 %
+assoc_Find3_Dec_Prim  with radius  1  leads to  95.2380952381 %
+assoc_Find3_Dec_Prim  with radius  2  leads to  94.4444444444 %
+assoc_Find3_Dec_Prim  with radius  3  leads to  100.0 %
+assoc_Find3_Dec_Prim  with radius  4  leads to  0.0 %
+assoc_Find3_Dec_Prim  with radius  5  leads to  100.0 %
+assoc_Find3_Dec_Prim  with radius  6  leads to  100.0 %
+assoc_Find3_Dec_Prim  with radius  7  leads to  200.0 %
+assoc_Find3_Dec_Prim  with radius  8  leads to  50.0 %
+assoc_Find3_Dec_Prim  with radius  9  leads to  200.0 %
+All radii leads to  94.3925233645 %
+
+assoc_FindZ_Dec_Sec  with radius  0  leads to  91.2280701754 %
+assoc_FindZ_Dec_Sec  with radius  1  leads to  95.2380952381 %
+assoc_FindZ_Dec_Sec  with radius  2  leads to  77.7777777778 %
+assoc_FindZ_Dec_Sec  with radius  3  leads to  100.0 %
+assoc_FindZ_Dec_Sec  with radius  4  leads to  100.0 %
+assoc_FindZ_Dec_Sec  with radius  5  leads to  100.0 %
+assoc_FindZ_Dec_Sec  with radius  6  leads to  100.0 %
+assoc_FindZ_Dec_Sec  with radius  7  leads to  200.0 %
+assoc_FindZ_Dec_Sec  with radius  8  leads to  50.0 %
+assoc_FindZ_Dec_Sec  with radius  9  leads to  200.0 %
+All radii leads to  89.7196261682 %
+
+assoc_Find3_Dec_Sec  with radius  0  leads to  91.2280701754 %
+assoc_Find3_Dec_Sec  with radius  1  leads to  95.2380952381 %
+assoc_Find3_Dec_Sec  with radius  2  leads to  77.7777777778 %
+assoc_Find3_Dec_Sec  with radius  3  leads to  100.0 %
+assoc_Find3_Dec_Sec  with radius  4  leads to  100.0 %
+assoc_Find3_Dec_Sec  with radius  5  leads to  75.0 %
+assoc_Find3_Dec_Sec  with radius  6  leads to  50.0 %
+assoc_Find3_Dec_Sec  with radius  7  leads to  200.0 %
+assoc_Find3_Dec_Sec  with radius  8  leads to  50.0 %
+assoc_Find3_Dec_Sec  with radius  9  leads to  200.0 %
+All radii leads to  87.8504672897 %
+
+assoc_FindZ_NI_Prim  with radius  0  leads to  92.3076923077 %
+assoc_FindZ_NI_Prim  with radius  1  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  2  leads to  50.0 %
+assoc_FindZ_NI_Prim  with radius  3  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  4  leads to  100.0 %
+assoc_FindZ_NI_Prim  with radius  5  leads to  0.0 %
+assoc_FindZ_NI_Prim  with radius  6  leads to  200.0 %
+assoc_FindZ_NI_Prim  with radius  7  leads to  200.0 %
+assoc_FindZ_NI_Prim  with radius  8  leads to  200.0 %
+assoc_FindZ_NI_Prim  with radius  9  leads to  100.0 %
+All radii leads to  86.3636363636 %
+
+assoc_Find3_NI_Prim  with radius  0  leads to  92.3076923077 %
+assoc_Find3_NI_Prim  with radius  1  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  2  leads to  50.0 %
+assoc_Find3_NI_Prim  with radius  3  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  4  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  5  leads to  100.0 %
+assoc_Find3_NI_Prim  with radius  6  leads to  200.0 %
+assoc_Find3_NI_Prim  with radius  7  leads to  200.0 %
+assoc_Find3_NI_Prim  with radius  8  leads to  200.0 %
+assoc_Find3_NI_Prim  with radius  9  leads to  100.0 %
+All radii leads to  90.9090909091 %
+
+assoc_FindZ_NI_Sec  with radius  0  leads to  84.6153846154 %
+assoc_FindZ_NI_Sec  with radius  1  leads to  50.0 %
+assoc_FindZ_NI_Sec  with radius  2  leads to  0.0 %
+assoc_FindZ_NI_Sec  with radius  3  leads to  50.0 %
+assoc_FindZ_NI_Sec  with radius  4  leads to  100.0 %
+assoc_FindZ_NI_Sec  with radius  5  leads to  0.0 %
+assoc_FindZ_NI_Sec  with radius  6  leads to  200.0 %
+assoc_FindZ_NI_Sec  with radius  7  leads to  200.0 %
+assoc_FindZ_NI_Sec  with radius  8  leads to  200.0 %
+assoc_FindZ_NI_Sec  with radius  9  leads to  100.0 %
+All radii leads to  68.1818181818 %
+
+assoc_Find3_NI_Sec  with radius  0  leads to  84.6153846154 %
+assoc_Find3_NI_Sec  with radius  1  leads to  50.0 %
+assoc_Find3_NI_Sec  with radius  2  leads to  0.0 %
+assoc_Find3_NI_Sec  with radius  3  leads to  50.0 %
+assoc_Find3_NI_Sec  with radius  4  leads to  100.0 %
+assoc_Find3_NI_Sec  with radius  5  leads to  0.0 %
+assoc_Find3_NI_Sec  with radius  6  leads to  200.0 %
+assoc_Find3_NI_Sec  with radius  7  leads to  200.0 %
+assoc_Find3_NI_Sec  with radius  8  leads to  200.0 %
+assoc_Find3_NI_Sec  with radius  9  leads to  100.0 %
+All radii leads to  68.1818181818 %
+

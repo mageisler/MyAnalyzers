@@ -1,0 +1,126 @@
+01-Aug-2013 12:13:54 CEST  Initiating request to open file file:/user/geisler/RelValTTbar_PU_START53_GEN-SIM-DIGI-RAW-HLTDEBUG.root
+01-Aug-2013 12:13:55 CEST  Successfully opened file file:/user/geisler/RelValTTbar_PU_START53_GEN-SIM-DIGI-RAW-HLTDEBUG.root
+Begin processing the 1st record. Run 1, Event 2901, LumiSection 666724 at 01-Aug-2013 12:13:59.977 CEST
+Begin processing the 2nd record. Run 1, Event 2902, LumiSection 666724 at 01-Aug-2013 12:13:59.985 CEST
+Begin processing the 3rd record. Run 1, Event 2903, LumiSection 666724 at 01-Aug-2013 12:14:00.008 CEST
+Begin processing the 4th record. Run 1, Event 2904, LumiSection 666724 at 01-Aug-2013 12:14:00.009 CEST
+Begin processing the 5th record. Run 1, Event 2905, LumiSection 666724 at 01-Aug-2013 12:14:00.035 CEST
+YES
+Begin processing the 6th record. Run 1, Event 2906, LumiSection 666724 at 01-Aug-2013 12:14:00.037 CEST
+Begin processing the 7th record. Run 1, Event 2907, LumiSection 666724 at 01-Aug-2013 12:14:00.063 CEST
+Begin processing the 8th record. Run 1, Event 2908, LumiSection 666724 at 01-Aug-2013 12:14:00.065 CEST
+Begin processing the 9th record. Run 1, Event 2909, LumiSection 666724 at 01-Aug-2013 12:14:00.090 CEST
+Begin processing the 10th record. Run 1, Event 2910, LumiSection 666724 at 01-Aug-2013 12:14:00.091 CEST
+Begin processing the 11th record. Run 1, Event 2911, LumiSection 666724 at 01-Aug-2013 12:14:00.108 CEST
+Begin processing the 12th record. Run 1, Event 2912, LumiSection 666724 at 01-Aug-2013 12:14:00.131 CEST
+Begin processing the 13th record. Run 1, Event 2913, LumiSection 666724 at 01-Aug-2013 12:14:00.154 CEST
+Begin processing the 14th record. Run 1, Event 2914, LumiSection 666724 at 01-Aug-2013 12:14:00.156 CEST
+Begin processing the 15th record. Run 1, Event 2915, LumiSection 666724 at 01-Aug-2013 12:14:00.171 CEST
+Begin processing the 16th record. Run 1, Event 2916, LumiSection 666724 at 01-Aug-2013 12:14:00.202 CEST
+Begin processing the 17th record. Run 1, Event 2917, LumiSection 666724 at 01-Aug-2013 12:14:00.204 CEST
+Begin processing the 18th record. Run 1, Event 2918, LumiSection 666724 at 01-Aug-2013 12:14:00.205 CEST
+Begin processing the 19th record. Run 1, Event 2919, LumiSection 666724 at 01-Aug-2013 12:14:00.228 CEST
+Begin processing the 20th record. Run 1, Event 2920, LumiSection 666724 at 01-Aug-2013 12:14:00.229 CEST
+Begin processing the 21st record. Run 1, Event 2921, LumiSection 666724 at 01-Aug-2013 12:14:00.233 CEST
+Begin processing the 22nd record. Run 1, Event 2922, LumiSection 666724 at 01-Aug-2013 12:14:00.234 CEST
+Begin processing the 23rd record. Run 1, Event 2923, LumiSection 666724 at 01-Aug-2013 12:14:00.235 CEST
+Begin processing the 24th record. Run 1, Event 2924, LumiSection 666724 at 01-Aug-2013 12:14:00.236 CEST
+Begin processing the 25th record. Run 1, Event 2925, LumiSection 666724 at 01-Aug-2013 12:14:00.237 CEST
+Begin processing the 26th record. Run 1, Event 2926, LumiSection 666724 at 01-Aug-2013 12:14:00.239 CEST
+Begin processing the 27th record. Run 1, Event 2927, LumiSection 666724 at 01-Aug-2013 12:14:00.240 CEST
+Begin processing the 28th record. Run 1, Event 2928, LumiSection 666724 at 01-Aug-2013 12:14:00.241 CEST
+Begin processing the 29th record. Run 1, Event 2929, LumiSection 666724 at 01-Aug-2013 12:14:00.242 CEST
+Begin processing the 30th record. Run 1, Event 2930, LumiSection 666724 at 01-Aug-2013 12:14:00.243 CEST
+Begin processing the 31st record. Run 1, Event 2931, LumiSection 666724 at 01-Aug-2013 12:14:00.244 CEST
+Begin processing the 32nd record. Run 1, Event 2932, LumiSection 666724 at 01-Aug-2013 12:14:00.245 CEST
+Begin processing the 33rd record. Run 1, Event 2933, LumiSection 666724 at 01-Aug-2013 12:14:00.247 CEST
+Begin processing the 34th record. Run 1, Event 2934, LumiSection 666724 at 01-Aug-2013 12:14:00.248 CEST
+Begin processing the 35th record. Run 1, Event 2935, LumiSection 666724 at 01-Aug-2013 12:14:00.249 CEST
+Begin processing the 36th record. Run 1, Event 2936, LumiSection 666724 at 01-Aug-2013 12:14:00.250 CEST
+Begin processing the 37th record. Run 1, Event 2937, LumiSection 666724 at 01-Aug-2013 12:14:00.251 CEST
+Begin processing the 38th record. Run 1, Event 2938, LumiSection 666724 at 01-Aug-2013 12:14:00.252 CEST
+Begin processing the 39th record. Run 1, Event 2939, LumiSection 666724 at 01-Aug-2013 12:14:00.253 CEST
+Begin processing the 40th record. Run 1, Event 2940, LumiSection 666724 at 01-Aug-2013 12:14:00.255 CEST
+Begin processing the 41st record. Run 1, Event 2941, LumiSection 666724 at 01-Aug-2013 12:14:00.256 CEST
+Begin processing the 42nd record. Run 1, Event 2942, LumiSection 666724 at 01-Aug-2013 12:14:00.257 CEST
+Begin processing the 43rd record. Run 1, Event 2943, LumiSection 666724 at 01-Aug-2013 12:14:00.258 CEST
+Begin processing the 44th record. Run 1, Event 2944, LumiSection 666724 at 01-Aug-2013 12:14:00.259 CEST
+Begin processing the 45th record. Run 1, Event 2945, LumiSection 666724 at 01-Aug-2013 12:14:00.260 CEST
+Begin processing the 46th record. Run 1, Event 2946, LumiSection 666724 at 01-Aug-2013 12:14:00.261 CEST
+Begin processing the 47th record. Run 1, Event 2947, LumiSection 666724 at 01-Aug-2013 12:14:00.263 CEST
+Begin processing the 48th record. Run 1, Event 2948, LumiSection 666724 at 01-Aug-2013 12:14:00.264 CEST
+Begin processing the 49th record. Run 1, Event 2949, LumiSection 666724 at 01-Aug-2013 12:14:00.265 CEST
+Begin processing the 50th record. Run 1, Event 2950, LumiSection 666724 at 01-Aug-2013 12:14:00.266 CEST
+YES
+Begin processing the 51st record. Run 1, Event 3101, LumiSection 666728 at 01-Aug-2013 12:14:00.271 CEST
+Begin processing the 52nd record. Run 1, Event 3102, LumiSection 666728 at 01-Aug-2013 12:14:00.273 CEST
+Begin processing the 53rd record. Run 1, Event 3103, LumiSection 666728 at 01-Aug-2013 12:14:00.274 CEST
+Begin processing the 54th record. Run 1, Event 3104, LumiSection 666728 at 01-Aug-2013 12:14:00.275 CEST
+YES
+Begin processing the 55th record. Run 1, Event 3105, LumiSection 666728 at 01-Aug-2013 12:14:00.276 CEST
+Begin processing the 56th record. Run 1, Event 3106, LumiSection 666728 at 01-Aug-2013 12:14:00.277 CEST
+Begin processing the 57th record. Run 1, Event 3107, LumiSection 666728 at 01-Aug-2013 12:14:00.278 CEST
+Begin processing the 58th record. Run 1, Event 3108, LumiSection 666728 at 01-Aug-2013 12:14:00.279 CEST
+YES
+Begin processing the 59th record. Run 1, Event 3109, LumiSection 666728 at 01-Aug-2013 12:14:00.281 CEST
+Begin processing the 60th record. Run 1, Event 3110, LumiSection 666728 at 01-Aug-2013 12:14:00.282 CEST
+Begin processing the 61st record. Run 1, Event 3111, LumiSection 666728 at 01-Aug-2013 12:14:00.283 CEST
+Begin processing the 62nd record. Run 1, Event 3112, LumiSection 666728 at 01-Aug-2013 12:14:00.284 CEST
+Begin processing the 63rd record. Run 1, Event 3113, LumiSection 666728 at 01-Aug-2013 12:14:00.285 CEST
+Begin processing the 64th record. Run 1, Event 3114, LumiSection 666728 at 01-Aug-2013 12:14:00.286 CEST
+Begin processing the 65th record. Run 1, Event 3115, LumiSection 666728 at 01-Aug-2013 12:14:00.287 CEST
+Begin processing the 66th record. Run 1, Event 3116, LumiSection 666728 at 01-Aug-2013 12:14:00.289 CEST
+Begin processing the 67th record. Run 1, Event 3117, LumiSection 666728 at 01-Aug-2013 12:14:00.290 CEST
+Begin processing the 68th record. Run 1, Event 3118, LumiSection 666728 at 01-Aug-2013 12:14:00.291 CEST
+Begin processing the 69th record. Run 1, Event 3119, LumiSection 666728 at 01-Aug-2013 12:14:00.292 CEST
+YES
+Begin processing the 70th record. Run 1, Event 3120, LumiSection 666728 at 01-Aug-2013 12:14:00.293 CEST
+Begin processing the 71st record. Run 1, Event 3121, LumiSection 666728 at 01-Aug-2013 12:14:00.294 CEST
+Begin processing the 72nd record. Run 1, Event 3122, LumiSection 666728 at 01-Aug-2013 12:14:00.295 CEST
+Begin processing the 73rd record. Run 1, Event 3123, LumiSection 666728 at 01-Aug-2013 12:14:00.297 CEST
+Begin processing the 74th record. Run 1, Event 3124, LumiSection 666728 at 01-Aug-2013 12:14:00.298 CEST
+Begin processing the 75th record. Run 1, Event 3125, LumiSection 666728 at 01-Aug-2013 12:14:00.299 CEST
+Begin processing the 76th record. Run 1, Event 3126, LumiSection 666728 at 01-Aug-2013 12:14:00.300 CEST
+Begin processing the 77th record. Run 1, Event 3127, LumiSection 666728 at 01-Aug-2013 12:14:00.301 CEST
+Begin processing the 78th record. Run 1, Event 3128, LumiSection 666728 at 01-Aug-2013 12:14:00.302 CEST
+Begin processing the 79th record. Run 1, Event 3129, LumiSection 666728 at 01-Aug-2013 12:14:00.303 CEST
+Begin processing the 80th record. Run 1, Event 3130, LumiSection 666728 at 01-Aug-2013 12:14:00.305 CEST
+Begin processing the 81st record. Run 1, Event 3131, LumiSection 666728 at 01-Aug-2013 12:14:00.306 CEST
+Begin processing the 82nd record. Run 1, Event 3132, LumiSection 666728 at 01-Aug-2013 12:14:00.307 CEST
+Begin processing the 83rd record. Run 1, Event 3133, LumiSection 666728 at 01-Aug-2013 12:14:00.308 CEST
+Begin processing the 84th record. Run 1, Event 3134, LumiSection 666728 at 01-Aug-2013 12:14:00.309 CEST
+Begin processing the 85th record. Run 1, Event 3135, LumiSection 666728 at 01-Aug-2013 12:14:00.310 CEST
+Begin processing the 86th record. Run 1, Event 3136, LumiSection 666728 at 01-Aug-2013 12:14:00.311 CEST
+Begin processing the 87th record. Run 1, Event 3137, LumiSection 666728 at 01-Aug-2013 12:14:00.313 CEST
+Begin processing the 88th record. Run 1, Event 3138, LumiSection 666728 at 01-Aug-2013 12:14:00.314 CEST
+Begin processing the 89th record. Run 1, Event 3139, LumiSection 666728 at 01-Aug-2013 12:14:00.315 CEST
+Begin processing the 90th record. Run 1, Event 3140, LumiSection 666728 at 01-Aug-2013 12:14:00.316 CEST
+Begin processing the 91st record. Run 1, Event 3141, LumiSection 666728 at 01-Aug-2013 12:14:00.317 CEST
+Begin processing the 92nd record. Run 1, Event 3142, LumiSection 666728 at 01-Aug-2013 12:14:00.318 CEST
+Begin processing the 93rd record. Run 1, Event 3143, LumiSection 666728 at 01-Aug-2013 12:14:00.319 CEST
+Begin processing the 94th record. Run 1, Event 3144, LumiSection 666728 at 01-Aug-2013 12:14:00.320 CEST
+Begin processing the 95th record. Run 1, Event 3145, LumiSection 666728 at 01-Aug-2013 12:14:00.322 CEST
+Begin processing the 96th record. Run 1, Event 3146, LumiSection 666728 at 01-Aug-2013 12:14:00.323 CEST
+Begin processing the 97th record. Run 1, Event 3147, LumiSection 666728 at 01-Aug-2013 12:14:00.324 CEST
+Begin processing the 98th record. Run 1, Event 3148, LumiSection 666728 at 01-Aug-2013 12:14:00.325 CEST
+Begin processing the 99th record. Run 1, Event 3149, LumiSection 666728 at 01-Aug-2013 12:14:00.326 CEST
+Begin processing the 100th record. Run 1, Event 3150, LumiSection 666728 at 01-Aug-2013 12:14:00.327 CEST
+01-Aug-2013 12:14:00 CEST  Closed file file:/user/geisler/RelValTTbar_PU_START53_GEN-SIM-DIGI-RAW-HLTDEBUG.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3
